@@ -7,7 +7,7 @@ OUTPUTDIR=$(BASEDIR)/output
 TEMPLATEDIR=$(INPUTDIR)/templates
 STYLEDIR=$(BASEDIR)/style
 
-BIBFILE=$(INPUTDIR)/references.bib
+BIBFILE=$(INPUTDIR)/references/references.bib
 
 help:
 	@echo ' 																	  '
@@ -33,6 +33,7 @@ pdf:
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--highlight-style pygments \
 	-V fontsize=12pt \
+	-V linestretch=1.5 \
 	-V papersize=a4paper \
 	-V documentclass=report \
 	-N \
