@@ -11,28 +11,33 @@ and add the centred logo
     % to remove the UCL header logo
     \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
         
-        \vspace*{2.5cm}
-        
-        \huge
-        This is the title of the thesis
-        
-        \vspace{1.5cm}
-        
-        \Large
-        Firstname Surname
-
-        \vspace{1.5cm}
-
+        \vspace*{0.5cm}
         \normalsize
-        A thesis presented for the degree of\\
-        Doctor of Philosophy
+        Universidad Nacional Autónoma de México\\
+        Maestría en Ciencias (Neurobiología)\\
+        Instituto de Neurobiología\\
+        
+        \vspace*{1.5cm}
+        \Large
+        Correlatos neurales de la percepción emocional por análisis de patrones
+        en multitud de voxeles de datos de resonancia magnética funcional
+        
+        \vspace{1.5cm}
+        \normalsize
+        Tesis presentada para optar por el grado de:\\
+        Maestro en ciencias\\
+        {\bf Isaac David Reyes González}
+
         
         \vfill
         
         \normalsize
-        Supervised by:\\
-        Professor Louis Fage\\
-        Captain J. Y. Cousteau
+        Tutor principal:\\
+        {\bf Dr. Fernando Alejandro Barrios Álvarez}
+        
+        Comité tutor:\\
+        {\bf Dr. Luis Concha Loyola\\
+        Dr. Eduardo Adrián Garza Villarreal}
 
         \vspace{0.8cm}
 
@@ -40,9 +45,9 @@ and add the centred logo
         % to add a centered university logo
         % \includegraphics[width=0.4\textwidth]{style/univ_logo.eps}
         
+        \vfill
         \normalsize
-        University College London, UK\\
-        January 2015
+        México, noviembre 2018
 
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 
