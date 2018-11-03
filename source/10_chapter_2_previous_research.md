@@ -3,11 +3,11 @@
 ## For automatic emotion identification
 
 The affective priming paradigm[@klauer-musch-2003] is known to produce
-an effect on reaction times or accuracy for subsequent congruent
-emotions, thereby reflecting variability in the processes leading to
-affect recognition.[@de-houwer-2009] Many lines of evidence help
-extrapolate this fact into the notion that affect identification can
-undergo an automatic or preattentional mode:
+an effect on reaction times or accuracy for subsequent identification
+of congruent emotions, thereby reflecting variability in the processes
+leading to affect recognition.[@de-houwer-2009] Many lines of evidence
+help extrapolate this fact into the notion that affect identification
+can undergo an automatic or preattentional mode:
 
 - Because affective priming occurs only under short stimulus onset
   asynchrony (_SOA_) times[^soa] (300 ms or less), it has been conjectured
@@ -24,7 +24,7 @@ undergo an automatic or preattentional mode:
   unrecognizable subthreshold levels[@draine-greenwald-1998] and
   outside the focus of visual attention[@calvo-nummenmaa-2007].
 
-### Emotion or valence-dependent automatism
+### Valence/emotion-dependent automatism
 
 A further refinement proposes that not all emotions were created
 equally advantageous to recognize. If natural selection produced
@@ -52,7 +52,7 @@ instance).
 
 Seemingly contradictory results stemming from methodologically sound
 studies cry for a theoretical reformulation to encompass all the
-facts. Research around the conflict often restores to some sort of
+facts. Research around the conflict often resorts to some sort of
 interaction and modulation between systems to explain the
 data.[@okon-et-al-2007][@palermo-rhodes-2007] Sassi and colleges
 proposed that even though emotional perception can be turned
