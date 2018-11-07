@@ -44,10 +44,6 @@ fringilla, sapien eros aliquet orci, vitae pretium massa neque eu
 turpis. Pellentesque tincidunt aliquet volutpat. Ut ornare dui id ex
 sodales laoreet.
 
-<!-- Force the table onto a newpage -->
-
-\newpage
-
 ---------------------------------------------------------------------------
 Column 1            Column 2                Column 3
 --------------      -------------------     -------------------
@@ -55,7 +51,7 @@ Row 1               0.1                     0.2
 
 Row 2               0.3                     0.3
 
-Row 3               0.4                     0.4      
+Row 3               0.4                     0.4
 
 Row 4               0.5                     0.6
 

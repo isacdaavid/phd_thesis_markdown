@@ -20,21 +20,21 @@ __¿son aportes teóricos, metodológicos, empíricos...?__
   modulation of more basic resources at the physiological
   domain.[^gazzaniga] Moreover, modern views on cognition place
   emphasis on the consideration of the interactions of organisms with
-  one another and their environment.[^citation needed] <!-- ;with some
+  one another and their environment.[^citation-needed] <!-- ;with some
   even postulating that such _grounding_ --> <!-- and _extension_
   processes are inseparable from cognition itself. -->
 
 [^which?]: Which?
 [^gazzaniga]: Citation needed. Gazzaniga's book?
-[^citation needed]: Citation needed.
+[^citation-needed]: Citation needed.
 
 - Emotions are regarded as some of the most basic wholesale conscious
   experiences; in the sense that they are well-differentiated,
   universally expressive, and inextricably connected to somatic states
   and homeostasis.[@damasio-1998] Helping understand their
   third-person detection and processing contributes to our
-  understanding of intersubjectivity, and of subjectivity by
-  inclusion.
+  understanding of intersubjectivity, and (hopefully) of subjectivity
+  by inclusion.
 
 - As of today, neuroscientists and clinicians are heavily dependent
   upon verbal reports and other behavioral cues to asses mental
@@ -62,8 +62,9 @@ __¿son aportes teóricos, metodológicos, empíricos...?__
 
 ## Methodological justification?
 
-Functional magnetic nuclear resonance is able to record very wide
-anatomical areas while providing sufficient resolution to
-differentiate them. It is suitable for exploratory studies in which
-relevant brain areas must be first identified, so as to lay the
+Functional magnetic nuclear resonance is able to record a correlate
+signal of local field potentials from wide brain areas, while
+providing sufficient spatial and temporal resolution to differentiate
+their activity. It is suitable for exploratory studies in which
+task-related zones must be first identified, so as to lay the
 groundwork for finer-grained measurement techniques.

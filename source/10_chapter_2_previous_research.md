@@ -16,25 +16,26 @@ can undergo an automatic or preattentional mode:
 
 [^soa]: The time lapse between prime and target stimuli presentation.
 
-- Cognitive load (as produced by the simultaneous presentation of
-  irrelevant tasks) does not seem to impair affective
-  priming.[@hermans-et-al-2000]
-
 - The effect is observed even when the prime is presented at
   unrecognizable subthreshold levels[@draine-greenwald-1998] and
   outside the focus of visual attention[@calvo-nummenmaa-2007].
+
+- According to some reports, cognitive load (as produced by the
+  simultaneous presentation of irrelevant tasks) does not impair
+  affective priming.[@hermans-et-al-2000] This is disputed, though
+  (see next sections).
 
 ### Valence/emotion-dependent automatism
 
 A further refinement proposes that not all emotions were created
 equally advantageous to recognize. If natural selection produced
-complementary high-priority neural circuitry for facial expressions,
-one could naturally ask whether this automaticity also primarily
-targeted certain life-saving facial expressions. Indeed, a wealth of
-research <!-- mention cognitive bias towards type 1 error during
-threat detection? --> has found that the priming effect, as well as
-others, are biased towards averse and pejorative emotions, as opposed
-to happy or neutral
+complementary high-priority neural circuitry for the processing of
+facial expressions, one could naturally ask whether this automatism
+also targeted some emotions more than others based on survival
+advantage. Indeed, a wealth of research <!-- mention cognitive bias
+towards type 1 error during threat detection? --> has found that the
+priming effect, as well as others, are biased towards averse and
+pejorative emotions, as opposed to happy or neutral
 ones.[@fox-et-al-2002][@vuilleumier-2001][@ishai-et-al-2004][@vuilleumier-2005][@susa-et-al-2012]
 
 ## Against automatic emotion identification
@@ -42,11 +43,11 @@ ones.[@fox-et-al-2002][@vuilleumier-2001][@ishai-et-al-2004][@vuilleumier-2005][
 Contrary to the previous view, Pessoa and colleges
 [@pessoa-et-al-2002] interpreted the increased activity in relevant
 structures (fusiform area, amygdala, etc.) during explicit attention
-to facial features as opposed to inscribed non-expressive details as
-evidence that facial processing is contingent upon attention. This
-strand of facial emotion processing research is not without more
-recent supporters (see [@ochsner-gross-2005][@eimer-et-al-2003] for
-instance).
+to facial features (in contrast to non-expressive details inscribed in
+the faces) as evidence that facial processing is contingent upon
+attention. This strand of facial emotion processing research is not
+without more recent supporters. See
+[@ochsner-gross-2005][@eimer-et-al-2003] for instance.
 
 ## Perceptual modulation through spare attention: a possible bridging explanation
 

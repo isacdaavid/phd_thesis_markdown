@@ -9,7 +9,7 @@
   that goal.
 
 - As a natural consequence of the newfound descriptive and explanatory
-  power contingent upon the previous point; be able to leverage the
+  power contingent upon the previous point: be able to leverage the
   resulting methods to predict the occurance of distinct emotion
   perception workflows from functional imaging data alone.
 
