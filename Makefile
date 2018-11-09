@@ -6,6 +6,7 @@ INPUTDIR=$(BASEDIR)/source
 OUTPUTDIR=$(BASEDIR)/output
 TEMPLATEDIR=$(INPUTDIR)/templates
 STYLEDIR=$(BASEDIR)/style
+FIGURES=$(shell find $(INPUTDIR)/figures -type f -iname '*.tex')
 
 BIBFILE=$(INPUTDIR)/references/references.bib
 
@@ -24,7 +25,7 @@ help:
 	@echo 'get local templates with: pandoc -D latex/html/etc	  				  '
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
-pdf:
+pdf: figures
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
@@ -40,7 +41,7 @@ pdf:
 	--pdf-engine=xelatex \
 	--verbose
 
-tex:
+tex: figures
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
@@ -52,14 +53,14 @@ tex:
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--latex-engine=xelatex
 
-docx:
+docx: figures
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.docx" \
 	--bibliography="$(BIBFILE)" \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--toc
 
-html:
+html: figures
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.html" \
 	--standalone \
@@ -73,4 +74,9 @@ html:
 	mkdir "$(OUTPUTDIR)/source"
 	cp -r "$(INPUTDIR)/figures" "$(OUTPUTDIR)/source/figures"
 
-.PHONY: help pdf docx html tex
+figures: $(FIGURES:.tex=.pdf)
+
+%.pdf: %.tex
+	xelatex -output-directory=$(INPUTDIR)/figures "$<"
+
+.PHONY: help pdf docx html tex figures

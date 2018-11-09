@@ -45,12 +45,13 @@ __¿son aportes teóricos, metodológicos, empíricos...?__
 ## Particular
 
 - Alexithymia patients, autism? Possibility of more accurate and
-  faster diagnostics, validation among expert knowledge, neuroimaging,
+  faster diagnostics, cross-validation among expert knowledge, neuroimaging,
   etc.
 
 - The ongoing debate surrounding the cognitive mechanisms of facial
   expression perception will benefit from extra evidence, and more
-  importantly, extra analysis techniques to derive that evidence.[^novelty]
+  importantly, extra analysis techniques to derive the requisite
+  evidence.[^novelty]
 
 [^novelty]: Is the use of MVPA novel in the facial expression
     recognition literature? Mention if so
@@ -63,7 +64,7 @@ __¿son aportes teóricos, metodológicos, empíricos...?__
 ## Methodological justification?
 
 Functional magnetic nuclear resonance is able to record a correlate
-signal of local field potentials from wide brain areas, while
+signal of local field potentials from wide brain volumes, while
 providing sufficient spatial and temporal resolution to differentiate
 their activity. It is suitable for exploratory studies in which
 task-related zones must be first identified, so as to lay the
