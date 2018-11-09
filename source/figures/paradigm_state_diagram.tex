@@ -34,19 +34,22 @@
     \node[state] (☹*)[right of=☹2]                     {☹*}; %sad null
 
     % fixation point
-    \node (jitter)[right=1cm of ☺*] {...};  % both's sum = 1800 ms. {{500,1300},{800,1000}}
-    \node (start)[left of=☺] {...};
+    \node[state] (+)[left of=☺] {+};             % fixation point
+    \node (start)[left of=+] {};
+    \node[state] (end)[right=1cm of ☺*] {};
+    \node (endend)[right of=end] {};
 
     % edges
-    \path(start) edge (😐);
-    \path(start) edge (☹);
-    \path(start) edge (☺);
+    \path(start) edge (+);
+    \path(+) edge (😐);
+    \path(+) edge (☹);
+    \path(+) edge (☺);
 
     \path(😐) edge (😒);
     \path (😒) edge[bend left=20,red] (😒*);
-    \path (😒) edge[bend left=10,blue] (😒*);
+    \path (😒) edge[bend left=10,green] (😒*);
     \path (😒) edge[bend right=10,red] (*😒);
-    \path (😒) edge[bend right=20,green] (*😒);
+    \path (😒) edge[bend right=20,blue] (*😒);
 
     \path(☺) edge (😏);
     \path(😏) edge[bend left=20,red] (😏*);
@@ -65,23 +68,33 @@
     \path(*😒) edge (😐2);
     \path(😐2) edge  (😐*);
     \path(😐*) edge[bend right=100] node{\footnotesize $.75$} (😐2);
-    \path(😐*) edge node{\footnotesize $.25$} (jitter);
+    \path(😐*) edge node{\footnotesize $.25$} (end);
 
     \path(😏*) edge (☺2);
     \path(*😏) edge (☺2);
     \path(☺2) edge (☺*);
     \path(☺*) edge[bend right=100] node{\footnotesize $.75$} (☺2);
-    \path(☺*) edge node{\footnotesize $.25$} (jitter);
+    \path(☺*) edge node{\footnotesize $.25$} (end);
 
     \path(😒**) edge (☹2);
     \path(**😒) edge (☹2);
     \path(☹2) edge (☹*);
     \path(☹*) edge[bend right=100] node{\footnotesize $.75$} (☹2);
-    \path(☹*) edge node{\footnotesize $.25$} (jitter);
+    \path(☹*) edge node{\footnotesize $.25$} (end);
 
-    %  braces (timeline and contrasts)
-    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (-.5,-4)
-        -- (.5,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1000\;ms$};
+    \path(end) edge (endend);
+
+    % braces (timeline and contrasts)
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (-1.8,-4)
+        -- (-.7,-4) node[pos=0.5,anchor=north,yshift=-1]
+        {\footnotesize  $\begin{array}{c} 1000\;ms \\
+                                          1300\;ms \\
+                        \end{array}$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (-.6,-4)
+        -- (.5,-4) node[pos=0.5,anchor=north,yshift=-1]
+        {\footnotesize  $\begin{array}{c} 500\;ms \\
+                                          800\;ms \\
+                        \end{array}$};
     \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (.7,-4)
         -- (1.8,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $200\;ms$};
     \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (2,-4)
@@ -89,7 +102,9 @@
     \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (4,-4)
         -- (5.1,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1200\;ms$};
     \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (5.3,-4)
-       -- (6.4,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1500\;ms$};
+        -- (7,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1500\;ms$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (7.2,-4)
+       -- (8.3,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $500\;ms$};
 
     \draw[-,decorate,decoration={brace,amplitude=3pt}] (-.5,4)
         -- (3.8,4) node[pos=0.5,yshift=1]{\footnotesize  Gaze cuing};
