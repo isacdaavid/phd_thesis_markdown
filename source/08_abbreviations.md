@@ -1,8 +1,8 @@
 # Abbreviations {.unnumbered}
 
 \begin{tabbing}
-\textbf{API}~~~~~~~~~~~~ \= \textbf{A}pplication \textbf{P}rogramming \textbf{I}nterface \\  
-\textbf{JSON} \> \textbf{J}ava\textbf{S}cript \textbf{O}bject \textbf{N}otation \\  
+\textbf{BOLD} ~~~~~~~~~~~~ \= \textbf{B}lood-\textbf{O}xigen-\textbf{L}evel \textbf{D}ependent.  \\
+\textbf{SOA} \> \textbf{S}timulus \textbf{O}nset \textbf{A}synchrony.  \\
 \end{tabbing}
 
 \newpage

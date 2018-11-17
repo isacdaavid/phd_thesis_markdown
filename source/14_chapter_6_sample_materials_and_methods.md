@@ -1,4 +1,27 @@
-# Materials and Methods
+# Sample, Materials and Methods
+
+## Sample
+
+- 45 subjects
+
+   - age
+   - sex
+   - handedness?
+   - psychometric results
+
+- this is our actual experimental sample: 3 fMRI sequences each
+  (different contrasts, specify design matrix in [#Materials and
+  Methods]()). only hits will be considered initially.
+
+   - 126 stimulus-response cycles each.
+   - __why do NULL (non gazing) cycles have a different "weight" on
+     e-prime?__
+
+- Anatomical reference coregistry (some lack sagital T1 FSPGR BRAVO,
+  but Axial alternative seems to be good enough to allow for atlas
+  transformations).
+
+## Materials and Methods
 
 Notwithstanding preattentive emotional face perception, the appearance
 of a face with a lateralized gaze tempts the human visual system to

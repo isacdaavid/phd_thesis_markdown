@@ -13,31 +13,35 @@ and add the centred logo
         
         \vspace*{0.5cm}
         \normalsize
-        Universidad Nacional Autónoma de México\\
+        {\bf Universidad Nacional Autónoma de México}\\
         Maestría en Ciencias (Neurobiología)\\
         Instituto de Neurobiología\\
+        Departamento de Neurobiología Conductual y Cognitiva\\
         
-        \vspace*{1.5cm}
+        \vspace{1.5cm}
         \Large
-        Correlatos neurales de la percepción emocional por análisis de patrones
-        en multitud de voxeles de datos de resonancia magnética funcional
+        Correlatos neurales de la percepción emocional por análisis de patrones en multitud de voxeles de datos de resonancia magnética funcional
         
         \vspace{1.5cm}
         \normalsize
-        Tesis presentada para optar por el grado de:\\
-        Maestro en ciencias\\
-        {\bf Isaac David Reyes González}
+        Que para optar por el grado de:\\
+        Maestro en Ciencias\\
+        {\bf Isaac David Reyes González}\\
 
         
         \vfill
         
         \normalsize
         Tutor principal:\\
-        {\bf Dr. Fernando Alejandro Barrios Álvarez}
+        {\bf Dr. Fernando Alejandro Barrios Álvarez}\\
+        Instituto de Neurobiología\\
         
+        \vfill
         Comité tutor:\\
-        {\bf Dr. Luis Concha Loyola\\
-        Dr. Eduardo Adrián Garza Villarreal}
+        {\bf Dr. Luis Concha Loyola}\\
+        Instituto de Neurobiología\\
+        {\bf Dr. Eduardo Adrián Garza Villarreal}\\
+        Instituto Nacional de Psiquiatría\\
 
         \vspace{0.8cm}
 

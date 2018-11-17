@@ -1,50 +1,70 @@
 # Introduction
 
-Emotions are conscious states characterised by their discreteness,
-mild-to-marked arousal, hedonistic load[^hedonistic] and a reference
-to a organismically relevant somatic
-state.[^somatic][@schacter-et-at-2011][@ekman-1994] Emotions as basic
-as happiness, fear, anger and sorrow are probably among the most basic
-subjective experiences; and whose behavioral manifestation is
-traceable to at least analogous reactions in all living
-organisms.[^definition]
+Emotions are conscious[^conscious] states characterised by their
+discreteness, mild-to-marked arousal, hedonistic load[^hedonistic] and
+a reference to an organismically relevant somatic state[^somatic]
+[@schacter-et-at-2011; @ekman-1994]. Emotions as basic as happiness,
+fear, anger and sorrow are probably among the most basic subjective
+experiences; and whose behavioral manifestation is traceable to at
+least analogous reactions in all living organisms.[^definition]
 
+[^conscious]: By consciousness I am specifically referring to the
+    rudimentary meaning of phenomenal consciousness: the quality of
+    objects which can feel; in the vein of authors such as Christof
+    Koch, David Chalmers, Giulio Tononi and Ned Block.
 [^definition]: Some authors use the word "emotion" for the behavioral
-    response and reserve the word "feeling" for their subjectively
-    felt counterpart.
+    response and reserve the word "feeling" for their
+    conscious counterpart.
 [^hedonistic]: Unlike, for instance, the (dis)pleasureless experience
             of a vivid color or propioceptive information.
-[^somatic]: Unlike, say, the exquisite smell of
-    flowers. [@damasio-1996] uses the term "somatic" as opposed to
-    "bodily" to convey the sufficiency of mental bodily _representations_.
+[^somatic]: Unlike, say, the exquisite smell of flowers. @damasio-1996 uses
+    the term "somatic" as opposed to "bodily" to convey the
+    sufficiency of mental _representations_ of the body.
 
 It is for this very basal nature and the role of the nervous system in
 supporting them that emotions not only interfere with and modulate
 higher-order cognition, but also provide the most fundamental basis
-for motivation, and therefore planning and behavior.[@schwarz-1990]
-Emotions are causally connected to various responses in the peripheral
-nervous system (both somatic and autonomic) and endocrine
-activity. Memory formation can no longer be understood without the
-participation of distinct mechanisms which are
-emotion-selective.[@ledoux-1994]
+for motivation, and therefore for planning and behavior
+[@schwarz-1990]. Emotions are causally connected to various responses
+in the peripheral nervous system (both somatic and autonomic) and
+endocrine activity. Memory formation can no longer be understood
+without the participation of distinct mechanisms that are
+emotion-selective [@ledoux-1994].
 
-## To Do
+The predispositions of an individual's emotional dynamics is an often
+ignored personality trait. It might seem odd to talk about normally
+emerging psycho-physiological states in relation to health, yet this
+relationship can't be stressed enough. First, emotions themselves can
+be symptomatic of illness, as is the case of disgust. More directly,
+there's little doubt that affections such as extended depression and
+phobias should be considered illnesses in their own right.
 
-- Medical importance of emotion on a personal level: personality,
-  extended depression, phobias, other psychiatric conditions?
+Beyond the individual, there's a special significance to what emotions
+can achieve for social well-being. The resulting expressions conveyed
+by faces and body language are the epitome of animal communication in
+primates. Our ancestors had to read these expressions out and
+interpret them, as part of a wider signaling repertoire, well before
+the emergence of language proper. Within behavioral ethology a signal
+is said to be effective (which implies a reaction in the receiving
+organism) if it possesses the property of being evolutionarily
+advantageous to both parties, on average. Prevarication detracts from
+this information in the case of receivers and honest senders, making
+emotions highly effective signals insofar as they are hard to fake.
+Moreover, their adequate perception marks an important input for the
+mechanisms of the theory of mind,[^theory-of-mind] emotions being so
+flagrant a display of visceral mental states.
 
-- Social significance: theory of mind (i.e., other minds, mind-mind
-  theory)
+[^theory-of-mind]: Theory of mind: attributing mental states to
+    others. The belief that other minds exist; opposite to
+    solipsism. Not to be conflated with theories of what the mind is.
 
-   - Faces as the epitome of ecologically relevant emotional
-     signaling.
-
-- Evolutionary importance:
-
-   - Automatic emotional processing hypothesis: if facial expression
-     is so important a _signal_ of inner mental states for a social
-     species like ours, it stands to reason that a cognitive
-     adaptation could have evolved to process it separately of
-     attention.
-
-   - Negative valence bias hypothesis
+The psychological literature is committed to discussing the biological
+origin and relevance of emotions. An important topic is what I may
+call the automatic emotional processing hypothesis: if facial
+expression is so important a signal of inner mental states for a
+social species like ours, it stands to reason that a cognitive
+adaptation could have evolved to decode it separately of attention
+and even consciousness. Closely related is the negative-valence bias
+hypothesis: namely that the aforementioned cognitive capacity might be
+biased towards processing certain unpleasant emotions, since they more
+often go along life-or-death situations.
