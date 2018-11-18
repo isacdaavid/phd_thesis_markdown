@@ -31,14 +31,14 @@ can undergo an automatic/preattentional mode:
 A further refinement proposes that not all emotions were created
 equally advantageous to recognize. If natural selection produced
 complementary high-priority neural circuitry for the processing of
-facial expressions, one could naturally ask whether this automatism
-also targeted some emotions more than others based on survival
-advantage. Indeed, a wealth of research <!-- mention cognitive bias
-towards type 1 error during threat detection? --> has found that the
-priming effect, as well as others, are biased towards averse and
-pejorative emotions, as opposed to happy or neutral
-ones [@fox-et-al-2002; @vuilleumier-2001; @ishai-et-al-2004;
-@vuilleumier-2005; @susa-et-al-2012].
+facial expressions (or an epigenetically-developed precursor), one
+could naturally ask whether this automatism also targeted some
+emotions more than others based on survival advantage. Indeed, a
+wealth of research <!-- mention cognitive bias towards type 1 error
+during threat detection?  --> has found that the priming effect, as
+well as others, are biased towards averse and pejorative emotions, as
+opposed to happy or neutral ones [@fox-et-al-2002; @vuilleumier-2001;
+@ishai-et-al-2004; @vuilleumier-2005; @susa-et-al-2012].
 
 ## Against automatic emotion identification
 
