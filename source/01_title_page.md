@@ -38,10 +38,10 @@ and add the centred logo
         
         \vfill
         Comité tutor:\\
-        {\bf Dr. Luis Concha Loyola}\\
-        Instituto de Neurobiología\\
         {\bf Dr. Eduardo Adrián Garza Villarreal}\\
         Instituto Nacional de Psiquiatría\\
+        {\bf Dr. Luis Concha Loyola}\\
+        Instituto de Neurobiología\\
 
         \vspace{0.8cm}
 
