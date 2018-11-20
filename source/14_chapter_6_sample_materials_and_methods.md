@@ -24,8 +24,9 @@ each. Sequence parameters are described at table
 |--------------------|------------:|
 | Acquisition type   | 2D          |
 | Slice orientation  | Transversal |
-| FOV                | 64x64       |
-| Voxel size         | $4\;mm^3$   |
+| Slices             | 34          |
+| Matrix size        | 64x64       |
+| Voxel size         | $(4\;mm)^3$ |
 | Flip angle         | $pi/2$      |
 | TR                 | $2000\;ms$  |
 | TE                 | $40\;ms$    |
@@ -33,7 +34,7 @@ each. Sequence parameters are described at table
 Table: Sequence parameters used for fMRI
 acquisitions. \label{fmri-task-sequence-parameters}
 
-![Sample raw fMRI image from our dataset.](source/figures/sample-raw-image.svg){width=70%}
+![Sample raw fMR image from our dataset.](source/figures/sample-raw-image.svg){width=70%}
 
 ## Materials and Methods
 
