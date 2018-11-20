@@ -2,6 +2,8 @@
 
 \begin{tabbing}
 \textbf{BOLD} ~~~~~~~~~~~~ \= \textbf{B}lood-\textbf{O}xigen-\textbf{L}evel \textbf{D}ependent.  \\
+\textbf{EEG} \> \textbf{E}lectro\textbf{e}ncephalo\textbf{g}graphy.  \\
+\textbf{ERP} \> \textbf{E}vent-\textbf{R}elated \textbf{P}otential.  \\
 \textbf{SOA} \> \textbf{S}timulus \textbf{O}nset \textbf{A}synchrony.  \\
 \end{tabbing}
 

@@ -52,14 +52,14 @@ while providing moderate spatial and temporal resolution to
 differentiate their activity. It is suitable for exploratory studies
 in which task-related zones and dynamics must be first identified, so
 as to lay the groundwork for finer-grained measurement techniques that
-try to establish the finer cellular circuitry.
+try to establish the finer cellular circuitry and chemistry.
 
 ## Particular
 
 The ongoing debate surrounding the cognitive mechanisms of facial
 expression perception will benefit from extra evidence, and more
 importantly, more sensible analysis techniques to derive the requisite
-evidence.[^novelty] <!-- EEG, etc. -->
+evidence.<!-- [^novelty] -->
 
 Multivariate and nonlinear methods have proved successful in the past
 extending the identification of more complex brain activity
@@ -98,8 +98,8 @@ population distributions are both centered at about the same value, so
 no effect is observed. Moreover, they are extremely spread-out and
 look rather noisy. Nor can such a big range of values be accounted for
 by a deterministic nonstationary process systematically pushing values
-away, because the process used to generated them is explicitly neither
-of those things.
+away, because the generating process explicitly was neither of those
+things.
 
 ![Simplified linear regression models and $t$-test $p$-values for the
 projections of figure \ref{lm-vs-multivariate-2} data on each
@@ -107,7 +107,7 @@ dimension. The effect of experimental conditions on single voxels is
 negligible (as witnessed by the models' minor slopes), and likely to
 be due to chance ($p$-values), as expected. Also by design, a
 Shapiro-Wilk test reveals that data distribution doesn't pass the
-normality criterion required by
+normality criterion required of
 $t$-tests. \label{lm-vs-multivariate-1}](source/figures/./lm-vs-multivariate-1.svg){width=75%}
 
 Even a nonlinear univariate classifier would make a number of mistakes

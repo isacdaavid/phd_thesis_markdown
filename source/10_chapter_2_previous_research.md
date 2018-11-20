@@ -2,12 +2,12 @@
 
 ## For automatic emotion identification
 
-The affective priming paradigm [@klauer-musch-2003] is known to produce
-an effect on reaction times or accuracy for subsequent identification
-of congruent emotions, thereby reflecting variability in the processes
-leading to affect recognition [@de-houwer-2009]. Many lines of evidence
-help extrapolate this fact into the notion that affect identification
-can undergo an automatic/preattentional mode:
+The affective priming paradigm [@klauer-musch-2003] is known to
+improve reaction times or accuracy for subsequent identification of
+identical emotions, thereby reflecting variability in the processes
+leading to affect recognition [@de-houwer-2009]. Many lines of
+evidence help extrapolate this fact into the notion that affect
+perception can undergo an automatic/preattentional mode:
 
 - Because affective priming occurs only under short stimulus onset
   asynchrony (_SOA_) times[^soa] (300 ms or less), it has been
@@ -48,16 +48,26 @@ etc.) during explicit attention to facial features (in contrast to
 non-expressive details inscribed in the faces) as evidence that facial
 processing is contingent upon attention. This strand of facial emotion
 processing research is not without more recent supporters [see
-@ochsner-gross-2005; @eimer-et-al-2003 for instance].
+@ochsner-gross-2005; @eimer-et-al-2003 for instance]. EEG[^eeg]
+studies attempting to correlate alleged ERP[^erp] indices of visual
+attention with different modes of emotion perception have thrown mixed
+results so far (see @galfano-et-all-2011 for a review and negative
+results concerning the emotion-dependent hypothesis, as inferred from
+2nd-negative components at posterior contralateral electrodes during a
+gaze-cuing task).
+
+[^eeg]: Electroencephalography.
+[^erp]: Event-related potential. Sometimes used interchangeably with
+"evoked potential"
 
 ## Perceptual modulation through spare attention: a possible bridging explanation
 
 Seemingly contradictory results stemming from methodologically sound
 studies cry for a theoretical reformulation to encompass all the
 facts. Research around the conflict often resorts to some sort of
-interaction and modulation between systems to explain the
-data [@okon-et-al-2007; @palermo-rhodes-2007]. Sassi and colleges
-proposed that even though emotional perception can be turned
-automatic, unused resources might still be consumed in parallel,
-should the distracting task not be distracting
-enough [@sassi-et-al-2014].
+interaction and modulation between systems to explain the data
+[@okon-et-al-2007; @palermo-rhodes-2007]. Based on reaction times and
+varying task difficulty, Sassi and colleges proposed that even though
+emotional perception can be turned automatic, unused resources might
+still be consumed in parallel; should the distracting task not be
+distracting enough [@sassi-et-al-2014].

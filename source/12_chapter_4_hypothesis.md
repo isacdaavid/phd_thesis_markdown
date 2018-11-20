@@ -8,7 +8,7 @@ neural mechanism -->
 ## Research Question
 
 Are there different modes of facial emotion perception (with or
-without attention, valence-dependent)?
+without attention, valence-dependent) in humans?
 
 ## Hypotheses
 

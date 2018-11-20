@@ -39,7 +39,7 @@ pdf: figures
 	-V documentclass=report \
 	-N \
 	--pdf-engine=xelatex \
-	--verbose
+#	--verbose
 
 tex: figures
 	pandoc "$(INPUTDIR)"/*.md \

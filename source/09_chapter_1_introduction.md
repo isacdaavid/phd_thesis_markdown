@@ -36,8 +36,13 @@ ignored personality trait. It might seem odd to talk about normally
 emerging psycho-physiological states in relation to health, yet this
 relationship can't be stressed enough. First, emotions themselves can
 be symptomatic of illness, as is the case of disgust. More directly,
-there's little doubt that affections such as extended depression and
-phobias should be considered illnesses in their own right.
+there's little doubt that affections[^affection] such as extended
+depression and phobias should be considered illnesses in their own
+right.
+
+[^affection]: Interestingly, the word "affection" can refer to both
+    maladies and emotions. Particulartly in psychology, an affect is a
+    feeling elicited in response to another feeling or stimulus.
 
 Beyond the individual, there's a special significance to what emotions
 can achieve for social well-being. The resulting expressions conveyed
