@@ -46,20 +46,23 @@ their environment. <!-- ;with some even postulating that such
 _grounding_ --> <!-- and _extension_ processes are inseparable from
 cognition itself. -->
 
-Functional nuclear magnetic resonance is capable of recording a
-correlate signal of _local field potentials_, nearly simultaneously,
-while providing moderate spatial and temporal resolution to
-differentiate their activity. It is suitable for exploratory studies
-in which task-related zones and dynamics must be first identified, so
-as to lay the groundwork for finer-grained measurement techniques that
-try to establish the finer cellular circuitry and chemistry.
+In addressing this kind of questions, functional nuclear magnetic
+resonance is capable of recording a correlate signal of _local field
+potentials_, while providing moderate and balanced spatial and
+temporal resolution to differentiate near-simultaneous activity at
+distant cerebral zones. It is suitable for expeditionary studies in
+which task-related functional networks must be first identified or
+refined, so as to lay the groundwork for finer-grained measurement
+techniques that try to establish the finer cellular circuitry and
+chemistry.
 
 ## Particular
 
 The ongoing debate surrounding the cognitive mechanisms of facial
-expression perception will benefit from extra evidence, and more
-importantly, more sensible analysis techniques to derive the requisite
-evidence.<!-- [^novelty] -->
+expression perception will benefit from extra evidence about
+anato-functional dissociation; and more importantly, the use of more
+sensible analysis techniques to derive the requisite evidence.<!--
+[^novelty] -->
 
 Multivariate and nonlinear methods have proved successful in the past
 extending the identification of more complex brain activity
@@ -67,13 +70,14 @@ interactions which aren't amenable to traditional regression
 models. Consider the following example in which the activation pattern
 (e.g., the BOLD[^bold] signal of different areas) under two
 experimental conditions has been constructed according to the
-following relation (reduced to two voxels and constant intra-condition
+following relation (reduced to two voxels and constant intra-event
 voxel values for simplicity):
 
 [^bold]: Blood-Oxigen-Level Dependent signal.
 
-(@ref_for_eqn1) $$ \left\{ \begin{array}{cc} voxel_1^2 + voxel_2^2 > c & \;Condition\;A \\
-                             voxel_1^2 + voxel_2^2 < c & \;Condition\;B
+(@ref_for_eqn1) $$ \left\{ \begin{array}{cc}
+                           Condition\;A: & voxel_1^2 + voxel_2^2 > c \\
+                           Condition\;B: & voxel_1^2 + voxel_2^2 < c
            \end{array} \right. $$
 
 This is simply a circle in voxel space (_phase space_, more
@@ -93,17 +97,18 @@ distinguished by their eccentricity with respect to condition
 _B_. \label{lm-vs-multivariate-2}](source/figures/./lm-vs-multivariate-2.svg){width=75%}
 
 Yet linear regression analysis operating on separate voxels is doomed
-to fail (figure \ref{lm-vs-multivariate-1}). The unidimensional
-population distributions are both centered at about the same value, so
-no effect is observed. Moreover, they are extremely spread-out and
-look rather noisy. Nor can such a big range of values be accounted for
-by a deterministic nonstationary process systematically pushing values
-away, because the generating process explicitly was neither of those
-things.
+to fail (figure \ref{lm-vs-multivariate-1}). The unidimensional sample
+distributions are both centered around the same intensity value, so no
+inter-condition effect is observed. Moreover, measurements are
+extremely spread-out and look rather noisy. Nor can such a big range
+of values be accounted for by motion artifacts or a deterministic
+nonstationary process systematically pushing values away, as a
+generalized linear model strives to account for, because the
+generating process explicitly was neither of those things.
 
 ![Simplified linear regression models and $t$-test $p$-values for the
 projections of figure \ref{lm-vs-multivariate-2} data on each
-dimension. The effect of experimental conditions on single voxels is
+axis. The effect of experimental conditions on single voxels is
 negligible (as witnessed by the models' minor slopes), and likely to
 be due to chance ($p$-values), as expected. Also by design, a
 Shapiro-Wilk test reveals that data distribution doesn't pass the

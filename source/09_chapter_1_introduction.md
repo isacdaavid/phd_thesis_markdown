@@ -27,18 +27,18 @@ higher-order cognition, but also provide the most fundamental basis
 for motivation, and therefore for planning and behavior
 [@schwarz-1990]. Emotions are causally connected to various responses
 in the peripheral nervous system (both somatic and autonomic) and
-endocrine activity. Memory formation can no longer be understood
-without the participation of distinct mechanisms that are
-emotion-selective [@ledoux-1994].
+endocrine activity. Memory formation and associative learning can no
+longer be understood without the participation of distinct mechanisms
+that are emotion-selective [@ledoux-1994].
 
 The predispositions of an individual's emotional dynamics is an often
 ignored personality trait. It might seem odd to talk about normally
-emerging psycho-physiological states in relation to health, yet this
-relationship can't be stressed enough. First, emotions themselves can
-be symptomatic of illness, as is the case of disgust. More directly,
-there's little doubt that affections[^affection] such as extended
-depression and phobias should be considered illnesses in their own
-right.
+emerging psycho-physiological states in relation to health; however
+their marriage can't be stressed enough. First, emotions themselves
+can be symptomatic of illness, as is the case of disgust. More
+directly, there's little doubt that affections[^affection] such as
+extended depression and phobias should be considered illnesses in
+their own right.
 
 [^affection]: Interestingly, the word "affection" can refer to both
     maladies and emotions. Particulartly in psychology, an affect is a
@@ -53,12 +53,16 @@ the emergence of language proper. Within behavioral ethology a signal
 is said to be effective (which implies a reaction in the receiving
 organism) if it possesses the property of being evolutionarily
 advantageous to both parties, on average. Prevarication detracts from
-this information in the case of receivers and honest senders, making
-emotions highly effective signals insofar as they are hard to fake.
-Moreover, their adequate perception marks an important input for the
-mechanisms of the theory of mind,[^theory-of-mind] emotions being so
-flagrant a display of visceral mental states.
+the value receivers and honest senders obtain from these signals,
+making emotions highly effective insofar as they are hard to fake.
+Moreover, their adequate perception[^perception] marks an important
+input for the mechanisms of the theory of mind,[^theory-of-mind]
+emotions being so flagrant a display of visceral mental states.
 
+[^perception]: Perception is the set of interfacing processes by which
+    a cognitive system acquires and renders information _from outside
+    the system_ useful for attention, planning, reasoning and
+    behavior.
 [^theory-of-mind]: Theory of mind: attributing mental states to
     others. The belief that other minds exist; opposite to
     solipsism. Not to be conflated with theories of what the mind is.
@@ -68,8 +72,12 @@ origin and relevance of emotions. An important topic is what I may
 call the automatic emotional processing hypothesis: if facial
 expression is so important a signal of inner mental states for a
 social species like ours, it stands to reason that a cognitive
-adaptation could have evolved to decode it separately of attention
-and even consciousness. Closely related is the negative-valence bias
-hypothesis: namely that the aforementioned cognitive capacity might be
-biased towards processing certain unpleasant emotions, since they more
-often go along life-or-death situations.
+adaptation could have evolved to decode it separately of visuospatial
+attention,[^attention] and perhaps consciousness. Closely related is
+the negative-valence bias hypothesis: namely that the aforementioned
+shortcut faculty might be biased towards processing certain unpleasant
+emotions, since they more often go along life-or-death situations.
+
+[^attention]: Attention refers to the broad psychological faculty of
+    filtering out available information. Allocating limited cognitive
+    resources.

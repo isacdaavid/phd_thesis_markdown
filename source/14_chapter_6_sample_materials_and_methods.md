@@ -17,7 +17,7 @@ were recorded using a 32-channel head-mounted antenna.
 <!--    - psychometric results -->
 
 T2*-weighted scans for functional imaging are comprised of 8840 frames
-each. Sequence parameters are described at table
+each. Sequence parameters are described in table
 \ref{fmri-task-sequence-parameters}.
 
 | Sequence parameter | Value       |
@@ -48,17 +48,16 @@ is known as _gaze cuing_, and has been used to measure neural
 correlates of visual attention and its interplay with emotion
 perception [@friesen-kingstone-1998].
 
-The present study relied on a variation on the gaze cuing paradigm to
+The present study relied on an event-based experimental design to
 obtain sequences of functional brain images under contrasting
-conditions. Each recording session was comprised of 126
-stimulus-response blocks, where averted-gaze cycles were interleaved
-with control (i.e. direct-gaze) ones in order to study reorientation
-of visual attention in conjunction with affective perception. This
-is further explained in figure \ref{paradigm_state_diagram}: a
-markovian discrete-state system diagram showing a repeating
-$\left<gaze\;cuing,\;contrast\right>$ unit. Specific face photographs
-have been abstracted away for brevity.
-
+conditions; specifically, a variation on the gaze cuing paradigm. Each
+recording session was comprised of 126 stimulus-response blocks, where
+averted-gaze cycles were interleaved with control (i.e. direct-gaze)
+ones in order to study reorientation of visual attention in
+conjunction with affective perception. This is further explained in
+figure \ref{paradigm_state_diagram}: a markovian discrete-state system
+diagram showing a repeating $\left<gaze\;cuing,\;contrast\right>$
+unit. Specific face photographs have been abstracted away for brevity.
 
 ![Gaze cuing paradigm. Nodes represent visual stimuli, their order of
 presentation is indicated using arrows. Unless noted otherwise,
