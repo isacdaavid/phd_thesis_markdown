@@ -49,20 +49,19 @@ can achieve for social well-being. The resulting expressions conveyed
 by faces and body language are the epitome of animal communication in
 primates. Our ancestors had to read these expressions out and
 interpret them, as part of a wider signaling repertoire, well before
-the emergence of language proper. Within behavioral ethology a signal
-is said to be effective (which implies a reaction in the receiving
-organism) if it possesses the property of being evolutionarily
-advantageous to both parties, on average. Prevarication detracts from
-the value receivers and honest senders obtain from these signals,
-making emotions highly effective insofar as they are hard to fake.
-Moreover, their adequate perception[^perception] marks an important
-input for the mechanisms of the theory of mind,[^theory-of-mind]
-emotions being so flagrant a display of visceral mental states.
+the emergence of language proper. Within ethology a signal is said to
+be effective (which implies a reaction in the receiving organism) if
+it possesses the property of being evolutionarily advantageous to both
+parties, on average. Prevarication detracts from the value receivers
+and honest senders obtain from these signals, making emotions highly
+effective insofar as they are hard to fake.  Moreover, their adequate
+perception[^perception] marks an important input for the mechanisms of
+the theory of mind,[^theory-of-mind] emotions being so flagrant a
+display of visceral mental states.
 
 [^perception]: Perception is the set of interfacing processes by which
     a cognitive system acquires and renders information _from outside
-    the system_ useful for attention, planning, reasoning and
-    behavior.
+    the system_ useful for executive control.
 [^theory-of-mind]: Theory of mind: attributing mental states to
     others. The belief that other minds exist; opposite to
     solipsism. Not to be conflated with theories of what the mind is.
