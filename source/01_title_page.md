@@ -20,7 +20,7 @@ and add the centred logo
         
         \vspace{1.5cm}
         \Large
-        Correlatos neurales de la percepción emocional por análisis de patrones en multitud de voxeles de datos de resonancia magnética funcional
+        Estudio de los correlatos neurales de la percepción emocional por análisis de patrones en multitud de voxeles
         
         \vspace{1.5cm}
         \normalsize

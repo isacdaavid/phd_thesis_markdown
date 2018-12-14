@@ -1,31 +1,26 @@
-# Hypothesis
+# Hipótesis
 
-<!-- current version is formulated as though we only cared about
-describing a correlate in order to firmly establish the existence of
-the phenomenon, as opposed to assuming it is real and going after the
-neural mechanism -->
+## Pregunta de investigación
 
-## Research Question
+¿Hay modos distintos de percepción de emociones faciales? (Por
+ejemplo, con y sin atención, dependientes de la emoción).
 
-Are there different modes of facial emotion perception (with or
-without attention, valence-dependent) in humans?
+## Hipótesis
 
-## Hypotheses
+- Hipótesis de trabajo ($H_1$): los modos putativos de procesamiento
+  de expresión facial se correlacionan con patrones espacio-temporales
+  diferenciables de actividad en áreas encefálicas asociadas.
 
-- Working hypothesis ($H_1$): the putative modes of facial expression
-  processing should be correlated to differential spatio-temporal
-  activity patterns at associated brain areas.
+- Hipótesis nula ($H_0$): no se puede encontrar dependencia
+  estadística significativa entre la percepción de expresiones
+  faciales bajo condiciones distintas y los patrones de actividad en
+  el encéfalo.
 
-- Null hypothesis ($H_0$): no significant statistical dependence can
-  be found between perception (i.e., processing) of facial expression
-  under different conditions and activity patterns in the
-  brain.
+## Predicciones
 
-## Predictions
-
-If the occurrence of "automatic" (i.e. preattentive) or
-valence-dependent facial emotion processing goes hand-in-hand with a
-neural activity substrate, a powerful-enough statistical method (such
-as multivariate classification) should be able to discriminate said
-neural activity. This assumes our measurements will be able to capture
-the relevant signal.
+Si la ocurrencia de procesamiento de emociones faciales "automáticas"
+(preatentivas) o dependientes a valencia emocional fueran de la mano de
+un sustrato de actividad neural, entonces un método estadístico lo
+suficientemente poderoso (como clasificación multivariada) debería ser
+capaz de discriminar dicha actividad neural. Esto asume que nuestras
+mediciones serán capaces de capturar la señal relevante.

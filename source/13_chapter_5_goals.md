@@ -1,20 +1,21 @@
-# Goals
+# Objetivos
 
-- Study the biological basis of emotion perception at the bigger scale
-  of whole-brain functional networks of neuronal ensambles.
+- Estudiar las bases biológicas de la percepción emocional a escala
+  de redes funcionales enteras compuestas por ensambles neuronales (o sus
+  correlatos).
 
-- Dissociate the proposed plethora of phenomena that has been
-  traditionally grouped under facial emotion perception. Find and test
-  reliable psychological, imaging and computational methods to achieve
-  that goal.
+- Disociar la plétora propuesta de fenómenos que han sido
+  tradicionalmente agrupados bajo la percepción facial
+  emocional. Poner a prueba métodos tanto psicológicos, de imagen y
+  computacionales para alcanzar este objetivo.
 
-- As a natural consequence of the newfound descriptive and explanatory
-  power contingent upon the previous point: be able to leverage the
-  resulting methods to predict the occurance of distinct emotion
-  perception workflows from functional imaging data alone.
+- Como consecuencia natural del poder descriptivo y explicativo
+  resultante del punto anterior: poder aprovechar dichos métodos para
+  predecir la ocurrencia de distintos flujos de trabajo de percepción
+  emocional a partir de imágenes funcionales.
 
-- Help settle the debate surrounding the existence of more automatic
-  pathways in the processing of emotional imagery, by contributing
-  extra evidence coming from a representative and controlled fMRI
-  study, as well as rigurous analysis and state-of-the-art pattern
-  analysis techniques.
+- Ayudar a resolver el debate que aflije la existencia de rutas
+  diversas para el procesamiento de imaginería con carga emotiva,
+  contribuyendo con evidencia adicional que provenga de un estudio de
+  IRMf respresentativo y controlado; así como con métodos de análisis
+  rigurosos en el estado del arte.

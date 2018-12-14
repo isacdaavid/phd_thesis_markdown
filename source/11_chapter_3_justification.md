@@ -1,128 +1,116 @@
-# Justification
+# Justificación
 
-<!-- TODO: ¿son aportes teóricos, metodológicos, empíricos...? -->
+## Panorama general
 
-<!-- Alexithymia patients, autism? Possibility of more accurate and -->
-<!-- faster diagnostics, cross-validation among expert knowledge, neuroimaging, -->
-<!-- etc. -->
+Hay varios sentidos en los que las emociones simples podrían ser
+consideradas como algunas de las experiencias conscientes completas
+más básicas: son universales culturales, bien diferenciadas y están
+inextricablemente conectadas a estados somáticos y la homeostasis
+[@damasio-1998]. Ayudar a entender su detección y procesamiento en
+tercera persona contribuye a nuestra comprensión de la
+intersubjetividad.
 
+Al día de hoy clínicos e incluso neurocientíficos cognitivos siguen
+siendo bastante dependientes de reportes verbales y otras pistas
+conductuales para evaluar estados mentales. Sin embargo, el prospecto
+de hacer que los sujetos reporten modos perceptuales muy rápidos y
+automáticos — incluso no conscientes — podría ser no solamente
+dificultoso sino lógicamente imposible. La psicología experimental ha
+ingeniado experimentos conductuales muy astutos para detectar dichos
+cambios, de manera que pruebas neurales análogas deberían idearse y
+descubrirse. Más generalmente, se requiere trabajo teórico y empírico
+extra para ayudar a tender un puente explicativo entre los hechos
+mecanísticos (o sea físicos) y los de la subjetividad (mentales).
 
-## The Big Picture
+Pese al éxito inicial identificando y describiendo los sustratos
+moleculares y celulares de muchos fenómenos psiquiátricos y
+psicológicos; los métodos de la neurociencia a escalas pequeñas y
+medianas, así como el llano _localizacionismo_, fracasan frente a
+cantidad de preguntas de interés. Muchos fenómenos cognitivos más
+bien emergen (o así se piensa) de la función coordinada de componentes
+anatómicamente distribuidos. Las restricciones evolutivas imponen
+límites en el número de especializaciones nerviosas que podrían
+corresponder unívocamente con el desempeño de una función, de manera
+que ciertos fenómenos conductuales y mentales deben corresponder al
+reclutamiento diferencial y modulación temporal de recursos más
+primitivos en el dominio fisiológico. Más aún, las nuevas corrientes
+en estudios de la cognición hacen hincapié en considerar
+holísticamente las interacciones entre organismos y con el medio.
 
-<!-- necesita referencias bibliográficas -->
-
-Simple emotions are regarded as some of the most basic wholesale
-conscious experiences in many senses: they are culturally universal,
-well-differentiated, and inextricably connected to somatic states and
-homeostasis [@damasio-1998]. Helping understand their third-person
-detection and processing contributes to our understanding of
-intersubjectivity.
-
-As of today, clinicians and even cognitive neuroscientists still are
-heavily dependent upon verbal reports and other behavioral cues to
-asses mental states. However, the prospect of having subjects report
-very fast and automatic — even nonconscious — perceptual modes might
-be not only difficult but logically impossible. Psychologists have
-come up with clever behavioral experiments to detect these changes, so
-homologous neural tests are due. More generally, extra
-theoretical and empirical work is needed to help bridge the
-explanatory gap between mechanistic (i.e. physical) facts and
-subjective (i.e. mental) ones.
-
-Despite the initial success of neuroscience identifying and describing
-molecular and cellular underpinnings of many medical and psychological
-phenomena; both the methods of "small-to-middle-scale" neuroscience
-and plain _localizationism_ yield against a number of questions. Many
-known cognitive phenomena rather emerge (or are thought to do so) from
-the coordinated physiology of anatomically distributed
-components. Evolutionary constraints pose limits on the number of
-nervous specializations that could univocally correspond to the
-performance of a function, so that certain behavioral and mental
-phenomena must correspond to the differential recruitment and temporal
-modulation of more basic resources at the physiological
-domain. Moreover, modern views on cognition place emphasis on the
-consideration of the interactions of organisms with one another and
-their environment. <!-- ;with some even postulating that such
-_grounding_ --> <!-- and _extension_ processes are inseparable from
-cognition itself. -->
-
-In addressing this kind of questions, functional nuclear magnetic
-resonance is capable of recording a correlate signal of _local field
-potentials_, while providing moderate and balanced spatial and
-temporal resolution to differentiate near-simultaneous activity at
-distant cerebral zones. It is suitable for expeditionary studies in
-which task-related functional networks must be first identified or
-refined, so as to lay the groundwork for finer-grained measurement
-techniques that try to establish the finer cellular circuitry and
-chemistry.
+Para abordar este tipo de preguntas, la resonancia magnética nuclear
+funcional es capaz de registrar señales correlato de los potenciales
+locales de campo, a la vez que provee un moderado balance de
+resolución espacial y temporal para diferenciar casi simultáneamente
+la actividad metabólica de zonas distantes. Es una técnica idónea para
+estudios en los que redes funcionales asociadas a tareas primero deben
+ser identificadas o refinadas, allanando el terreno para técnicas de
+medición más finas que intenten establecer la circuitería y química
+sináptica.
 
 ## Particular
 
-The ongoing debate surrounding the cognitive mechanisms of facial
-expression perception will benefit from extra evidence about
-anato-functional dissociation; and more importantly, the use of more
-sensible analysis techniques to derive the requisite evidence.<!--
-[^novelty] -->
+El actual debate alrededor de los mecanismos cognitivos de la
+percepción de expresiones faciales se beneficiará de evidencia
+adicional en materia de disociación anato-funcional; y lo que es más
+importante: el uso de métodos de análisis más sensibles para derivar
+la evidencia necesaria.
 
-Multivariate and nonlinear methods have proved successful in the past
-extending the identification of more complex brain activity
-interactions which aren't amenable to traditional regression
-models. Consider the following example in which the activation pattern
-(e.g., the BOLD[^bold] signal of different areas) under two
-experimental conditions has been constructed according to the
-following relation (reduced to two voxels and constant intra-event
-voxel values for simplicity):
+Los métodos multivariantes y no lineales han demostrado tener mayor
+éxito extendiendo la identificación de interacciones complejas de
+actividad cerebral que no son abordables mediante modelos de regresión
+tradicionales. Considere el siguiente ejemplo en el que el patrón de
+activación (ej., la señal BOLD[^bold] en áreas distintas) bajo dos
+condiciones experimentales ha sido construido según la siguiente
+relación (reducida a dos voxeles y valores intra-evento constantes por
+simpleza):
 
-[^bold]: Blood-Oxigen-Level Dependent signal.
+[^bold]: Blood-Oxigen-Level Dependent. Señal dependiente del nivel de
+    oxígeno en la sangre.
 
 (@ref_for_eqn1) $$ \left\{ \begin{array}{cc}
-                           Condition\;A: & voxel_1^2 + voxel_2^2 > c \\
-                           Condition\;B: & voxel_1^2 + voxel_2^2 < c
+                           Condicion\;A: & voxel_1^2 + voxel_2^2 > c \\
+                           Condicion\;B: & voxel_1^2 + voxel_2^2 < c
            \end{array} \right. $$
 
-This is simply a circle in voxel space (_phase space_, more
-generally). Let $c$ be half the magnitude of the range of values
-voxels normally take, divided by pi$π$, so that there are as many
-possible states for condition _A_ as for _B_; then uniformly sample
-some points from all possible states at random (40 in figures
-\ref{lm-vs-multivariate-1} and \ref{lm-vs-multivariate-2}). When
-plotted over the plane, our measurements contain sufficient
-information to tell both brain states apart, even by visual
-inspection:
+Esto no es más que un círculo en el espacio de los voxeles (espacio
+fase, más generalmente). Sea $c$ la mitad de la magnitud del rango de
+valores que los voxeles normalmente toman, dividido entre pi, para que
+haya tantos estados posibles para la condición _A_ como para la _B_;
+luego muestree algunos puntos aleatoriamente de manera uniforme (40 en
+las figuras \ref{lm-vs-multivariate-1} y
+\ref{lm-vs-multivariate-2}). Al graficarlos en el plano, se observa
+que nuestras mediciones contienen suficiente información para
+distinguir ambos estados cerebrales, incluso por inspección visual:
 
-![A bidimensional, nonlinear activity pattern between two voxels, as
-sampled from 18 trials under experimental condition _A_ plus 22 under
-_B_.  BOLD signal measurements corresponding to condition _A_ can be
-distinguished by their eccentricity with respect to condition
-_B_. \label{lm-vs-multivariate-2}](source/figures/./lm-vs-multivariate-2.svg){width=75%}
+![Patrón bidimensional no lineal de actividad de dos voxeles, según se muestreó con 18 ensayos bajo la condición experimental _A_ más 22 bajo la _B_. Las mediciones de la señal BOLD que corresponden a la condición _A_ pueden distinguirse por su excentricidad con respecto de la condición _B_. \label{lm-vs-multivariate-2}](source/figures/./lm-vs-multivariate-2.svg){width=70%}
 
-Yet linear regression analysis operating on separate voxels is doomed
-to fail (figure \ref{lm-vs-multivariate-1}). The unidimensional sample
-distributions are both centered around the same intensity value, so no
-inter-condition effect is observed. Moreover, measurements are
-extremely spread-out and look rather noisy. Nor can such a big range
-of values be accounted for by motion artifacts or a deterministic
-nonstationary process systematically pushing values away, as a
-generalized linear model strives to account for, because the
-generating process explicitly was neither of those things.
+Sin embargo un análisis de regresión lineal operando en voxeles
+separados está destinado a fracasar (figura
+\ref{lm-vs-multivariate-1}). Las distribuciones unidimensionales de
+muestra se encuentran aproximadamente centradas alrededor del mismo
+valor de intensidad, así que no se observa ningún efecto
+intercondición. Por otro lado, las mediciones están muy dispersas y
+lucen ruidosas. Tal enormidad en el rango de valores tampoco puede ser
+explicado por artefactos de movimiento ni por un proceso determinista
+no estacionario que empuje sistemáticamente los valores (como el
+modelo lineal general intenta capturar); ya que el proceso usado para
+generar los estados fue explícitamente ninguna de esas cosas.
 
-![Simplified linear regression models and $t$-test $p$-values for the
-projections of figure \ref{lm-vs-multivariate-2} data on each
-axis. The effect of experimental conditions on single voxels is
-negligible (as witnessed by the models' minor slopes), and likely to
-be due to chance ($p$-values), as expected. Also by design, a
-Shapiro-Wilk test reveals that data distribution doesn't pass the
-normality criterion required of
-$t$-tests. \label{lm-vs-multivariate-1}](source/figures/./lm-vs-multivariate-1.svg){width=75%}
+![Modelos de regresión lineal simplificados y valores $p$ de las
+pruebas $t$ para las proyecciones de los datos de la figura
+\ref{lm-vs-multivariate-2} sobre cada eje. El efecto de las
+condiciones experimentales sobre voxeles individuales es negligible
+(atestiguado por las pequeñas pendientes de los modelos), y
+probablemente son resultado del azar (valores $p$), como se
+esperaba. También por construcción, una prueba de Shapiro-Wilk revela
+que las distribuciones de datos _A_ no pasan el criterio de normalidad
+requerido por las pruebas
+$t$. \label{lm-vs-multivariate-1}](source/figures/./lm-vs-multivariate-1.svg){width=75%}
 
-Even a nonlinear univariate classifier would make a number of mistakes
-at the intersection of both distributions. A discriminating univariate
-pattern would be noticeable from power-spectral analysis under special
-dynamic conditions, but the most adequate approach by far is to
-consider both voxels simultaneously, as in figure
-\ref{lm-vs-multivariate-2}, since that's how data were generated in
-the first place.
-
-
-[^novelty]: Is the use of MVPA novel in the facial expression
-    recognition literature? Mention if so
+Incluso un clasificador no lineal univariado cometería una gran
+cantidad de errores en la intersección entre ambas distribuciones.  Un
+patrón discriminante univariado podría observarse a partir de un
+análisis de espectro de potencias bajo condiciones dinámicas
+especiales, pero el enfoque más adecuado por mucho es considerar ambos
+voxeles simultáneamente; como en la figura \ref{lm-vs-multivariate-2},
+ya que así es como se generaron los datos en primer lugar.

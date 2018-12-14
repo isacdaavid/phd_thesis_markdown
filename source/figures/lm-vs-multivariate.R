@@ -80,10 +80,12 @@ ggplot(data, aes(x = voxel_1, y = voxel_2, color = cond, shape = cond)) +
 dev.off()
 
 indices <- sample(1:nrow(data), N/2)
-model3 <- svm(cond ~ voxel_1 + voxel_2,
+model3 <- svm(cond ~ voxel_2 + voxel_1,
               data = data[indices, ],
               kernel = "radial",
-              scale = FALSE,
-              cost = 500)
+              cost = 1000,
+              gamma = 0.01)
 predict(model3, data[-indices, ])
+svg("./lm-vs-multivariate-3.svg")
 plot(model3, data)
+dev.off()

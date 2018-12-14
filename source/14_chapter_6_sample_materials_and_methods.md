@@ -1,76 +1,71 @@
-# Sample, Materials and Methods
+# Muestra, Materiales y Métodos
 
-<!-- - MRI: attach notes from Concha's lectures in order to introduce MRI? -->
-<!--    - image processing pipeline -->
+## Muestra
 
-## Sample
+El presente trabajo se basa en una submuestra de 42 sujetos sanos,
+escaneados en un resonador General Electric Discovery MR750 de la
+Unidad de Resonancia Magnética del Instituto de Neurobiología; cuyo
+campo magnético principal alcanza los $3.0\;T$ en su punto de magnitud
+máxima. Los ecos inducidos fueron registrados usando una antena de 32
+canales montada a cabeza.
 
-The present work relies on an existing subsample of 42 healthy
-subjects scanned at the Institute of Neurobiology's Magnetic Resonance
-Unit on a General Electric Discovery MR750 scanner, whose main
-magnetic field reaches a magnitude peak of $3.0\;T$. Inducting echoes
-were recorded using a 32-channel head-mounted antenna.
+Los escaneos pesados a contraste T2* para imágenes funcionales se
+componen de 8840 cuadros cada uno. La tabla
+\ref{fmri-task-sequence-parameters} describe sus parámetros de
+secuencia.
 
-<!--    - age -->
-<!--    - sex -->
-<!--    - handedness? -->
-<!--    - psychometric results -->
-
-T2*-weighted scans for functional imaging are comprised of 8840 frames
-each. Sequence parameters are described in table
-\ref{fmri-task-sequence-parameters}.
-
-| Sequence parameter | Value       |
+| Parámetro de secuencia | Valor       |
 |--------------------|------------:|
-| Acquisition type   | 2D          |
-| Slice orientation  | Transversal |
-| Slices             | 34          |
-| Matrix size        | 64x64       |
-| Voxel size         | $(4\;mm)^3$ |
+| Tipo de adquisición   | 2D          |
+| Orientación de rebanadas  | Transversal |
+| Rebanadas             | $34$          |
+| Tamaño de matriz        | $64$×$64$       |
+| Tamaño de voxel         | $(4\;mm)^3$ |
 | Flip angle         | $pi/2$      |
 | TR                 | $2000\;ms$  |
 | TE                 | $40\;ms$    |
 
-Table: Sequence parameters used for fMRI
-acquisitions. \label{fmri-task-sequence-parameters}
+Table: Parametros de secuencia utilizados durante las adquisiciones de
+IRMf. \label{fmri-task-sequence-parameters}
 
-![Sample raw fMR image from our dataset.](source/figures/sample-raw-image.svg){width=70%}
+![Muestra de imagen cruda dentro del conjunto de datos.](source/figures/sample-raw-image.svg){width=70%}
 
-## Materials and Methods
+## Materiales y métodos
 
-Notwithstanding preattentive emotional face perception, the appearance
-of a face with a lateralized gaze tempts the human visual system to
-shift attention towards the suggested direction; presumably because
-relevant environmental and social information is likely to be
-discovered where others look at. The abrupt attentional shift is well
-within the fast interval range of a saccade movement. This phenomenon
-is known as _gaze cuing_, and has been used to measure neural
-correlates of visual attention and its interplay with emotion
-perception [@friesen-kingstone-1998].
+Dado un rostro con mirada lateralizada, el sistema visual humano es
+inducido a redirigir la atención en la dirección sugerida;
+presuntamente porque información de relevancia ambiental y social
+podría ser descubierta en donde otros miran. Este cambio atencional
+abrupto se encuentra dentro del rango de intervalos rápidos de un
+movimiento sacádico. El fenómeno es conocido como _gaze cuing_, y ha
+sido usado para medir los correlatos neurales de la atención visual y
+su interacción con la percepción [@friesen-kingstone-1998].
 
-The present study relied on an event-based experimental design to
-obtain sequences of functional brain images under contrasting
-conditions; specifically, a variation on the gaze cuing paradigm. Each
-recording session was comprised of 126 stimulus-response blocks, where
-averted-gaze cycles were interleaved with control (i.e. direct-gaze)
-ones in order to study reorientation of visual attention in
-conjunction with affective perception. This is further explained in
-figure \ref{paradigm_state_diagram}: a markovian discrete-state system
-diagram showing a repeating $\left<gaze\;cuing,\;contrast\right>$
-unit. Specific face photographs have been abstracted away for brevity.
+El presente estudio se basa en un diseño experimental basado en
+eventos para obtener secuencias de imagenes de función cerebral bajo
+condiciones contrastantes. Específicamente: una variación del
+paradigma de _gaze cuing_. Cada sesión de registro comprende 126
+bloques estímulo-respuesta, donde ciclos con rostros que desvían la
+mirada son intercalados con otros de control (mirada directa) en aras
+de estudiar la reorientación de la atención visual en conjunto con la
+percepción afectiva. Esto se explica más a detalle en la figura
+\ref{paradigm_state_diagram}: un diagrama de sistema de estados
+discretos de tipo markoviano, con el que se representa una unidad
+$\left<gaze\;cuing,\;contraste\right>$. Varias iteraciones en el
+diagrama estarían ocurriendo durante el registro de imágenes. Las
+fotografías con rostros específicos han sido abstraídas por brevedad.
 
-![Gaze cuing paradigm. Nodes represent visual stimuli, their order of
-presentation is indicated using arrows. Unless noted otherwise,
-transition probability from a node is equally distributed among all
-exit arrows. Participants were asked to attend for a target (asterisk)
-and press a "left" or "right" button, depending on target position
-relative to the face. The spectrum of tested expressions (neutral,
-happy, disgusted) followed by either a gaze-congruent or
-gaze-incongruent target was divided and counterbalanced in three
-sequences, so as to keep the latter at reasonable durations. Colorful
-arrows indicate combinations which were specific to a
-sequence. \label{paradigm_state_diagram}](source/figures/paradigm_state_diagram.pdf){
+![Paradigma de _gaze cuing_. Los nodos representan estímulos visuales,
+su orden de presentación es indicado usando flechas. A menos que se
+indique lo contrario, la probabilidad de transición desde un nodo se
+distribuye equitativamente entre todas las flechas salientes. Se le
+pidió a los participantes que buscaran un objetivo (asterisco) y que
+presionaran el botón izquierdo o derecho, según la posición del
+objetivo relativo a la cara. El espectro de expresiones probadas
+(neutral, feliz, disgustada; seguidas ya fuera por un objetivo
+congruente o incongruente con la mirada) fue dividido y
+contrabalanceado en tres secuencias, para mantener los ensayos
+suficientemente cortos. Las flechas coloridas indican combinaciones
+específicas a una de las tres
+secuencias. \label{paradigm_state_diagram}](source/figures/paradigm_state_diagram.pdf){
 width=100% }
-
-<!-- mention anti-habituation procedures -->
-<!-- design matrix. Block, event, mixed? -->

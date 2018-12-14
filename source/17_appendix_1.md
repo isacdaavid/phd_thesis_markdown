@@ -1,3 +1,3 @@
-# Appendix 1: Source code {.unnumbered}
+# Apéndice 1: código fuente {.unnumbered}
 
-\lstinputlisting[style=RCodeStyle,caption=Single vs multi-voxel predictive models. The following R program was used to generate figures \ref{lm-vs-multivariate-1} and \ref{lm-vs-multivariate-2}]{source/figures/lm-vs-multivariate.R}
+\lstinputlisting[style=RCodeStyle,caption=Modelos predictivos de un solo voxel vs multivoxel. El siguiente programa en R fue utilizado para generar las figuras \ref{lm-vs-multivariate-1} y \ref{lm-vs-multivariate-2}. Además se incluye una breve demostración del clasificador SVM.]{source/figures/lm-vs-multivariate.R}
