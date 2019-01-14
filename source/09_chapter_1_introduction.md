@@ -1,22 +1,29 @@
 # Introducción
 
-Las emociones son estados conscientes[^conscious] caracterizados por
-su discretitud, excitación media a alta, carga
-hedonística[^hedonistic] y una referencia a un estado
-somático[^somatic] de gran relevancia para el organismo
-[@schacter-et-at-2011; @ekman-1994]. Emociones básicas como la
-alegría, el miedo, el enfado y la tristeza probablemente se encuentran
-entre las experiencias subjetivas más básicas; y su manifestación en
-la conducta es trazable a reacciones cuando menos análogas en todos
-los organismos vivos.[^definition]
+Las emociones son experiencias conscientes[^conscious] que hacen
+referencia a un estado somático,[^somatic] caracterizadas además por
+llevar una carga hedonística[^hedonistic] [@schacter-et-at-2011;
+@ekman-1994]. Se ha sugerido que emociones como la alegría, el miedo,
+el enfado y la tristeza probablemente se encuentran entre los estados
+subjetivos más básicos; y que su manifestación en la conducta es
+trazable a reacciones cuando menos análogas en todos los organismos
+vivos. Nadie sano duda poder distinguir la alegría del enojo (ya sean
+los propios o ajenos), sin embargo detectar su identidad en actividad
+nerviosa ha demostrado ser especialmente dificultoso. La problemática
+es notable a partir del abanico de teorías psicológicas que compiten
+por caracterizarlas en términos conceptuales, materiales y
+evolutivos. Algunos modelos postulan la existencia de emociones
+"básicas" o atómicas, otros las sitúan en un espacio de componentes
+más simples (como valencia hedonística y nivel de excitación), y otros
+más arguyen que se trata de constructos culturales para una gama de
+fenómenos corporales dispares [@kragel-labar-2016].
 
-[^conscious]: Por consciencia me referiré específicamente al
+[^conscious]: Por "consciencia" me referiré específicamente al
     significado rudimentario de consciencia fenoménica: la cualidad de
     los objetos que sienten; en la línea de autores como Christof
-    Koch, David Chalmers, Giulio Tononi and Ned Block.
-[^definition]: Algunos autores usan la palabra "emoción" para la
-    respuesta conductual y reservan "sentimiento" para su contraparte
-    subjetiva.
+    Koch, David Chalmers, Giulio Tononi and Ned Block. Algunos autores
+    usan la palabra "emoción" para la respuesta conductual y reservan
+    "sentimiento" para su contraparte cualitativa.
 [^hedonistic]: A diferencia de, por ejemplo, la experiencia libre de
     placer o desagrado de un color vívido, o información
     propioceptiva.
@@ -25,16 +32,16 @@ los organismos vivos.[^definition]
     "corporal" para comunicar la suficiencia de _representaciones_
     mentales del cuerpo.
 
-Es debido a esa naturaleza tan basal, así como el papel del sistema
-nervioso sustentándolas, que las emociones no sólo interfieren con y
-modulan la cognición de órdenes superiores; sino que además proveen
-los cimientos de la motivación, y por ende de la planificación y la
-conducta [@schwarz-1990]. Las emociones están conectadas causalmente a
-varias respuestas del sistema nervioso periférico (tanto somáticas
-como autonómicas) y actividad endócrina. Ya no es posible entender la
-formación de memorias a largo plazo o aprendizaje asociativo sin la
-participación de distintos mecanismos selectivos a la emoción
-[@ledoux-1994].
+Es debido al papel del sistema nervioso sustentándolas, así como de su
+probable naturaleza tan basal, que las emociones no sólo interfieren
+con y modulan la cognición de órdenes superiores; sino que además
+parecen proveer los cimientos de la motivación, y por ende de la
+planificación y la conducta [@schwarz-1990]. Estas sensaciones están
+conectadas causalmente a varias respuestas del sistema nervioso
+periférico (tanto somáticas como autonómicas) y actividad
+endócrina. Ya no es posible entender la formación de memorias a largo
+plazo o aprendizaje asociativo sin la participación de distintos
+mecanismos selectivos a una u otra emoción [@ledoux-1994].
 
 Las predisposiciones en la dinámica emocional del individuo son un
 rasgo de la personalidad comúnmente ignorado. Podría parecer extraño
@@ -56,12 +63,12 @@ propiamente dicho. En etología se dice que una señal es efectiva (lo
 que implica una reacción en el organismo receptor) si posee la
 propiedad de ser evolutivamente ventajosa para ambas partes, en
 promedio. La prevaricación lingüística resta al valor que receptores y
-emisores honestos obtienen de dichas señales, haciendo a las emociones
-señales muy efectivas (en la medida en que son difíciles de
+emisores honestos obtienen de dichas señales, haciendo de las
+emociones señales muy efectivas (en la medida en que son difíciles de
 fingir). Así mismo, su percepción[^perception] adecuada marca un
 _input_ importante para los mecanismos de la teoría de la
-mente;[^theory-of-mind] ya que las emociones son muestra flagrante
-de los estados mentales más viscerales.
+mente;[^theory-of-mind] ya que las emociones son muestra flagrante de
+los estados mentales más viscerales.
 
 [^perception]: Percepción es el conjunto de procesos de interfaz
     mediante los cuales un sistema cognitivo adquiere información
@@ -72,19 +79,19 @@ de los estados mentales más viscerales.
     solipsismo. No debe confundirse con las teorías de lo que la mente
     es.
 
-La literatura psicológica está comprometida a discutir el origen
-biológico y relevancia de las emociones. Un tema importante es lo que
-llamaré la hipótesis del procesamiento emocional automático: si la
-expresión facial es una señal tan importante de estados internos para
-especies sociales como la nuestra, es razonable preguntarse si una
-adaptación cognitiva pudo haber evolucionado para decodificarla empero
-la ausencia de atención visuoespacial,[^attention] y quizás de forma
-no consciente. Muy de la mano viene la hipótesis del sesgo por
-valencias negativas. A saber, que la susodicha facultad de atajo
-podría favorecer el procesamiento de ciertas emociones desagradables,
-debido a que a ocurren más a menudo junto con situaciones de vida o
-muerte.
+<!-- La literatura psicológica está comprometida a discutir el origen -->
+<!-- biológico y relevancia de las emociones. Un tema importante es lo que -->
+<!-- llamaré la hipótesis del procesamiento emocional automático: si la -->
+<!-- expresión facial es una señal tan importante de estados internos para -->
+<!-- especies sociales como la nuestra, es razonable preguntarse si una -->
+<!-- adaptación cognitiva pudo haber evolucionado para decodificarla empero -->
+<!-- la ausencia de atención visuoespacial,[^attention] y quizás de forma -->
+<!-- no consciente. Muy de la mano viene la hipótesis del sesgo por -->
+<!-- valencias negativas. A saber, que la susodicha facultad de atajo -->
+<!-- podría favorecer el procesamiento de ciertas emociones desagradables, -->
+<!-- debido a que a ocurren más a menudo junto con situaciones de vida o -->
+<!-- muerte. -->
 
 [^attention]: La atención se refiere burdamente a las facultades
-    psicológicas de filtrar la información disponible. Asignación de
-    recursos cognitivos limitados.
+    psicológicas de filtrar y retener la información
+    disponible. Asignación de recursos cognitivos limitados.
