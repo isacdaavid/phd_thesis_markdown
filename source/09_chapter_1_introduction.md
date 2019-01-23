@@ -5,25 +5,26 @@ referencia a un estado somático,[^somatic] caracterizadas además por
 llevar una carga hedonística[^hedonistic] [@schacter-et-at-2011;
 @ekman-1994]. Se ha sugerido que emociones como la alegría, el miedo,
 el enfado y la tristeza probablemente se encuentran entre los estados
-subjetivos más básicos; y que su manifestación en la conducta es
+subjetivos más primitivos; y que su manifestación en la conducta es
 trazable a reacciones cuando menos análogas en todos los organismos
 vivos. Nadie sano duda poder distinguir la alegría del enojo (ya sean
-los propios o ajenos), sin embargo detectar su identidad en actividad
-nerviosa ha demostrado ser especialmente dificultoso. La problemática
+los propios o ajenos), sin embargo descubrir su naturaleza en actividad
+nerviosa ha probado ser especialmente dificultoso. La problemática
 es notable a partir del abanico de teorías psicológicas que compiten
 por caracterizarlas en términos conceptuales, materiales y
-evolutivos. Algunos modelos postulan la existencia de emociones
-"básicas" o atómicas, otros las sitúan en un espacio de componentes
-más simples (como valencia hedonística y nivel de excitación), y otros
-más arguyen que se trata de constructos culturales para una gama de
-fenómenos corporales dispares [@kragel-labar-2016].
+evolutivos. Por un lado están los modelos que postulan la existencia
+de emociones "básicas" o atómicas, mientras que otros las sitúan en un
+espacio de componentes más simples (como valencia hedonística y nivel
+de excitación). Otros más terminarían por argüir que se trata de
+constructos aprendidos para una gama de fenómenos corporales dispares
+[@kragel-labar-2016].
 
 [^conscious]: Por "consciencia" me referiré específicamente al
     significado rudimentario de consciencia fenoménica: la cualidad de
     los objetos que sienten; en la línea de autores como Christof
-    Koch, David Chalmers, Giulio Tononi and Ned Block. Algunos autores
+    Koch, David Chalmers, Giulio Tononi y Ned Block. Algunos autores
     usan la palabra "emoción" para la respuesta conductual y reservan
-    "sentimiento" para su contraparte cualitativa.
+    "sentimiento" para su contraparte subjetiva.
 [^hedonistic]: A diferencia de, por ejemplo, la experiencia libre de
     placer o desagrado de un color vívido, o información
     propioceptiva.
@@ -32,8 +33,8 @@ fenómenos corporales dispares [@kragel-labar-2016].
     "corporal" para comunicar la suficiencia de _representaciones_
     mentales del cuerpo.
 
-Es debido al papel del sistema nervioso sustentándolas, así como de su
-probable naturaleza tan basal, que las emociones no sólo interfieren
+Es debido al papel del sistema nervioso sustentándolas (así como de su
+probable naturaleza tan basal) que las emociones no sólo interfieren
 con y modulan la cognición de órdenes superiores; sino que además
 parecen proveer los cimientos de la motivación, y por ende de la
 planificación y la conducta [@schwarz-1990]. Estas sensaciones están
@@ -72,8 +73,7 @@ los estados mentales más viscerales.
 
 [^perception]: Percepción es el conjunto de procesos de interfaz
     mediante los cuales un sistema cognitivo adquiere información
-    _externa al sistema_, y la vuelve útil para tareas de control
-    ejecutivo.
+    externa y la vuelve útil para tareas de control ejecutivo.
 [^theory-of-mind]: Teoría de la mente: atribuir estados mentales a
     otros. La creencia de que existen otras mentes; en oposición al
     solipsismo. No debe confundirse con las teorías de lo que la mente

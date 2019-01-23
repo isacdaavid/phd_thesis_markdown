@@ -69,3 +69,12 @@ suficientemente cortos. Las flechas coloridas indican combinaciones
 específicas a una de las tres
 secuencias. \label{paradigm_state_diagram}](source/figures/paradigm_state_diagram.pdf){
 width=100% }
+
+Uno de los inconvenientes de estos métodos radica en la promiscuidad
+con la que consumen variables que faciliten la clasificación,
+independientemente de si tienen conexión causal a la variable
+respuesta de interés. Los hallazgos hechos con MVPA y neuroimagen
+podrían maridarse con estudios que irrumpan en la función de los
+correlatos (como lesiones, manipulación farmacológica o estimulación
+magnética transcraneal) para validar la relevancia de las conexiones
+estadísticas.

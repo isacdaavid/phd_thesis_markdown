@@ -22,11 +22,14 @@ daño a la corteza prefrontal resulta en discapacidades sociopáticas
 
 No obstante, la localización y codificación de emociones tanto en el
 sistema nervioso central como en el periférico permanece un problema
-abierto. Una pregunta fundamental es si existen correlatos en
-actividad neuronal suficientemente específicos que correspondan con
-concepciones vernáculas y psicológicas de las emociones. Además, ¿qué
-tan generalizables son esos correlatos entre individuos y especies?
-[@kragel-labar-2014; @kragel-labar-2016; @celeghin-et-al-2017].
+abierto [@kragel-labar-2016; @celeghin-et-al-2017]. Una pregunta
+fundamental es si existen patrones en actividad neuronal
+suficientemente específicos que correspondan con concepciones
+vernáculas y psicológicas de las emociones. Además, ¿qué tan
+generalizables son esos correlatos entre individuos y especies? Ésta
+última cuestión tiene implicaciones para nuestra comprensión de la
+aparición de estados afectivos, ya sea en términos de evolución de los
+genes o de la cultura.
 
 Los metanálisis y revisiones de la literatura hasta antes de la
 aplicación de detección de patrones multivariados no muestran una
@@ -48,32 +51,101 @@ sensibilidad espacial para contrastar cinco emociones básicas
 provenientes de 83 estudios. Concluyeron que aunque existen _clusters_
 característicos de activación para cada una de ellas, no es evidencia
 suficiente para descartar otros modelos de representación emocional en
-el cerebro.
+el cerebro. @lindquist-et-al-2012 analizaron 91 estudios tanto de
+experiencia de emociones como de percepción emocional. Definieron
+evidencia a favor de emociones básicas como actividad consistente en
+áreas específicas selectivas a una única categoría. Se encontró
+consistencia y selectividad para las cinco categorías bajo
+consideración, mas no especificidad funcional. Es decir, las
+escurridizas emociones básicas tienen correlatos distinguibles entre
+sí, aunque las mismas regiones cerebrales están vinculadas a otras
+funciones psicológicas extraemocionales.
 
 [^PET]: Tomografía por emisión de positrones
 
 El consenso disponible es que la búsqueda de estructuras específicas a
 un tipo de emoción está superada. Si la función emocional tiene
 biomarcadores reproducibles, su decodificación dependerá de la
-actividad conjunta de redes funcionales distribuidas [@hamann-2012;
-@kragel-labar-2016; @celeghin-et-al-2017]. Dado que los métodos
-clásicos de detección de actividad diferencial han agotado su
-utilidad, basados en la aplicación de modelos de regresión para
-voxeles individuales, los algoritmos multivariados provenientes del
-campo de aprendizaje de máquinas proveen una herramienta más
-sofisticada para progresar en neurociencia afectiva. Estos variados
-métodos de análisis, también llamados análisis de patrones multivoxel
-en la literatura neurocientífica (MVPA por su acrónimo en inglés),
-comparten la característica de modelar la codificación del estado
-mental como una función de muchas variables o "características"; que
-en el caso de neuroimagen funcional toman la forma de voxeles
-distantes en espacio o tiempo.
+actividad conjunta de redes funcionales distribuidas y traslapadas
+[@hamann-2012; @lindquist-barrett-2012; @kragel-labar-2014;
+@celeghin-et-al-2017; ver @guillory-bujarski-2014 para una revisión de
+estudios electrofisiológicos concordantes con esta conclusión]. Dado
+que los métodos clásicos de detección de actividad diferencial en
+neuroimagen han agotado su utilidad, basados en la aplicación de
+modelos de regresión para voxeles individuales, los algoritmos
+multivariados provenientes del campo de aprendizaje de máquinas
+proveen una herramienta de análisis más sofisticada para dilucidar las
+preguntas de la neurociencia afectiva [@hamann-2012;
+@kragel-labar-2014; @kragel-labar-2016]. Estos diversos métodos,
+también agrupados bajo el nombre de "análisis de patrones multivoxel"
+en la literatura neurocientífica (MVPA por sus siglas en inglés),
+tienen la característica de modelar la codificación del estado mental
+como una función de muchas variables o "características"; que en el
+caso de neuroimagen funcional toman la forma de voxeles distantes en
+espacio o tiempo.
 
-- MVPA muestra resultados prometedores discriminando entre emociones,
-  patrones espacialmente distribuidos.
+- breve mención de la historia de mvpa y aplicaciones exitosas
 
-- diferencias entre experimentación y percepción de emociones
-- caveats/interpretación
+Aunque muchos de los estudios que usan MVPA para decodificar emociones
+en el encéfalo han usado percepción de estímulos emocionalmente
+cargados, ésta no es exactamente análoga a la experiencia en primera
+persona de una emoción (notable también a partir de actividad cerebral
+[@wager-et-al-2008]). La percepción emocional además puede involucrar
+procesos de evaluación, atribución de estados mentales e intenciones;
+a la vez que puede estar exenta de emoción _per se_
+[@peelen-et-al-2010]. En lo subsecuente se hará la distinción,
+poniendo énfasis en los trabajos relativos a percepción emocional.
+
+@pessoa-padmala-2007 demostraron la factibilidad de usar MVPA para
+predecir la respuesta conductual en una tarea de fMRI sobre percepción
+de caras asustadas, presentadas casi subliminalmente, en contraste con
+otros tipos de caras. Se basó en un algoritmo de entrenamiento SVM sin
+kernel, cuyo desempeño aumentaba conforme las variables dependientes
+en el modelo eran adicionadas con nuevas regiones de interés;
+hipotetizando que los varios aspectos de la actividad emocional
+(discriminación del estímulo, producción de respuestas, etc.)
+contienen información útil para decodificar el estado
+perceptual. @ethofer-et-al-2009 utilizaron estímulos auditivos con
+carga paralingüística emocional. Su modelo SVM fue capaz de clasificar
+entre cuatro emociones básicas y un estado aemocional por encima del
+azar, mientras que un análisis univariado no encontró diferencias en
+las mismas señales BOLD, provenientes de corteza auditiva (ver
+@kotz-et-al-2012 para un estudio similar no restringido a corteza
+auditiva). @said-et-al-2010 utilizaron clasificación multivariada
+mediante el método de regresión logística para demostrar que la
+actividad de ciertas regiones del surco temporal superior (previamente
+vinculadas a detección de expresiones faciales) predice la categoría
+emocional de los rostros. Los mismos datos bajo análisis univariado
+fueron incapaces de repetir la hazaña. @peelen-et-al-2010 probaron
+estímulos de cinco categorías emocionales en modalidades distintas
+(audición, visión de gesticulaciones y de lenguaje
+corporal). Sorprendentemente, las mismas características eran capaces
+de hacer la distinción, independientemente de la modalidad sensorial e
+intensidad de la emoción.
+
+El uso de MVPA en decodificación emocional también ha alcanzado a
+otras especies. @hernandez-et-al-2018 (prepublicación) entrenaron
+perros para permanecer quietos y despiertos en un resonador magnético
+mientras observaban rostros humanos felices o inexpresivos. En un
+segundo experimento emplearon más emociones y un clasificador
+multivariado para proveer evidencia de que los correlatos encontrados
+en la corteza temporal derecha del perro contienen información
+selectiva a la felicidad de los humanos.
+
+La clasificación de patrones multivoxel en tareas de experimentación
+directa de emociones es capaz de caracterizar con precisión los
+dispersos correlatos espaciales de la valencia hedonística y el nivel
+de excitación postulados por hipótesis dimensionales
+[@rolls-et-al-2009; @baucom-et-al-2012; @chikazoe-et-al-2014;
+@shinkareva-et-al-2014; @chang-et-al-2015]. Además hay evidencia de
+cierta generalidad intersujeto, pues existen patrones compartidos que
+permiten su clasificación a niveles de exactitud no triviales. De la
+misma forma se han encontrado resultados prometedores categorizando
+experiencias de emociones discretas, en comparación con los resultados
+del cúmulo de literatura con análisis univariado [@sitaram-et-al-2011;
+@kassam-et-al-2013; @saarimaki-et-al-2015; @kragel-labar-2015]. Está
+por verse si el uso de MVPA será suficiente para encontrar una
+hipótesis vencedora.
 
 <!-- Descubrimientos en pacientes con daño cerebral, estudios de -->
 <!-- imagenología y de estimulación han establecido la segregación de dos -->
