@@ -71,30 +71,43 @@ actividad conjunta de redes funcionales distribuidas y traslapadas
 @celeghin-et-al-2017; ver @guillory-bujarski-2014 para una revisión de
 estudios electrofisiológicos concordantes con esta conclusión]. Dado
 que los métodos clásicos de detección de actividad diferencial en
-neuroimagen han agotado su utilidad, basados en la aplicación de
-modelos de regresión para voxeles individuales, los algoritmos
-multivariados provenientes del campo de aprendizaje de máquinas
-proveen una herramienta de análisis más sofisticada para dilucidar las
-preguntas de la neurociencia afectiva [@hamann-2012;
+neuroimagen han agotado su utilidad (basados en la aplicación de
+modelos de regresión para voxeles individuales), el campo de
+neurociencia afectiva comienza a recurrir a análisis multivariados
+para dilucidar las preguntas de interés [@hamann-2012;
 @kragel-labar-2014; @kragel-labar-2016]. Estos diversos métodos,
 también agrupados bajo el nombre de "análisis de patrones multivoxel"
 en la literatura neurocientífica (MVPA por sus siglas en inglés),
-tienen la característica de modelar la codificación del estado mental
-como una función de muchas variables o "características"; que en el
-caso de neuroimagen funcional toman la forma de voxeles distantes en
-espacio o tiempo.
+comparten la característica de modelar la codificación del estado
+mental como una función de muchas dimensiones; que en el caso de
+neuroimagen funcional toman la forma de voxeles distantes en espacio o
+tiempo [@norman-et-al-2006; @huettel-et-al-2009;
+@lewis-peacock-norman-2013]. Al considerarlas holísticamente, MVPA es
+capaz de extraer igual o mayor información de las burdas imágenes
+funcionales en la mayoría de los casos [ver @jimura-poldrack-2012 para
+contraejemplos], a expensas de complicar potencialmente el modelo y su
+cómputo. La adopción de este enfoque en estudios con fMRI ha llevado a
+descubrimientos novedosos en casi todas las ramales de la neurociencia
+cognitiva [@tong-pratte-2012; @rissman-wagner-2012; @soon-et-al-2008].
 
-- breve mención de la historia de mvpa y aplicaciones exitosas
+Según @lewis-peacock-norman-2013, el término MVPA es usado para
+referirse a dos estrategias distintas de análisis de patrones
+multivoxel:
 
-Aunque muchos de los estudios que usan MVPA para decodificar emociones
-en el encéfalo han usado percepción de estímulos emocionalmente
-cargados, ésta no es exactamente análoga a la experiencia en primera
-persona de una emoción (notable también a partir de actividad cerebral
-[@wager-et-al-2008]). La percepción emocional además puede involucrar
-procesos de evaluación, atribución de estados mentales e intenciones;
-a la vez que puede estar exenta de emoción _per se_
-[@peelen-et-al-2010]. En lo subsecuente se hará la distinción,
-poniendo énfasis en los trabajos relativos a percepción emocional.
+1. Clasificación automática empleando algoritmos provenientes del
+   campo de aprendizaje de máquinas.
+2. Cuantificación de similitud entre patrones.
+
+También es necesario recalcar que aunque muchas de las
+aplicaciones de MVPA en neurociencia afectiva han usado percepción de
+estímulos emocionalmente cargados, ésta no es exactamente análoga a la
+experiencia en primera persona de una emoción (notable también a
+partir de actividad cerebral [@wager-et-al-2008]). La percepción
+emocional además puede involucrar procesos de evaluación, atribución
+de estados mentales e intenciones; a la vez que puede estar exenta de
+emoción _per se_ [@peelen-et-al-2010]. En lo subsecuente se hará la
+distinción, poniendo énfasis en los trabajos relativos a _clasificación_
+de estados de _percepción_ emocional.
 
 @pessoa-padmala-2007 demostraron la factibilidad de usar MVPA para
 predecir la respuesta conductual en una tarea de fMRI sobre percepción
