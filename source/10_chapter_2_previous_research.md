@@ -42,24 +42,25 @@ muestra a 106 estudios y mantuvieron la conclusión general respecto
 del metanálisis anterior, aunque los correlatos no fueron
 suficientemente similares. La relativa debilidad de los resultados ha
 sido usada como evidencia de hipótesis alternativas; a saber, teorías
-dimensionales y de actos conceptuales (emociones como construcciones
-de afectos). @barrett-2006 examinó 161 estudios y encontró correlatos
-exclusivos (mas no específicos) para miedo, tristeza y asco. La
-felicidad y el enojo no arrojaron correlatos ni consistentes ni
-específicos. @vytal-and-hamann-2010 utilizaron un análisis con mayor
-sensibilidad espacial para contrastar cinco emociones básicas
-provenientes de 83 estudios. Concluyeron que aunque existen _clusters_
-característicos de activación para cada una de ellas, no es evidencia
-suficiente para descartar otros modelos de representación emocional en
-el cerebro. @lindquist-et-al-2012 analizaron 91 estudios tanto de
-experiencia de emociones como de percepción emocional. Definieron
-evidencia a favor de emociones básicas como actividad consistente en
-áreas específicas selectivas a una única categoría. Se encontró
-consistencia y selectividad para las cinco categorías bajo
-consideración, mas no especificidad funcional. Es decir, las
-escurridizas emociones básicas tienen correlatos distinguibles entre
-sí, aunque las mismas regiones cerebrales están vinculadas a otras
-funciones psicológicas extraemocionales.
+dimensionales y de actos conceptuales [emociones como construcciones
+de afectos, @barrett-2006]. @barrett-wager-2006 examinaron 161
+estudios y encontró correlatos exclusivos (mas no específicos) para
+miedo, tristeza y asco. La felicidad y el enojo no arrojaron
+correlatos ni consistentes ni específicos. @vytal-and-hamann-2010
+utilizaron un análisis con mayor sensibilidad espacial para contrastar
+cinco emociones básicas provenientes de 83 estudios. Concluyeron que
+aunque existen _clusters_ característicos de activación para cada una
+de ellas, no es evidencia suficiente para descartar otros modelos de
+representación emocional en el cerebro. @lindquist-et-al-2012
+analizaron 91 estudios tanto de experiencia de emociones como de
+percepción emocional. Definieron evidencia a favor de emociones
+básicas como actividad consistente en áreas específicas selectivas a
+una única categoría. Se encontró consistencia y selectividad para las
+cinco categorías bajo consideración, mas no especificidad
+funcional. Es decir, las escurridizas emociones básicas tienen
+correlatos distinguibles entre sí, aunque las mismas regiones
+cerebrales están vinculadas a otras funciones psicológicas
+extraemocionales.
 
 [^PET]: Tomografía por emisión de positrones
 
@@ -71,7 +72,7 @@ actividad conjunta de redes funcionales distribuidas y traslapadas
 @celeghin-et-al-2017; ver @guillory-bujarski-2014 para una revisión de
 estudios electrofisiológicos concordantes con esta conclusión]. Dado
 que los métodos clásicos de detección de actividad diferencial en
-neuroimagen han agotado su utilidad (basados en la aplicación de
+fMRI han agotado su utilidad (basados en la aplicación de
 modelos de regresión para voxeles individuales), el campo de
 neurociencia afectiva comienza a recurrir a análisis multivariados
 para dilucidar las preguntas de interés [@hamann-2012;
@@ -80,7 +81,7 @@ también agrupados bajo el nombre de "análisis de patrones multivoxel"
 en la literatura neurocientífica (MVPA por sus siglas en inglés),
 comparten la característica de modelar la codificación del estado
 mental como una función de muchas dimensiones; que en el caso de
-neuroimagen funcional toman la forma de voxeles distantes en espacio o
+fMRI toman la forma de voxeles distantes en espacio o
 tiempo [@norman-et-al-2006; @huettel-et-al-2009;
 @lewis-peacock-norman-2013]. Al considerarlas holísticamente, MVPA es
 capaz de extraer igual o mayor información de las burdas imágenes

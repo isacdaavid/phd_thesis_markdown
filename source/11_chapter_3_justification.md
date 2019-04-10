@@ -45,7 +45,7 @@ la actividad metabólica de zonas distantes. Es una técnica idónea para
 estudios en los que redes funcionales asociadas a tareas primero deben
 ser identificadas o refinadas, allanando el terreno para técnicas de
 medición más finas que intenten establecer la circuitería y química
-sináptica.
+sináptica [@logothetis-2008].
 
 ## Particular
 
