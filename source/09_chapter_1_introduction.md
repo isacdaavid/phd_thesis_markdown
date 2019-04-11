@@ -1,3 +1,7 @@
+\newpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
 # Introducción
 
 Las emociones son experiencias conscientes[^conscious] que hacen
