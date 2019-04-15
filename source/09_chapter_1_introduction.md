@@ -6,7 +6,7 @@
 
 Las emociones son experiencias conscientes[^conscious] que hacen
 referencia a un estado somático,[^somatic] caracterizadas además por
-llevar una carga hedonística[^hedonistic] [@schacter-et-at-2011;
+llevar carga hedonística[^hedonistic] [@schacter-et-at-2011;
 @ekman-1994]. Se ha sugerido que emociones como la alegría, el miedo,
 el enfado y la tristeza probablemente se encuentran entre los estados
 subjetivos más primitivos; y que su manifestación en la conducta es
@@ -55,8 +55,8 @@ frecuente en relación a la salud; sin embargo su matrimonio no puede
 ser pasado por alto. En primer lugar, las emociones mismas pueden ser
 sintomáticas de la enfermedad (como es el caso del asco). Más
 directamente, hay poca duda en que afecciones como la depresión
-extendida y las fobias deberían ser consideradas patologías en su
-propio derecho.
+extendida y las fobias deberían ser consideradas patologías o
+trastornos en su propio derecho.
 
 Más allá del individuo, existe especial significancia sobre lo que las
 emociones logran para el bienestar social. Las expresiones resultantes

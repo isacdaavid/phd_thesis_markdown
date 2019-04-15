@@ -26,10 +26,10 @@ abierto [@kragel-labar-2016; @celeghin-et-al-2017]. Una pregunta
 fundamental es si existen patrones en actividad neuronal
 suficientemente específicos que correspondan con concepciones
 vernáculas y psicológicas de las emociones. Además, ¿qué tan
-generalizables son esos correlatos entre individuos y especies? Ésta
-última cuestión tiene implicaciones para nuestra comprensión de la
-aparición de estados afectivos, ya sea en términos de evolución de los
-genes o de la cultura.
+generalizables son esos correlatos entre individuos y especies? Esta
+última cuestión tiene acaloradas implicaciones para la comprensión de
+la aparición de estados afectivos, ya sea en términos de evolución
+genética o cultural.
 
 Los metanálisis y revisiones de la literatura hasta antes de la
 aplicación de detección de patrones multivariados no muestran una
@@ -44,7 +44,7 @@ suficientemente similares. La relativa debilidad de los resultados ha
 sido usada como evidencia de hipótesis alternativas; a saber, teorías
 dimensionales y de actos conceptuales [emociones como construcciones
 de afectos, @barrett-2006]. @barrett-wager-2006 examinaron 161
-estudios y encontró correlatos exclusivos (mas no específicos) para
+estudios y encontraron correlatos exclusivos (mas no específicos) para
 miedo, tristeza y asco. La felicidad y el enojo no arrojaron
 correlatos ni consistentes ni específicos. @vytal-and-hamann-2010
 utilizaron un análisis con mayor sensibilidad espacial para contrastar
@@ -71,18 +71,18 @@ actividad conjunta de redes funcionales distribuidas y traslapadas
 [@hamann-2012; @lindquist-barrett-2012; @kragel-labar-2014;
 @celeghin-et-al-2017; ver @guillory-bujarski-2014 para una revisión de
 estudios electrofisiológicos concordantes con esta conclusión]. Dado
-que los métodos clásicos de detección de actividad diferencial en
-fMRI han agotado su utilidad (basados en la aplicación de
-modelos de regresión para voxeles individuales), el campo de
-neurociencia afectiva comienza a recurrir a análisis multivariados
-para dilucidar las preguntas de interés [@hamann-2012;
-@kragel-labar-2014; @kragel-labar-2016]. Estos diversos métodos,
-también agrupados bajo el nombre de "análisis de patrones multivoxel"
-en la literatura neurocientífica (MVPA por sus siglas en inglés),
-comparten la característica de modelar la codificación del estado
-mental como una función de muchas dimensiones; que en el caso de
-fMRI toman la forma de voxeles distantes en espacio o
-tiempo [@norman-et-al-2006; @huettel-et-al-2009;
+que los métodos clásicos de detección de actividad diferencial en fMRI
+han agotado su utilidad (basados en la aplicación de modelos de
+regresión para voxeles individuales), el campo de neurociencia
+afectiva comienza a recurrir a análisis multivariados para dilucidar
+las preguntas de interés [@hamann-2012; @kragel-labar-2014;
+@kragel-labar-2016]. Estos diversos métodos, también agrupados bajo el
+nombre de "análisis de patrones multivoxel" en la literatura
+neurocientífica (MVPA por sus siglas en inglés), comparten la
+característica de modelar la codificación del estado mental, cognitivo
+o conductual como una función de muchas dimensiones; que en el caso de
+fMRI toman la forma de voxeles distantes en espacio o tiempo
+[@norman-et-al-2006; @huettel-et-al-2009;
 @lewis-peacock-norman-2013]. Al considerarlas holísticamente, MVPA es
 capaz de extraer igual o mayor información de las burdas imágenes
 funcionales en la mayoría de los casos [ver @jimura-poldrack-2012 para
@@ -99,16 +99,17 @@ multivoxel:
    campo de aprendizaje de máquinas.
 2. Cuantificación de similitud entre patrones.
 
-También es necesario recalcar que aunque muchas de las
-aplicaciones de MVPA en neurociencia afectiva han usado percepción de
-estímulos emocionalmente cargados, ésta no es exactamente análoga a la
+También es necesario recalcar que aunque muchas de las aplicaciones de
+MVPA en neurociencia afectiva han usado percepción de estímulos
+emocionalmente cargados, ésta no es exactamente análoga a la
 experiencia en primera persona de una emoción (notable también a
-partir de actividad cerebral [@wager-et-al-2008]). La percepción
-emocional además puede involucrar procesos de evaluación, atribución
-de estados mentales e intenciones; a la vez que puede estar exenta de
-emoción _per se_ [@peelen-et-al-2010]. En lo subsecuente se hará la
-distinción, poniendo énfasis en los trabajos relativos a _clasificación_
-de estados de _percepción_ emocional.
+partir de actividad cerebral [@wager-et-al-2008]). La percepción de
+emociones en estímulos sociales además puede involucrar procesos de
+evaluación, atribución de estados mentales e intenciones; a la vez que
+puede estar exenta de emoción _per se_ (debido a la modulación
+empática y sus trastornos) [@peelen-et-al-2010]. En lo subsecuente se
+hará la distinción, poniendo énfasis en los trabajos relativos a
+_clasificación_ de estados de _percepción_ emocional.
 
 @pessoa-padmala-2007 demostraron la factibilidad de usar MVPA para
 predecir la respuesta conductual en una tarea de fMRI sobre percepción
@@ -133,9 +134,9 @@ emocional de los rostros. Los mismos datos bajo análisis univariado
 fueron incapaces de repetir la hazaña. @peelen-et-al-2010 probaron
 estímulos de cinco categorías emocionales en modalidades distintas
 (audición, visión de gesticulaciones y de lenguaje
-corporal). Sorprendentemente, las mismas características eran capaces
-de hacer la distinción, independientemente de la modalidad sensorial e
-intensidad de la emoción.
+corporal). Sorprendentemente, las mismas características o voxeles
+eran capaces de hacer la distinción, independientemente de la
+modalidad sensorial e intensidad del estímulo.
 
 El uso de MVPA en decodificación emocional también ha alcanzado a
 otras especies. @hernandez-et-al-2018 (prepublicación) entrenaron

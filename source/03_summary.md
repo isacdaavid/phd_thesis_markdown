@@ -6,7 +6,7 @@
 <!-- Rationale -->
 
 Metanalyses in affective neuroscience have failed to agree on what the
-specific neural substrates of distinct emotional experiences are;
+specific neural substrates of distinct emotional experiences are,
 rendering debates among psychological theories of emotion the more
 vigorous. This has led many to believe that their decoding could
 benefit from more sensitive methods. Task-related PET and fMRI brain
