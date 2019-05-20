@@ -1,21 +1,16 @@
 # Objetivos
 
-- Estudiar las bases biológicas de la percepción emocional a escala
-  de redes funcionales enteras compuestas por ensambles neuronales (o sus
-  correlatos).
+## General
 
-- Disociar la plétora propuesta de fenómenos que han sido
-  tradicionalmente agrupados bajo la percepción facial
-  emocional. Poner a prueba métodos tanto psicológicos, de imagen y
-  computacionales para alcanzar este objetivo.
+- Estudiar las bases biológicas de la percepción emocional a escala de
+  redes funcionales enteras de cerebros humanos.
+
+## Específicos
+
+- Predecir la presentación de rostros felices y tristes a partir de
+  datos de resonancia magnética funcional.
 
 - Como consecuencia natural del poder descriptivo y explicativo
-  resultante del punto anterior: poder aprovechar dichos métodos para
-  predecir la ocurrencia de distintos flujos de trabajo de percepción
-  emocional a partir de imágenes funcionales.
-
-- Ayudar a resolver el debate que aflije la existencia de rutas
-  diversas para el procesamiento de imaginería con carga emotiva,
-  contribuyendo con evidencia adicional que provenga de un estudio de
-  IRMf respresentativo y controlado; así como con métodos de análisis
-  rigurosos en el estado del arte.
+  resultante del punto anterior: construir imágenes de los correlatos
+  de la percepción de dichas emociones (mapas de sensitividad o
+  "activación").

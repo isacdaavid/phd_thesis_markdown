@@ -34,14 +34,14 @@ and add the centred logo
         \normalsize
         Tutor principal:\\
         {\bf Dr. Fernando Alejandro Barrios Álvarez}\\
-        Instituto de Neurobiología\\
+        Instituto de Neurobiología, UNAM\\
         
         \vfill
         Comité tutor:\\
         {\bf Dr. Eduardo Adrián Garza Villarreal}\\
-        Instituto Nacional de Psiquiatría\\
+        Instituto de Neurobiología, UNAM\\
         {\bf Dr. Luis Concha Loyola}\\
-        Instituto de Neurobiología\\
+        Instituto de Neurobiología, UNAM\\
 
         \vspace{0.8cm}
 
@@ -51,7 +51,7 @@ and add the centred logo
         
         \vfill
         \normalsize
-        México, noviembre 2018
+        México, mayo de 2019
 
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 

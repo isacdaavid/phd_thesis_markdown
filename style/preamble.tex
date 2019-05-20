@@ -20,12 +20,15 @@
 % or use \extrafloats{100}
 % add some \clearpage
 
-% Chapter header
+% % Chapter header
 % \usepackage{titlesec, blindtext, color}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing{\chapter}{0pt}{-50pt}{40pt}
 % \definecolor{gray75}{gray}{0.75}
 % \newcommand{\hsp}{\hspace{20pt}}
-%% \titleformat{\chapter}[hang]{\Huge\bfseries}{\vspace{-10em}\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
-% \titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Large}
+% \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}%
 
 % % Fonts and typesetting
 % \setmainfont[Scale=1.1]{Helvetica}
@@ -85,11 +88,11 @@
 % \newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
 
 % HEADINGS
-\usepackage{sectsty}
-\usepackage[normalem]{ulem}
-\sectionfont{\rmfamily\mdseries\Large}
-\subsectionfont{\rmfamily\mdseries\scshape\large}
-\subsubsectionfont{\rmfamily\bfseries\upshape\large}
+% \usepackage{sectsty}
+% \usepackage[normalem]{ulem}
+% \sectionfont{\rmfamily\mdseries\Large}
+% \subsectionfont{\rmfamily\mdseries\scshape\large}
+% \subsubsectionfont{\rmfamily\bfseries\upshape\large}
 % \sectionfont{\rmfamily\mdseries\Large}
 % \subsectionfont{\rmfamily\mdseries\scshape\normalsize}
 % \subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}

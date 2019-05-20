@@ -133,10 +133,13 @@ vinculadas a detección de expresiones faciales) predice la categoría
 emocional de los rostros. Los mismos datos bajo análisis univariado
 fueron incapaces de repetir la hazaña. @peelen-et-al-2010 probaron
 estímulos de cinco categorías emocionales en modalidades distintas
-(audición, visión de gesticulaciones y de lenguaje
-corporal). Sorprendentemente, las mismas características o voxeles
-eran capaces de hacer la distinción, independientemente de la
-modalidad sensorial e intensidad del estímulo.
+(audición, visión de gesticulaciones y de lenguaje corporal), y
+realizaron una búsqueda de regiones codificantes en todo el encéfalo
+mediante el método de "searchlight". Sorprendentemente, el uso de
+corteza prefrontal medial, o bien del surco temporal más superior,
+resultó capaz de hacer la distinción entre emociones,
+independientemente de la modalidad sensorial e intensidad del
+estímulo.
 
 El uso de MVPA en decodificación emocional también ha alcanzado a
 otras especies. @hernandez-et-al-2018 (prepublicación) entrenaron
@@ -147,20 +150,43 @@ multivariado para proveer evidencia de que los correlatos encontrados
 en la corteza temporal derecha del perro contienen información
 selectiva a la felicidad de los humanos.
 
-La clasificación de patrones multivoxel en tareas de experimentación
-directa de emociones es capaz de caracterizar con precisión los
-dispersos correlatos espaciales de la valencia hedonística y el nivel
-de excitación postulados por hipótesis dimensionales
-[@rolls-et-al-2009; @baucom-et-al-2012; @chikazoe-et-al-2014;
-@shinkareva-et-al-2014; @chang-et-al-2015]. Además hay evidencia de
-cierta generalidad intersujeto, pues existen patrones compartidos que
-permiten su clasificación a niveles de exactitud no triviales. De la
-misma forma se han encontrado resultados prometedores categorizando
-experiencias de emociones discretas, en comparación con los resultados
-del cúmulo de literatura con análisis univariado [@sitaram-et-al-2011;
+En lo que respecta a experimentación en primera persona de emociones,
+los métodos de clasificación multivariada han sido capaces de
+caracterizar con precisión los dispersos correlatos espaciales de la
+valencia hedonística y el nivel de excitación postulados por hipótesis
+dimensionales [@rolls-et-al-2009; @baucom-et-al-2012;
+@chikazoe-et-al-2014; @shinkareva-et-al-2014;
+@chang-et-al-2015]. Además hay evidencia de cierta generalidad
+intersujeto, pues existen patrones compartidos que permiten su
+clasificación a niveles de exactitud no triviales. De la misma forma
+se han encontrado resultados prometedores categorizando experiencias
+de emociones discretas, en comparación con los resultados del cúmulo
+de literatura con análisis univariado [@sitaram-et-al-2011;
 @kassam-et-al-2013; @saarimaki-et-al-2015; @kragel-labar-2015]. Está
 por verse si el uso de MVPA será suficiente para encontrar una
-hipótesis vencedora.
+hipótesis vencedora.\newline
+
+\scriptsize
+
+| **Estudio** | **Modalidad de estímulo** | **Emoción de estímulo** | **ROI** | **Algoritmo** | **Desempeño** |
+|-|-|-|-|-|-|
+| Pessoa, Padmala (2007) | visual | miedo | varias | SVM | 78% > 50% |
+| | | | | | |
+| Ethofer et al. (2009) | auditiva | alegría, enojo, tristeza, alivio | corteza auditiva | SVM | 33% > 20% |
+| | | | | | |
+| Said et al. (2010) | visual | alegría, enojo, tristeza, asco, sorpresa, miedo | surco temporal superior | regresión logística | 22% > 14% |
+| | | | | | |
+| Peelen et al. (2010) | auditiva, visión (gesticulaciones, lenguaje corporal) | alegría, enojo, tristeza, asco, miedo | encéfalo | no especificado | no especificado | <!-- GLM: only the fear-specific region showed supramodality -->
+| | | | | | |
+| Kotz et al. (2012) | auditiva | alegría, enojo, tristeza, sorpresa | encéfalo | SVM | 28% > 20% |
+| | | | | | |
+| Hernández-Pérez et al. (2018) | visual | alegría | (_canis familiaris_) corteza temporal derecha, caudado | SVM | ~65% > 50% |
+
+Table: Muestra representativa de estudios experimentales sobre los
+correlatos neurales de la percepción de emociones que han empleado
+MVPA. \label{mvpa-in-emotion-perception-table}
+
+\normalsize
 
 <!-- Descubrimientos en pacientes con daño cerebral, estudios de -->
 <!-- imagenología y de estimulación han establecido la segregación de dos -->

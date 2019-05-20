@@ -2,7 +2,7 @@
 
 ## Muestra
 
-El presente trabajo se basa en una submuestra de 42 sujetos sanos,
+El presente trabajo se basa en una muestra de 34 sujetos sanos,
 escaneados en un resonador General Electric Discovery MR750 de la
 Unidad de Resonancia Magnética del Instituto de Neurobiología; cuyo
 campo magnético principal alcanza los $3.0\;T$ en su punto de magnitud
@@ -28,7 +28,10 @@ secuencia.
 Table: Parametros de secuencia utilizados durante las adquisiciones de
 IRMf. \label{fmri-task-sequence-parameters}
 
-![Muestra de imagen cruda dentro del conjunto de datos.](source/figures/sample-raw-image.svg){width=70%}
+![Muestra de imagen eco-planar cruda dentro del conjunto de
+datos. Este corte axial es una de las 34 rebanadas adquiridas dentro
+de cada tiempo de repetición
+(TR).](source/figures/sample-raw-image.png){width=70%}
 
 ## Materiales y métodos
 
@@ -38,22 +41,23 @@ presuntamente porque información de relevancia ambiental y social
 podría ser descubierta en donde otros miran. Este cambio atencional
 abrupto se encuentra dentro del rango de intervalos rápidos de un
 movimiento sacádico. El fenómeno es conocido como _gaze cuing_, y ha
-sido usado para medir los correlatos neurales de la atención visual y
+sido usado para experimentar con la atención visual y
 su interacción con la percepción [@friesen-kingstone-1998].
 
-El presente estudio se basa en un diseño experimental basado en
-eventos para obtener secuencias de imagenes de función cerebral bajo
-condiciones contrastantes. Específicamente: una variación del
-paradigma de _gaze cuing_. Cada sesión de registro comprende 126
-bloques estímulo-respuesta, donde ciclos con rostros que desvían la
-mirada son intercalados con otros de control (mirada directa) en aras
-de estudiar la reorientación de la atención visual en conjunto con la
-percepción afectiva. Esto se explica más a detalle en la figura
-\ref{paradigm_state_diagram}: un diagrama de sistema de estados
-discretos de tipo markoviano, con el que se representa una unidad
-$\left<gaze\;cuing,\;contraste\right>$. Varias iteraciones en el
+El presente trabajo se basa en un diseño experimental de eventos
+preexistente; sin embargo, para efectos del primero, los estímulos
+emocionales pueden considerarse como presentados en
+bloques. Específicamente se trata de una variación al paradigma de
+_gaze cuing_. Cada sesión de registro comprende 126 bloques
+estímulo-respuesta, donde ciclos con rostros que desvían la mirada son
+intercalados con otros de control (mirada directa). Esto se explica
+más a detalle en la figura \ref{paradigm_state_diagram}: un diagrama
+de sistema de estados discretos de tipo markoviano, en el que se
+representa un par de bloques
+$\left<gaze\;cuing,\;control\right>$. Varias iteraciones en el
 diagrama estarían ocurriendo durante el registro de imágenes. Las
-fotografías con rostros específicos han sido abstraídas por brevedad.
+fotografías con rostros humanos específicos (conjunto de datos
+NimStim) han sido abstraídas por brevedad.
 
 ![Paradigma de _gaze cuing_. Los nodos representan estímulos visuales,
 su orden de presentación es indicado usando flechas. A menos que se

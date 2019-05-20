@@ -10,31 +10,31 @@
 \begin{document}
 
 \begin{tikzpicture}[->, >=stealth', auto, semithick, node distance=1.25cm]
-    \tikzstyle{every state}=[fill=white,draw=black,thick,text=black,scale=1]
+    \tikzstyle{every state}=[fill=white,draw=black,thick,text=black,scale=1,font=\normalsize]
 
-    \node[state] (☺){☺};        %happy
-    \node[state] (😏)[right of=☺] {😏};        % happy averted
-    \node[state] (😏*)[above right=0cm and 1cm of 😏]                     {😏*}; %happy congruent
-    \node[state] (*😏)[below right=0cm and 1cm of 😏]                     {*😏}; %happy incongruent
+    \node[state] (☺){\;☺\;};        %happy
+    \node[state] (😏)[right of=☺] {\;😏\;};        % happy averted
+    \node[state] (😏*)[above right=0cm and 1cm of 😏]                     {\;😏*}; %happy congruent
+    \node[state] (*😏)[below right=0cm and 1cm of 😏]                     {*😏\;}; %happy incongruent
 
-    \node[state] (*😒)[above of=😏*]                     {*😒}; %neutral incongruent
-    \node[state] (😒)[above left =0cm and 1cm of *😒]             {😒}; %neutral averted
-    \node[state] (😐)[left of=😒]                             {😐}; %neutral
-    \node[state] (😒*)[above of=*😒]                     {😒*}; %neutral congruent
-    \node[state] (blank)[below right=0cm and 1cm of 😏*] {};
+    \node[state] (*😒)[above of=😏*]                     {*😒\;}; %neutral incongruent
+    \node[state] (😒)[above left =0cm and 1cm of *😒]             {\;😒\;}; %neutral averted
+    \node[state] (😐)[left of=😒]                             {\;😐\;}; %neutral
+    \node[state] (😒*)[above of=*😒]                     {\;😒*}; %neutral congruent
+    \node[state] (blank)[below right=0cm and 1cm of 😏*] {\;\;\;};
     \node[state] (+2neutral)[right of=blank] {+};
-    \node[state] (😐2)[right of=+2neutral]             {😐}; %neutral
+    \node[state] (😐2)[right of=+2neutral]             {\;😐\;}; %neutral
     \node[state] (😐*)[right of=😐2]                     {😐*}; %neutral null
 
-    \node[state] (😒**)[below of=*😏]   {😒*}; %sad congruent
-    \node[state] (😒averted)[below left=0cm and 1cm of 😒**] {😒};         %sad averted
-    \node[state] (☹)[left of=😒averted] {☹};
-    \node[state] (**😒)[below of=😒**] {*😒}; %sad incongruent
+    \node[state] (😒**)[below of=*😏]   {\;😒*}; %sad congruent
+    \node[state] (😒averted)[below left=0cm and 1cm of 😒**] {\;😒\;};         %sad averted
+    \node[state] (☹)[left of=😒averted] {\;☹\;};
+    \node[state] (**😒)[below of=😒**] {*😒\;}; %sad incongruent
 
     % fixation point
     \node[state] (+)[left of=☺] {+};             % fixation point
     \node (start)[left of=+] {...};
-    \node[state] (blank2)[right of=😐*] {};
+    \node[state] (blank2)[right of=😐*] {\;\;\;};
     \node (end)[right of=blank2] {...};
 
     % edges

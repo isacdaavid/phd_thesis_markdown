@@ -11,17 +11,18 @@ llevar carga hedonística[^hedonistic] [@schacter-et-at-2011;
 el enfado y la tristeza probablemente se encuentran entre los estados
 subjetivos más primitivos; y que su manifestación en la conducta es
 trazable a reacciones cuando menos análogas en todos los organismos
-vivos. Nadie sano duda poder distinguir la alegría del enojo (ya sean
-los propios o ajenos), sin embargo descubrir su naturaleza en actividad
-nerviosa ha probado ser especialmente dificultoso. La problemática
-es notable a partir del abanico de teorías psicológicas que compiten
-por caracterizarlas en términos conceptuales, materiales y
-evolutivos. Por un lado están los modelos que postulan la existencia
-de emociones "básicas" o atómicas, mientras que otros las sitúan en un
-espacio de componentes más simples (como valencia hedonística y nivel
-de excitación). Otros más terminarían por argüir que se trata de
+vivos [@damasio-carvalho-2013]. Nadie sano duda poder distinguir la
+alegría del enojo (ya sean los propios o ajenos), sin embargo
+descubrir su naturaleza en actividad nerviosa ha probado ser
+especialmente dificultoso. La problemática es notable a partir del
+abanico de teorías psicológicas que compiten por caracterizarlas en
+términos conceptuales, materiales y evolutivos. Por un lado se
+encuentran los modelos que postulan la existencia de emociones
+"básicas" o atómicas, mientras que otros las sitúan en un espacio de
+componentes más simples (como valencia hedonística y nivel de
+excitación). Otros más terminarían por argüir que se trata de
 constructos aprendidos para una gama de fenómenos corporales dispares
-[@kragel-labar-2016].
+[ver @kragel-labar-2016 para una revisión comparativa].
 
 [^conscious]: Por "consciencia" me referiré específicamente al
     significado rudimentario de consciencia fenoménica: la cualidad de
@@ -39,14 +40,15 @@ constructos aprendidos para una gama de fenómenos corporales dispares
 
 Es debido al papel del sistema nervioso sustentándolas (así como de su
 probable naturaleza tan basal) que las emociones no sólo interfieren
-con y modulan la cognición de órdenes superiores; sino que además
-parecen proveer los cimientos de la motivación, y por ende de la
-planificación y la conducta [@schwarz-1990]. Estas sensaciones están
-conectadas causalmente a varias respuestas del sistema nervioso
-periférico (tanto somáticas como autonómicas) y actividad
-endócrina. Ya no es posible entender la formación de memorias a largo
-plazo o aprendizaje asociativo sin la participación de distintos
-mecanismos selectivos a una u otra emoción [@ledoux-1994].
+con y modulan la cognición de órdenes superiores [@damasio-1996]; sino
+que además parecen proveer los cimientos de la motivación, y por ende
+de la planificación y la conducta [@schwarz-1990]. Estas sensaciones
+están conectadas causalmente a varias respuestas del sistema nervioso
+periférico (tanto somáticas como autonómicas) y actividad endócrina
+[@damasio-1996; @ledoux-damasio-2013]. Ya no es posible entender la
+formación de memorias a largo plazo o aprendizaje asociativo sin la
+participación de distintos mecanismos selectivos a una u otra emoción
+[@ledoux-1994].
 
 Las predisposiciones en la dinámica emocional del individuo son un
 rasgo de la personalidad comúnmente ignorado. Podría parecer extraño
@@ -56,25 +58,32 @@ ser pasado por alto. En primer lugar, las emociones mismas pueden ser
 sintomáticas de la enfermedad (como es el caso del asco). Más
 directamente, hay poca duda en que afecciones como la depresión
 extendida y las fobias deberían ser consideradas patologías o
-trastornos en su propio derecho.
+transtornos en su propio derecho.[^patology]
 
 Más allá del individuo, existe especial significancia sobre lo que las
-emociones logran para el bienestar social. Las expresiones resultantes
-comportadas por rostros y lenguaje corporal son la epítome de la
-comunicación primate. Nuestros ancestros tuvieron que leer estas
-expresiones e interpretarlas, como parte de un repertorio de
-señalización más amplio, mucho antes de la aparición del lenguaje
-propiamente dicho. En etología se dice que una señal es efectiva (lo
-que implica una reacción en el organismo receptor) si posee la
-propiedad de ser evolutivamente ventajosa para ambas partes, en
-promedio. La prevaricación lingüística resta al valor que receptores y
-emisores honestos obtienen de dichas señales, haciendo de las
-emociones señales muy efectivas (en la medida en que son difíciles de
-fingir). Así mismo, su percepción[^perception] adecuada marca un
-_input_ importante para los mecanismos de la teoría de la
-mente;[^theory-of-mind] ya que las emociones son muestra flagrante de
-los estados mentales más viscerales.
+emociones logran para el bienestar social [@tracy-et-al-2015]. Las
+expresiones resultantes comportadas por rostros y lenguaje corporal
+son la epítome de la comunicación primate. Nuestros ancestros tuvieron
+que leer estas expresiones e interpretarlas, como parte de un
+repertorio de señalización más amplio, mucho antes de la aparición del
+lenguaje propiamente dicho [@fessler-gervais-2010]. En etología se
+dice que una señal es efectiva (lo que implica una reacción en el
+organismo receptor) si posee la propiedad de ser evolutivamente
+ventajosa para ambas partes, en promedio [@donath-2007;
+@laidre-johnstone-2013]. La prevaricación lingüística resta al valor
+que receptores y emisores honestos obtienen de dichas señales,
+haciendo de las emociones señales muy efectivas (en la medida en que
+son difíciles de fingir) [@donath-2007; @tracy-et-al-2015]. Así mismo,
+su percepción[^perception] adecuada marca un "input" importante para
+los mecanismos de la teoría de la mente;[^theory-of-mind] ya que las
+emociones son muestra flagrante de los estados mentales más
+viscerales [@mitchell-phillips-2015].
 
+[^patology]: Ver por ejemplo las varias entradas sobre desordenes
+    depresivos y de ansiedad en el Manual diagnóstico y estadístico de
+    los trastornos mentales [@dsm-5]; o las entradas sobre desordenes
+    afectivos y relacionados con el estrés en el capítulo 10 de la
+    Clasificación internacional de enfermedades [@icd-10].
 [^perception]: Percepción es el conjunto de procesos de interfaz
     mediante los cuales un sistema cognitivo adquiere información
     externa y la vuelve útil para tareas de control ejecutivo.
