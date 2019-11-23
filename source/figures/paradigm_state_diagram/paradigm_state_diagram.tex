@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{tikz}
 \usepackage{fontspec}
+\usepackage{graphicx}
 \setmainfont{DejaVu Sans}
 
 \usetikzlibrary{automata,arrows,positioning,calc,snakes}
@@ -12,24 +13,24 @@
 \begin{tikzpicture}[->, >=stealth', auto, semithick, node distance=1.25cm]
     \tikzstyle{every state}=[fill=white,draw=black,thick,text=black,scale=1,font=\normalsize]
 
-    \node[state] (☺){\;☺\;};        %happy
-    \node[state] (😏)[right of=☺] {\;😏\;};        % happy averted
-    \node[state] (😏*)[above right=0cm and 1cm of 😏]                     {\;😏*}; %happy congruent
-    \node[state] (*😏)[below right=0cm and 1cm of 😏]                     {*😏\;}; %happy incongruent
+    \node[state] (☺){\includegraphics[width=.035\textwidth]{neutral.eps}};        %neutral
+    \node[state] (😏)[right of=☺] {\includegraphics[width=.035\textwidth]{neutral-gaze.eps}};        % neutral averted
+    \node[state] (😏*)[above right=0cm and 1cm of 😏]                     {\;\includegraphics[width=.035\textwidth]{neutral-gaze.eps}*}; %neutral congruent
+    \node[state] (*😏)[below right=0cm and 1cm of 😏]                     {*\includegraphics[width=.035\textwidth]{neutral-gaze.eps}\;}; %neutral incongruent
 
-    \node[state] (*😒)[above of=😏*]                     {*😒\;}; %neutral incongruent
-    \node[state] (😒)[above left =0cm and 1cm of *😒]             {\;😒\;}; %neutral averted
-    \node[state] (😐)[left of=😒]                             {\;😐\;}; %neutral
-    \node[state] (😒*)[above of=*😒]                     {\;😒*}; %neutral congruent
+    \node[state] (*😒)[above of=😏*]                     {*\includegraphics[width=.035\textwidth]{happy-gaze.eps}\;}; %happy incongruent
+    \node[state] (😒)[above left =0cm and 1cm of *😒]             {\includegraphics[width=.035\textwidth]{happy-gaze.eps}}; %happy averted
+    \node[state] (😐)[left of=😒]                             {\includegraphics[width=.035\textwidth]{happy.eps}}; %happy
+    \node[state] (😒*)[above of=*😒]                     {\;\includegraphics[width=.035\textwidth]{happy-gaze.eps}*}; %happy congruent
     \node[state] (blank)[below right=0cm and 1cm of 😏*] {\;\;\;};
     \node[state] (+2neutral)[right of=blank] {+};
-    \node[state] (😐2)[right of=+2neutral]             {\;😐\;}; %neutral
-    \node[state] (😐*)[right of=😐2]                     {😐*}; %neutral null
+    \node[state] (😐2)[right of=+2neutral]             {\includegraphics[width=.035\textwidth]{neutral.eps}}; %neutral
+    \node[state] (😐*)[right of=😐2]                     {\includegraphics[width=.035\textwidth]{neutral-gaze.eps}*}; %neutral null
 
-    \node[state] (😒**)[below of=*😏]   {\;😒*}; %sad congruent
-    \node[state] (😒averted)[below left=0cm and 1cm of 😒**] {\;😒\;};         %sad averted
-    \node[state] (☹)[left of=😒averted] {\;☹\;};
-    \node[state] (**😒)[below of=😒**] {*😒\;}; %sad incongruent
+    \node[state] (😒**)[below of=*😏]   {\;\includegraphics[width=.035\textwidth]{sad-gaze.eps}*}; %sad congruent
+    \node[state] (😒averted)[below left=0cm and 1cm of 😒**] {\includegraphics[width=.035\textwidth]{sad-gaze.eps}};         %sad averted
+    \node[state] (☹)[left of=😒averted] {\includegraphics[width=.035\textwidth]{sad.eps}}; %sad
+    \node[state] (**😒)[below of=😒**] {*\includegraphics[width=.035\textwidth]{sad-gaze.eps}\;}; %sad incongruent
 
     % fixation point
     \node[state] (+)[left of=☺] {+};             % fixation point
@@ -96,21 +97,21 @@
     \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (2,-4)
         -- (3.8,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1500\;ms$};
     \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (4,-4)
-        -- (5.1,-4) node[pos=0.5,anchor=north,yshift=-1] {\footnotesize $500\;ms$};
-    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (5.3,-4)
-        -- (6.4,-4) node[pos=0.5,anchor=north,yshift=-1]
+        -- (5.3,-4) node[pos=0.5,anchor=north,yshift=-1] {\footnotesize $500\;ms$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (5.5,-4)
+        -- (6.5,-4) node[pos=0.5,anchor=north,yshift=-1]
         {\footnotesize  $\begin{array}{c} 800\;ms \\
                                           500\;ms \\
                         \end{array}$};
-    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (6.6,-4)
-        -- (7.6,-4) node[pos=0.5,anchor=north,yshift=-1]
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (6.7,-4)
+        -- (7.8,-4) node[pos=0.5,anchor=north,yshift=-1]
         {\footnotesize $\begin{array}{c} 1200\;ms \\
                                          1500\;ms \\
                         \end{array}$};
-    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (7.8,-4)
-        -- (8.8,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1500\;ms$};
-    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (9,-4)
-       -- (10.2,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $500\;ms$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (8,-4)
+        -- (9,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $1500\;ms$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (9.2,-4)
+       -- (10.4,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $500\;ms$};
 
     \draw[-,decorate,decoration={brace,amplitude=3pt}] (-1.8,4)
         -- (5.1,4) node[pos=0.5,yshift=1]{\footnotesize  Gaze cuing};

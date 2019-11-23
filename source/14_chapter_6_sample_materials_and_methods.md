@@ -71,7 +71,7 @@ congruente o incongruente con la mirada) fue dividido y
 contrabalanceado en tres secuencias, para mantener los ensayos
 suficientemente cortos. Las flechas coloridas indican combinaciones
 específicas a una de las tres
-secuencias. \label{paradigm_state_diagram}](source/figures/paradigm_state_diagram.pdf){
+secuencias. \label{paradigm_state_diagram}](source/figures/paradigm_state_diagram/paradigm_state_diagram.pdf){
 width=100% }
 
 Uno de los inconvenientes de estos métodos radica en la promiscuidad

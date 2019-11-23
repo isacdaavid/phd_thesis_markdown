@@ -1,0 +1,84 @@
+\documentclass{standalone}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\setmainfont{DejaVu Sans}
+
+\usetikzlibrary{automata,arrows,positioning,calc,snakes}
+
+\begin{document}
+
+\begin{tikzpicture}[->, >=stealth', auto, semithick, node distance=1.25cm]
+    \tikzstyle{every state}=[fill=white,draw=black,thick,text=black,scale=1,font=\normalsize]
+
+    \node[state] (+) {+};             % fixation point
+
+    \node[state] (☺)[right of=+]{\includegraphics[width=.035\textwidth]{neutral.eps}};        %neutral
+
+    \node[state] (😐)[above of=☺]                             {\includegraphics[width=.035\textwidth]{happy.eps}}; %happy
+
+    \node[state] (blank)[right of=☺] {\;\;\;};
+    \node[state] (+2neutral)[right of=blank] {+};
+
+    \node[state] (😐2)[right of=+2neutral]             {\includegraphics[width=.035\textwidth]{neutral.eps}}; %neutral
+
+    \node[state] (☹)[below of=☺] {\includegraphics[width=.035\textwidth]{sad.eps}}; %sad
+
+    % fixation point
+    \node (start)[left of=+] {...};
+    \node[state] (blank2)[right of=😐2] {\;\;\;};
+    \node (end)[right of=blank2] {...};
+
+    % edges
+    \path(😐) edge (blank);
+    \path(☺) edge (blank);
+    \path(☹) edge (blank);
+    \path(start) edge (+);
+    \path(+) edge (😐);
+    \path(+) edge (☹);
+    \path(+) edge (☺);
+
+    \path(blank) edge (+2neutral);
+
+    \path(+2neutral) edge (😐2);
+
+    \path(😐2) edge (blank2);
+
+    \path(blank2) edge[bend right=90] node[swap]{\footnotesize $.75$} (+2neutral);
+    \path(blank2) edge node{\footnotesize $.25$} (end);
+
+    % braces (timeline and contrasts)
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (-.5,-4)
+        -- (.5,-4) node[pos=0.5,anchor=north,yshift=-1]
+        {\footnotesize  $\begin{array}{c} 800\;ms \\
+                                          500\;ms \\
+                        \end{array}$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (.7,-4)
+        -- (1.8,-4) node[pos=0.5,anchor=north,yshift=-1]
+        {\footnotesize  $\begin{array}{c} 2700\;ms \\
+                                          3000\;ms \\
+                        \end{array}$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (2,-4)
+        -- (3,-4) node[pos=0.5,anchor=north,yshift=-1] {\footnotesize $500\;ms$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (3.2,-4)
+        -- (4.2,-4) node[pos=0.5,anchor=north,yshift=-1]
+        {\footnotesize  $\begin{array}{c} 800\;ms \\
+                                          500\;ms \\
+                        \end{array}$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (4.5,-4)
+        -- (5.5,-4) node[pos=0.5,anchor=north,yshift=-1]
+        {\footnotesize $\begin{array}{c} 2700\;ms \\
+                                         3000\;ms \\
+                        \end{array}$};
+    \draw[-,decorate,decoration={brace,amplitude=3pt,mirror}] (5.7,-4)
+       -- (6.7,-4) node[pos=0.5,anchor=north,yshift=-1]{\footnotesize  $500\;ms$};
+
+    \draw[-,decorate,decoration={brace,amplitude=3pt}] (-.5,4)
+        -- (3,4) node[pos=0.5,yshift=1]{\footnotesize  Percepción emocional};
+    \draw[-,decorate,decoration={brace,amplitude=3pt}] (3.2,4)
+        -- (6.7,4) node[pos=0.5,yshift=1]{\footnotesize  Reposo};
+
+  \end{tikzpicture}
+\end{document}

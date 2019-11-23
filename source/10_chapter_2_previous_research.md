@@ -93,23 +93,33 @@ cognitiva [@tong-pratte-2012; @rissman-wagner-2012; @soon-et-al-2008].
 
 Según @lewis-peacock-norman-2013, el término MVPA es usado para
 referirse a dos estrategias distintas de análisis de patrones
-multivoxel:
+multivoxel; ambas provenientes del campo de estudio en el que se
+intersecan la estadística inferencial multivariada y la inteligencia
+artificial, conocido como "aprendizaje de máquinas" o "aprendizaje
+automático":
 
-1. Clasificación automática empleando algoritmos provenientes del
-   campo de aprendizaje de máquinas.
-2. Cuantificación de similitud entre patrones.
+1. Clasificación automática empleando algoritmos de aprendizaje
+   supervisado.
+2. Cuantificación de similitud entre patrones, según alguna métrica de
+   distancia.
 
-También es necesario recalcar que aunque muchas de las aplicaciones de
-MVPA en neurociencia afectiva han usado percepción de estímulos
-emocionalmente cargados, ésta no es exactamente análoga a la
-experiencia en primera persona de una emoción (notable también a
-partir de actividad cerebral [@wager-et-al-2008]). La percepción de
-emociones en estímulos sociales además puede involucrar procesos de
-evaluación, atribución de estados mentales e intenciones; a la vez que
-puede estar exenta de emoción _per se_ (debido a la modulación
-empática y sus trastornos) [@peelen-et-al-2010]. En lo subsecuente se
-hará la distinción, poniendo énfasis en los trabajos relativos a
-_clasificación_ de estados de _percepción_ emocional.
+Mientras que los primeros decodifican estados preestablecidos a partir
+de la actividad registrada, la segunda línea de análisis se asemeja a
+la teoría de los modelos de aprendizaje automático no supervisado; y
+puede entre otras cosas usarse para discernir si dos zonas del sistema
+nervioso codifican información similar
+[@lewis-peacock-norman-2013]. También es necesario recalcar que aunque
+muchas de las aplicaciones de MVPA en neurociencia afectiva han usado
+percepción de estímulos emocionalmente cargados, ésta no es
+exactamente análoga a la experiencia en primera persona de una emoción
+(notable también a partir de actividad cerebral
+[@wager-et-al-2008]). La percepción de emociones en estímulos sociales
+además puede involucrar procesos de evaluación, atribución de estados
+mentales e intenciones; a la vez que puede estar exenta de emoción
+_per se_ (debido a la modulación empática y sus trastornos)
+[@peelen-et-al-2010]. En lo subsecuente se hará la distinción,
+poniendo énfasis en los trabajos relativos a _clasificación_ de
+estados de _percepción_ emocional.
 
 @pessoa-padmala-2007 demostraron la factibilidad de usar MVPA para
 predecir la respuesta conductual en una tarea de fMRI sobre percepción

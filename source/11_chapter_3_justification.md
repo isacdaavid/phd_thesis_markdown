@@ -1,37 +1,45 @@
 # Justificación
 
-## Panorama general
-
 Al día de hoy clínicos y neurocientíficos cognitivos siguen siendo
 bastante dependientes de reportes verbales y otras pistas conductuales
 para evaluar estados subjetivos. Pruebas neurales análogas deberían
 idearse y descubrirse. Más generalmente, se requiere trabajo teórico y
 empírico extra para ayudar a tender un puente explicativo entre los
 hechos mecanísticos (o sea físicos) y los de la subjetividad
-(mentales).
+(mentales) [@chalmers-1995; @oizumi-et-al-2014].
 
-Hay varios sentidos en los que las emociones simples podrían ser
-consideradas como algunas de las experiencias conscientes completas
-más básicas: son universales culturales, bien diferenciadas y están
-inextricablemente conectadas a estados somáticos y la homeostasis
-[@damasio-1998]. Ayudar a entender su detección y procesamiento en
-tercera persona contribuye a nuestra comprensión de la
-intersubjetividad.
+Hay varios sentidos en los que las emociones básicas (como la alegría
+y tristeza que atañen a este estudio) podrían ser consideradas algunas
+de las experiencias más básicas junto con sensaciones como el
+dolor [@simon-et-al-2006]: son universales culturales muy
+diferenciables entre sí [@ekman-1994], y están inextricablemente
+conectadas a la homeostasis y estados somáticos de gran relevancia
+para el organismo [@damasio-1998]. Ayudar a entender su detección y
+procesamiento en tercera persona contribuye a nuestra comprensión de
+la intersubjetividad. El reconocimiento de expresiones faciales es una
+forma primaria de comunicación no verbal [@fridlund-2014;
+@russell-fernández-1997; @simon-et-al-2008] que involucra la función
+de vastos y distribuidos circuitos neuronales, los cuales se
+encuentran bajo investigación activa [@fridlund-2014;
+@kragel-labar-2014; @kragel-labar-2015].
 
 Pese al éxito inicial identificando y describiendo los sustratos
 moleculares y celulares de muchos fenómenos psiquiátricos y
 psicológicos; los métodos de la neurociencia a escalas pequeñas y
 medianas, así como el llano _localizacionismo_, fracasan frente a
-cantidad de preguntas de interés. Muchos fenómenos cognitivos más
-bien emergen (o así se piensa) de la función coordinada de componentes
-anatómicamente distribuidos. Las restricciones evolutivas imponen
+cantidad de preguntas de interés. Muchos fenómenos cognitivos más bien
+emergen (o así se piensa) de la función coordinada de componentes
+anatómicamente distribuidos [@gazzaniga-ivry-2013;
+@oizumi-et-al-2014]; y la percepción de expresiones faciales no es la
+excepción [@kragel-labar-2014]. Las restricciones evolutivas imponen
 límites en el número de especializaciones nerviosas que podrían
 corresponder unívocamente con el desempeño de una función, de manera
-que ciertos fenómenos cognitivos deben corresponder al
-reclutamiento diferencial y modulación temporal de recursos más
-primitivos en el dominio fisiológico. Más aún, las nuevas corrientes
-en estudios de la cognición hacen hincapié en considerar
-holísticamente las interacciones entre organismos y con el medio.
+que ciertos fenómenos cognitivos deben corresponder al reclutamiento
+diferencial y modulación temporal de recursos más primitivos en el
+dominio fisiológico [@gazzaniga-ivry-2013]. Más aún, las nuevas
+corrientes en estudios de la cognición hacen hincapié en considerar
+holísticamente las interacciones entre organismos y con el medio
+[@albert-et-al-2018].
 
 Para abordar este tipo de preguntas, la resonancia magnética nuclear
 funcional es capaz de registrar señales correlato de los potenciales
@@ -42,8 +50,6 @@ estudios en los que redes funcionales asociadas a tareas primero deben
 ser identificadas o refinadas, allanando el terreno para técnicas de
 medición más finas que intenten establecer la circuitería y química
 sináptica [@logothetis-2008].
-
-## Particular
 
 El actual debate alrededor de los mecanismos cognitivos de la
 percepción de expresiones faciales se beneficiará de evidencia

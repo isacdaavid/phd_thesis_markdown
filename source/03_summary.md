@@ -10,11 +10,12 @@ specific neural substrates of distinct emotional experiences are,
 rendering debates among psychological theories of emotion the more
 vigorous. This has led many to believe that their decoding could
 benefit from more sensitive methods. Task-related PET and fMRI brain
-imaging has long relied on multiple regression analysis of
+imaging has long relied on multiple-regression analysis of
 single-voxel signals. One key assumption of this model is that
-activity at certain regions will correlate with experimental
-variables, but this needs not be the case: cognitive states might
-emerge from the _joint_ activity distribution of many elements.
+activity at certain regions will (genuinely) correlate with
+experimental variables, but this needs not be the case: cognitive
+states might emerge from the _joint_ activity distribution of many
+elements.
 
 <!-- Research objective -->
 

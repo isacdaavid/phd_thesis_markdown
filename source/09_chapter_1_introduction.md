@@ -61,23 +61,24 @@ extendida y las fobias deberían ser consideradas patologías o
 transtornos en su propio derecho.[^patology]
 
 Más allá del individuo, existe especial significancia sobre lo que las
-emociones logran para el bienestar social [@tracy-et-al-2015]. Las
-expresiones resultantes comportadas por rostros y lenguaje corporal
-son la epítome de la comunicación primate. Nuestros ancestros tuvieron
-que leer estas expresiones e interpretarlas, como parte de un
-repertorio de señalización más amplio, mucho antes de la aparición del
-lenguaje propiamente dicho [@fessler-gervais-2010]. En etología se
-dice que una señal es efectiva (lo que implica una reacción en el
-organismo receptor) si posee la propiedad de ser evolutivamente
-ventajosa para ambas partes, en promedio [@donath-2007;
-@laidre-johnstone-2013]. La prevaricación lingüística resta al valor
-que receptores y emisores honestos obtienen de dichas señales,
-haciendo de las emociones señales muy efectivas (en la medida en que
-son difíciles de fingir) [@donath-2007; @tracy-et-al-2015]. Así mismo,
-su percepción[^perception] adecuada marca un "input" importante para
-los mecanismos de la teoría de la mente;[^theory-of-mind] ya que las
-emociones son muestra flagrante de los estados mentales más
-viscerales [@mitchell-phillips-2015].
+emociones logran para el bienestar social [@russell-fernández-1997;
+@tracy-et-al-2015]. Las expresiones resultantes comportadas por
+rostros y lenguaje corporal son la epítome de la comunicación
+primate. Nuestros ancestros tuvieron que leer estas expresiones e
+interpretarlas, como parte de un repertorio de señalización más
+amplio, mucho antes de la aparición del lenguaje propiamente dicho
+[@fessler-gervais-2010; @fridlund-2014]. En etología se dice que una
+señal es efectiva (lo que implica una reacción en el organismo
+receptor) si posee la propiedad de ser evolutivamente ventajosa para
+ambas partes, en promedio [@donath-2007; @laidre-johnstone-2013]. La
+prevaricación lingüística resta al valor que receptores y emisores
+honestos obtienen de dichas señales, haciendo de las emociones señales
+muy efectivas (en la medida en que son difíciles de fingir)
+[@donath-2007; @tracy-et-al-2015]. Así mismo, su
+percepción[^perception] adecuada marca un "input" importante para los
+mecanismos de la teoría de la mente;[^theory-of-mind] ya que las
+emociones son muestra flagrante de los estados mentales más viscerales
+[@mitchell-phillips-2015].
 
 [^patology]: Ver por ejemplo las varias entradas sobre desordenes
     depresivos y de ansiedad en el Manual diagnóstico y estadístico de
