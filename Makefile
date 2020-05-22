@@ -25,7 +25,7 @@ help:
 	@echo 'get local templates with: pandoc -D latex/html/etc	  				  '
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
-pdf: figures
+pdf: # figures
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \

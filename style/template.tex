@@ -5,14 +5,24 @@ $else$
 \usepackage{lmodern}
 $endif$
 
-% Overwrite \begin{figure}[htbp] with \begin{figure}[H]
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+
+% isaac: Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 \usepackage{float}
 \let\origfigure=\figure
 \let\endorigfigure=\endfigure
-\renewenvironment{figure}[1][]{%
-\origfigure[h]
-}{%
-\endorigfigure
+% \renewenvironment{figure}[1][]{%
+% \origfigure[h]
+% }{%
+% \endorigfigure
+% }
+% place figures where they appear in source code
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
 }
 
 % fix for pandoc 1.14
@@ -47,6 +57,7 @@ $endif$
   \fi
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \newcommand{\euro}{€}
+
 $if(mainfont)$
     \setmainfont{$mainfont$}
 $endif$
@@ -60,6 +71,7 @@ $if(mathfont)$
     \setmathfont(Digits,Latin,Greek){$mathfont$}
 $endif$
 \fi
+
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available

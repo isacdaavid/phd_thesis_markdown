@@ -1,20 +1,30 @@
 # Hipótesis
 
-## Pregunta de investigación
+## Preguntas de investigación
 
-¿Es posible decodificar y disociar la percepción de rostros de
-felicidad y tristeza a partir de actividad fisiológica?
+- ¿Es posible decodificar la emoción percibida en una expresión facial
+  a partir de actividad fisiológica cerebral; en especial, considerando
+  simultáneamente toda la información disponible?
+
+- ¿Es posible obtener mapas estadístico-anatómicos de actividad
+  cerebral relacionada a tarea mediante métodos multivariantes,
+  considerando simultáneamente toda la información disponible?
 
 ## Hipótesis
 
-El poder predictivo de modelos de clasificación multivariada
-entrenados con neuroimágenes funcionales bajo percepción de alegría y
-tristeza es mayor al nivel de predicción por azar.
+- Hipótesis nula: el poder predictivo de modelos de clasificación
+multivariada entrenados con neuroimágenes funcionales bajo percepción
+de dichos estímulos es _igual_ al nivel de predicción por azar.
+
+- Hipótesis de trabajo: el poder predictivo de modelos de clasificación
+multivariada entrenados con neuroimágenes funcionales bajo percepción
+de dichos estímulos es _mayor_ al nivel de predicción por azar.
 
 ## Predicciones
 
-Supongamos que las señales BOLD contienen información espacio-temporal
-proveniente de la actividad cerebral durante la percepción de
-emociones. Entonces de ser cierta la hipótesis, las estructuras
-anatómicas involucradas y su actividad hemodinámica podrán derivarse
-de los modelos de clasificación.
+Si existiera evidencia (en las señales BOLD, por ejemplo) para falsar
+la hipótesis nula, entonces las estructuras anatómicas involucradas y
+su actividad hemodinámica podrían ser obtenidas a partir de los
+modelos de clasificación exitosos; ya sea a nivel individual o grupal.
+
+<!-- poner lo siguiente? las estructuras resultantes serán bla bla bla -->

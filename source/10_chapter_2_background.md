@@ -1,5 +1,68 @@
 # Antecedentes
 
+<!-- ## Introducción al estudio de las emociones -->
+
+<!-- Facial, vocal, and tactile emotion processing have been explored with -->
+<!-- a range of techniques including behavioral judgments, -->
+<!-- electroencephalography/event-related potentials, fMRI contrast -->
+<!-- studies, and multivoxel pattern analyses. Channel similarities and -->
+<!-- differences enable holistic emotion recognition, a process that -->
+<!-- depends on multisensory integration during early, perceptual and -->
+<!-- later, conceptual -->
+<!-- stages. -->
+
+<!-- Darwin was the first to propose three causal origins for expressions -->
+<!-- [86]. One involves an immediate benefit to the expressive individual; -->
+<!-- for example, increasing one’s apparent body size serves to intimidate -->
+<!-- an opponent. Other expressions, Darwin suggested, effectively -->
+<!-- communicate the polar opposite; for example, lowering one’s body frame -->
+<!-- to signal submission instead of aggression. Last, Darwin held that -->
+<!-- some expressions, such as trembling in fear, are mere vestigial -->
+<!-- byproducts that may not serve a useful role. Although many details of -->
+<!-- Darwin’s proposal are debatable, there is evidence that some facial -->
+<!-- expressions exhibit useful functions (e.g., widening of the eyes to -->
+<!-- maximize the visual field during fear) [87] and/or effectively -->
+<!-- manipulate the behavior of perceivers -->
+<!-- [88] -->
+
+<!-- Facial expressions in humans depend on 17 facial muscle pairs that we -->
+<!-- share fully with great apes and partially with some other species (Box -->
+<!-- 2). -->
+
+<!-- The cortical system for primate face processing encompasses a mosaic -->
+<!-- of patches in the temporal, occipital, parietal, and frontal cortices -->
+<!-- that collectively process particular features of faces and generate a -->
+<!-- distributed perceptual representation [18]. Of particular prominence -->
+<!-- in human fMRI studies is an area in the inferior temporal cortex that -->
+<!-- is more strongly activated by faces than non-face objects, the -->
+<!-- fusiform face area (FFA) (Figure 2) [19]. The cortical face network is -->
+<!-- complemented by a key subcortical structure, the amygdala. -->
+
+<!-- Insight into neural components that might be more specific for judging -->
+<!-- emotions from faces, rather than subserving face processing in -->
+<!-- general, has come from several approaches. Earlier lesion studies -->
+<!-- pointed to regions in the right ventroparietal and posterior–temporal -->
+<!-- cortices, including the angular and supramarginal gyri, and even -->
+<!-- components of the somatosensory cortex [20]. However, these regions -->
+<!-- may be more specifically involved in fine-grained inferences about -->
+<!-- emotion from faces that depend on a particular embodiment mechanism, -->
+<!-- such as representing how the emotion would feel through real or -->
+<!-- imagined mimicry [21]. Neuroimaging revealed that facial emotions -->
+<!-- modulate amygdala activity as well as activity in other components of -->
+<!-- the face-processing system [22]. Single amygdala neurons respond to -->
+<!-- facial emotions [23], particularly expressions of the eye region -->
+<!-- [24]. Whereas cortical face processing [25] and its emotion modulation -->
+<!-- [26] appear preferentially lateralized to the right hemisphere, the -->
+<!-- lateralization of subcortical emotion effects remains unclear. -->
+
+<!-- https://www.sciencedirect.com/science/article/pii/S1364661317300013 -->
+
+<!-- Human faces are among the most complex and at the same time most frequently encountered stimuli in our daily life, carrying information important for survival and gene propagation (Little, Jones, & DeBruine, 2011). -->
+
+<!-- https://www.sciencedirect.com/science/article/pii/S0010945215001604#! -->
+
+## Bases neuronales de las emociones
+
 Las investigaciones del procesamiento emocional hasta antes de la
 neuroimagen funcional lograron implicar varias regiones corticales y
 subcorticales; algunas de ellas más bien primitivas y bien
@@ -14,8 +77,8 @@ incondicionados. El núcleo central de la amígdala proyecta a lugares
 como la región gris central del tallo cerebral e hipotálamo, que a su
 vez puede desencadenar reacciones automáticas y actividad
 humoral. También hay áreas corticales implicadas en la percepción de
-emociones complejas: la corteza cingulada ventral anterior, la ínsula
-y la corteza prefrontal ventromedial. Como ejemplo de las
+emociones complejas: la corteza cingulada anterior (ACC), la ínsula y
+la corteza prefrontal ventromedial (vmPFC). Como ejemplo de las
 consecuencias que estas estructuras tienen en percepción emocional,
 daño a la corteza prefrontal resulta en discapacidades sociopáticas
 [@ledoux-damasio-2013].
@@ -25,7 +88,7 @@ sistema nervioso central como en el periférico permanece un problema
 abierto [@kragel-labar-2016; @celeghin-et-al-2017]. Una pregunta
 fundamental es si existen patrones en actividad neuronal
 suficientemente específicos que correspondan con concepciones
-vernáculas y psicológicas de las emociones. Además, ¿qué tan
+vernáculas y académicas de las emociones. Además, ¿qué tan
 generalizables son esos correlatos entre individuos y especies? Esta
 última cuestión tiene acaloradas implicaciones para la comprensión de
 la aparición de estados afectivos, ya sea en términos de evolución
@@ -34,7 +97,7 @@ genética o cultural.
 Los metanálisis y revisiones de la literatura hasta antes de la
 aplicación de detección de patrones multivariados no muestran una
 tendencia en la respuesta a las preguntas anteriores. @phan-et-al-2002
-analizaron los mapas de activación de 55 estudios de PET y fMRI, y
+analizaron los mapas de activación de 55 estudios de PET[^pet] y fMRI[^fmri], y
 encontraron evidencia parcial para la existencia de correlatos
 neuroanatómicos consistentes a la ocurrencia de distintos tipos de
 emociones básicas. @murphy-et-al-2003 incrementaron el tamaño de
@@ -62,45 +125,63 @@ correlatos distinguibles entre sí, aunque las mismas regiones
 cerebrales están vinculadas a otras funciones psicológicas
 extraemocionales.
 
-[^PET]: Tomografía por emisión de positrones
+[^pet]: Positron Emission Tomography: tomografía por emisión de positrones
+[^fmri]: Functional Magnetic Resonance Imaging: imagenología de
+    resonancia magnética funcional.
 
 El consenso disponible es que la búsqueda de estructuras específicas a
-un tipo de emoción está superada. Si la función emocional tiene
+un tipo de emoción está superada [@murphy-et-al-2003;
+@kober-et-al-2008; @lindquist-et-al-2012]. Estructuras cerebrales que
+parecían tener una correspondencia uno-a-uno con alguna emoción
+básica, como la amígdala (miedo) y la ínsula (asco)
+[@calder-et-al-2001], ahora son acreedoras a funciones más elusivas o
+generales [@sander-et-al-2003].  Si la función emocional tiene
 biomarcadores reproducibles, su decodificación dependerá de la
 actividad conjunta de redes funcionales distribuidas y traslapadas
 [@hamann-2012; @lindquist-barrett-2012; @kragel-labar-2014;
-@celeghin-et-al-2017; ver @guillory-bujarski-2014 para una revisión de
-estudios electrofisiológicos concordantes con esta conclusión]. Dado
-que los métodos clásicos de detección de actividad diferencial en fMRI
-han agotado su utilidad (basados en la aplicación de modelos de
-regresión para voxeles individuales), el campo de neurociencia
-afectiva comienza a recurrir a análisis multivariados para dilucidar
-las preguntas de interés [@hamann-2012; @kragel-labar-2014;
-@kragel-labar-2016]. Estos diversos métodos, también agrupados bajo el
-nombre de "análisis de patrones multivoxel" en la literatura
-neurocientífica (MVPA por sus siglas en inglés), comparten la
-característica de modelar la codificación del estado mental, cognitivo
-o conductual como una función de muchas dimensiones; que en el caso de
-fMRI toman la forma de voxeles distantes en espacio o tiempo
-[@norman-et-al-2006; @huettel-et-al-2009;
+@celeghin-et-al-2017; aunque no se han realizado tantos estudios
+electrofisiológicos, la revisión de @guillory-bujarski-2014 concuerda
+con esta conclusión].
+
+## Análisis de patrones multivoxel
+
+Dado que los métodos clásicos de análisis de patrones diferenciales de
+activación en fMRI y PET están agotando su utilidad (notablemente el
+algoritmo GLM,[^glm] basado en modelos de regresión lineal múltiple
+para voxeles individuales), el campo de neuroimagen funcional
+orientada a tareas comienza a recurrir a análisis verdaderamente
+multivariados para dilucidar las preguntas de interés. Estos diversos
+métodos, también agrupados bajo el nombre de "análisis de patrones
+multivoxel" en la literatura neurocientífica (MVPA por sus siglas en
+inglés), comparten la característica de modelar la codificación del
+estado mental, cognitivo o conductual como una función de muchas
+dimensiones; que en el caso de fMRI toman la forma de voxeles
+distantes en espacio o tiempo [@norman-et-al-2006;
+@huettel-et-al-2009; @mahmoudi-et-al-2012;
 @lewis-peacock-norman-2013]. Al considerarlas holísticamente, MVPA es
 capaz de extraer igual o mayor información de las burdas imágenes
 funcionales en la mayoría de los casos [ver @jimura-poldrack-2012 para
 contraejemplos], a expensas de complicar potencialmente el modelo y su
 cómputo. La adopción de este enfoque en estudios con fMRI ha llevado a
 descubrimientos novedosos en casi todas las ramales de la neurociencia
-cognitiva [@tong-pratte-2012; @rissman-wagner-2012; @soon-et-al-2008].
+cognitiva [por ejemplo @haynes-rees-2005; @polyn-et-al-2005;
+@soon-et-al-2008; @rissman-wagner-2012; véanse @huettel-et-al-2009;
+@tong-pratte-2012 para más].
+
+[^glm]: General Linear Model: modelo lineal general. En el contexto de
+    neuroimagen funcional, consúltense @friston-et-al-1994 y
+    @penny-et-al-2011.
 
 Según @lewis-peacock-norman-2013, el término MVPA es usado para
 referirse a dos estrategias distintas de análisis de patrones
 multivoxel; ambas provenientes del campo de estudio en el que se
 intersecan la estadística inferencial multivariada y la inteligencia
-artificial, conocido como "aprendizaje de máquinas" o "aprendizaje
-automático":
+artificial, un área conocida como "aprendizaje de máquinas" o "aprendizaje
+automático" ("machine learning" en inglés):
 
-1. Clasificación automática empleando algoritmos de aprendizaje
+- Clasificación automática empleando algoritmos de aprendizaje
    supervisado.
-2. Cuantificación de similitud entre patrones, según alguna métrica de
+- Cuantificación de similitud entre patrones, según alguna métrica de
    distancia.
 
 Mientras que los primeros decodifican estados preestablecidos a partir
@@ -108,9 +189,16 @@ de la actividad registrada, la segunda línea de análisis se asemeja a
 la teoría de los modelos de aprendizaje automático no supervisado; y
 puede entre otras cosas usarse para discernir si dos zonas del sistema
 nervioso codifican información similar
-[@lewis-peacock-norman-2013]. También es necesario recalcar que aunque
-muchas de las aplicaciones de MVPA en neurociencia afectiva han usado
-percepción de estímulos emocionalmente cargados, ésta no es
+[@lewis-peacock-norman-2013].
+
+Para 2012 ya se habían realizado un puñado de estudios de
+decodificación emocional con análisis multivariado, y su potencial era
+reconocido por la comunidad en trabajos revisorios [como @hamann-2012;
+o @schirmer-adolphs-2017 en lo que respecta a percepción emocional;
+ver @kragel-labar-2014; y @kragel-labar-2016 para revisiones abocadas
+al uso de MVPA en materia de emociones]. También es necesario recalcar
+que aunque muchas de las aplicaciones de MVPA en neurociencia afectiva
+han usado percepción de estímulos emocionalmente cargados, ésta no es
 exactamente análoga a la experiencia en primera persona de una emoción
 (notable también a partir de actividad cerebral
 [@wager-et-al-2008]). La percepción de emociones en estímulos sociales
@@ -126,52 +214,69 @@ predecir la respuesta conductual en una tarea de fMRI sobre percepción
 de caras asustadas, presentadas casi subliminalmente, en contraste con
 otros tipos de caras. Se basó en un algoritmo de entrenamiento SVM sin
 kernel, cuyo desempeño aumentaba conforme las variables dependientes
-en el modelo eran adicionadas con nuevas regiones de interés;
-hipotetizando que los varios aspectos de la actividad emocional
-(discriminación del estímulo, producción de respuestas, etc.)
-contienen información útil para decodificar el estado
-perceptual. @ethofer-et-al-2009 utilizaron estímulos auditivos con
-carga paralingüística emocional. Su modelo SVM fue capaz de clasificar
-entre cuatro emociones básicas y un estado aemocional por encima del
-azar, mientras que un análisis univariado no encontró diferencias en
-las mismas señales BOLD, provenientes de corteza auditiva (ver
-@kotz-et-al-2012 para un estudio similar no restringido a corteza
-auditiva). @said-et-al-2010 utilizaron clasificación multivariada
-mediante el método de regresión logística para demostrar que la
-actividad de ciertas regiones del surco temporal superior (previamente
-vinculadas a detección de expresiones faciales) predice la categoría
-emocional de los rostros. Los mismos datos bajo análisis univariado
-fueron incapaces de repetir la hazaña. @peelen-et-al-2010 probaron
-estímulos de cinco categorías emocionales en modalidades distintas
-(audición, visión de gesticulaciones y de lenguaje corporal), y
-realizaron una búsqueda de regiones codificantes en todo el encéfalo
-mediante el método de "searchlight". Sorprendentemente, el uso de
-corteza prefrontal medial, o bien del surco temporal más superior,
-resultó capaz de hacer la distinción entre emociones,
-independientemente de la modalidad sensorial e intensidad del
-estímulo.
+en el modelo eran adicionadas con nuevas regiones de interés (ROIs por
+sus siglas en inglés); hipotetizando que los varios aspectos de la
+actividad emocional (discriminación del estímulo, producción de
+respuestas, etc.)  contienen información útil para recuperar el
+estado perceptual. @ethofer-et-al-2009 utilizaron estímulos auditivos
+con carga paralingüística emocional. Su modelo SVM fue capaz de
+clasificar entre cuatro emociones básicas y un estado aemocional por
+encima del azar, mientras que un análisis univariado no encontró
+diferencias en las mismas señales BOLD[^bold], provenientes de corteza
+auditiva (ver @kotz-et-al-2012 para un estudio similar no restringido
+a corteza auditiva). @said-et-al-2010 utilizaron clasificación
+multivariada mediante el método de regresión logística para demostrar
+que la actividad de ciertas regiones del surco temporal superior (STS,
+previamente vinculadas a detección de expresiones faciales) predice la
+categoría emocional de los rostros. Los mismos datos bajo análisis
+univariado fueron incapaces de repetir la hazaña. @peelen-et-al-2010
+probaron estímulos de cinco categorías emocionales en modalidades
+distintas (audición, visión de gesticulaciones y de lenguaje
+corporal), y realizaron una búsqueda de regiones codificantes en todo
+el encéfalo mediante el método de "searchlight". Sorprendentemente, el
+uso de corteza prefrontal medial (mPFC), o bien del STS, resultó capaz
+de hacer la distinción entre emociones, independientemente de la
+modalidad sensorial e intensidad del estímulo. En cambio, la
+aplicación de GLM sólo replico este hallazgo supramodal en el caso del
+miedo. @wegrzyn-et-al-2015 exploraron varias ROIs[^roi] asociadas a
+procesamiento de rostros para comparar la magnitud en la que contienen
+información emocional. Todas resultaron aptas, especialmente el STS y
+la bien conocida "área fusiforme de caras" (FFA) en el giro fusiforme
+de los lóbulos temporales (especialmente el derecho).
 
-El uso de MVPA en decodificación emocional también ha alcanzado a
-otras especies. @hernandez-et-al-2018 (prepublicación) entrenaron
-perros para permanecer quietos y despiertos en un resonador magnético
-mientras observaban rostros humanos felices o inexpresivos. En un
-segundo experimento emplearon más emociones y un clasificador
-multivariado para proveer evidencia de que los correlatos encontrados
-en la corteza temporal derecha del perro contienen información
-selectiva a la felicidad de los humanos.
+[^bold]: Blood-Oxigen-Level Dependent: [Señal] dependiente del nivel de
+    oxígeno en la sangre; la forma de contraste más común en estudios
+    de fMRI.
+
+[^roi]: Region of Interest: región de interés.
+
+El uso de MVPA en predicción de percepción emocional también ha
+alcanzado a otros modelos de las emociones y a otras
+especies. @skerry-saxe-2015 utilizaron SVM para probar que las
+emociones percibidas, entendidas como "appraisals" o evaluaciones
+sociales finas y dependientes del contexto, pueden decodificarse por
+encima del azar a partir de redes cerebrales asociadas a la facultad
+de teoría de la mente.  @hernandez-et-al-2018 (prepublicación)
+entrenaron perros para permanecer quietos y despiertos en un resonador
+magnético mientras observaban rostros humanos felices o
+inexpresivos. En un segundo experimento emplearon más emociones y SVM
+para proveer evidencia de que los correlatos encontrados en la corteza
+temporal derecha del perro contienen información selectiva a la
+felicidad de los humanos.
 
 En lo que respecta a experimentación en primera persona de emociones,
 los métodos de clasificación multivariada han sido capaces de
 caracterizar con precisión los dispersos correlatos espaciales de la
-valencia hedonística y el nivel de excitación postulados por hipótesis
-dimensionales [@rolls-et-al-2009; @baucom-et-al-2012;
+valencia hedonística y el nivel de excitación (arousal) postulados por
+hipótesis dimensionales [@rolls-et-al-2009; @baucom-et-al-2012;
 @chikazoe-et-al-2014; @shinkareva-et-al-2014;
 @chang-et-al-2015]. Además hay evidencia de cierta generalidad
 intersujeto, pues existen patrones compartidos que permiten su
 clasificación a niveles de exactitud no triviales. De la misma forma
 se han encontrado resultados prometedores categorizando experiencias
-de emociones discretas, en comparación con los resultados del cúmulo
-de literatura con análisis univariado [@sitaram-et-al-2011;
+de emociones discretas (así se quieran conceptualizar como básicas o
+constructos), en comparación con los resultados del cúmulo de
+literatura con análisis univariado [@sitaram-et-al-2011;
 @kassam-et-al-2013; @saarimaki-et-al-2015; @kragel-labar-2015]. Está
 por verse si el uso de MVPA será suficiente para encontrar una
 hipótesis vencedora.\newline
@@ -180,21 +285,25 @@ hipótesis vencedora.\newline
 
 | **Estudio** | **Modalidad de estímulo** | **Emoción de estímulo** | **ROI** | **Algoritmo** | **Desempeño** |
 |-|-|-|-|-|-|
-| Pessoa, Padmala (2007) | visual | miedo | varias | SVM | 78% > 50% |
+| @pessoa-padmala-2007 | visual | miedo | varias | SVM | 78% > 50% |
 | | | | | | |
-| Ethofer et al. (2009) | auditiva | alegría, enojo, tristeza, alivio | corteza auditiva | SVM | 33% > 20% |
+| @ethofer-et-al-2009 | auditiva | alegría, enojo, tristeza, alivio | corteza auditiva | SVM | 33% > 20% |
 | | | | | | |
-| Said et al. (2010) | visual | alegría, enojo, tristeza, asco, sorpresa, miedo | surco temporal superior | regresión logística | 22% > 14% |
+| @said-et-al-2010 | visual | alegría, enojo, tristeza, asco, sorpresa, miedo | surco temporal superior | regresión logística | 22% > 14% |
 | | | | | | |
-| Peelen et al. (2010) | auditiva, visión (gesticulaciones, lenguaje corporal) | alegría, enojo, tristeza, asco, miedo | encéfalo | no especificado | no especificado | <!-- GLM: only the fear-specific region showed supramodality -->
+| @peelen-et-al-2010 | auditiva, visual (gesticulaciones, lenguaje corporal) | alegría, enojo, tristeza, asco, miedo | encéfalo (searchlight) | no especificado | no especificado |
 | | | | | | |
-| Kotz et al. (2012) | auditiva | alegría, enojo, tristeza, sorpresa | encéfalo | SVM | 28% > 20% |
+| @kotz-et-al-2012 | auditiva | alegría, enojo, tristeza, sorpresa | encéfalo (searchlight) | SVM | 28% > 20% |
 | | | | | | |
-| Hernández-Pérez et al. (2018) | visual | alegría | (_canis familiaris_) corteza temporal derecha, caudado | SVM | ~65% > 50% |
+| @skerry-saxe-2015 | lectura, visual (caras) | 21 distinciones finas contexto-dependientes (appraisals) | red de teoría de la mente, encéfalo (searchlight) | SVM | ~8% > 5% (ROIs) |
+| | | | | | |
+| @wegrzyn-et-al-2015 | visual (caras) | alegría, enojo, miedo | varias | MGPC | ~32% > 25% |
+| | | | | | |
+| @hernandez-et-al-2018 | visual (caras) | alegría | (_canis familiaris_) corteza temporal derecha, caudado. Encéfalo (searchlight) | SVM | ~65% > 50% (ROIs) |
 
 Table: Muestra representativa de estudios experimentales sobre los
 correlatos neurales de la percepción de emociones que han empleado
-MVPA. \label{mvpa-in-emotion-perception-table}
+MVPA. \label{table-mvpa-in-emotion-perception}
 
 \normalsize
 
