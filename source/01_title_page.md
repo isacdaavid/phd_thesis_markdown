@@ -11,7 +11,7 @@ and add the centred logo
     % to remove the UCL header logo
     \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
         
-        \vspace*{0.5cm}
+        \vspace*{1.5cm}
         \normalsize
         {\bf Universidad Nacional Autónoma de México}\\
         Maestría en Ciencias (Neurobiología)\\
@@ -51,7 +51,7 @@ and add the centred logo
         
         \vfill
         \normalsize
-        México, enero de 2020
+        México, junio de 2020
 
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 

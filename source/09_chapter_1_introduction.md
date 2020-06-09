@@ -4,23 +4,28 @@
 
 # Introducción
 
+__¿Qué son las emociones? Consideraciones biológicas y psicológicas__
+
 Las emociones son reacciones corporales estereotipadas ante estímulos
 o eventos, internos o externos, que el organismo evalúa como
 relevantes en términos de las muchas facetas del éxito evolutivo
 [@schacter-et-at-2011; @ledoux-damasio-2013]. Por ejemplo, el miedo de
 un gato espeluznado ante un perro — como cualquier instancia de esta
-emoción — es una respuesta adaptativa forjada en el fenotipo de las
-especies o en su conducta aprendida para proceder con cautela durante
-la percepción de peligro. La reacción de una emoción abarca tanto
-componentes psicológicos como meramente fisiológicos
+emoción — es una respuesta adaptativa[^vestigial] forjada en el
+fenotipo de las especies o en su conducta aprendida para proceder con
+cautela durante la percepción de peligro. La reacción de una emoción
+abarca tanto componentes psicológicos como meramente fisiológicos
 [@schacter-et-at-2011; @ledoux-damasio-2013]. En el caso del
 desafortunado gato se tendrían, por un lado, la relocación súbita de
-la atención, la sensación misma del miedo como una suerte de
-compresión de abajo hacia arriba de las entrañas; y por otro, la
-sobreapertura de los párpados, hiperventilación y aceleración del
-ritmo cardiaco, liberación de hormonas estresantes, piloerección y
-quizás conductas de congelamiento por parte de la musculatura
-estriada.
+su atención hacia el perro, la sensación misma del miedo como una
+suerte de compresión de las entrañas de abajo hacia arriba, etc. Por
+el lado fisiológico podríamos contar la sobreapertura de los
+párpados, hiperventilación y aceleración del ritmo cardiaco,
+liberación de hormonas estresantes, piloerección y quizás conductas de
+congelamiento por parte de la musculatura estriada.
+
+[^vestigial]: Sin ánimos de anatematizar la existencia de vestigios a
+    la par de adaptaciones.
 
 La familia de las emociones es más numerosa que el miedo, si bien las
 relaciones precisas entre sus miembros son un punto de debate. Por
@@ -57,18 +62,18 @@ una tercera opción.[^hedonistic]
     suficiencia de _representaciones_ o simulaciones mentales del
     cuerpo.
 
-Las emociones son un fenómeno _muy_ básico y bien conservado a través
-de la filogenia, tanto así que algunos estudiosos sugieren que los
+Se trata de un fenómeno _muy_ básico y bien conservado a través de la
+filogenia, tanto así que algunos estudiosos sugieren que los
 rudimentos de las manifestaciones conductuales de las emociones
 (esencialmente conductas de apertura-acercamiento o rechazo) son
 trazables a respuestas análogas en todo el árbol de la vida
 [@damasio-carvalho-2013]; aunque el caso más claro por mucho es el de
 animales con un sistema nervioso, que es lo que sustenta y coordina
-sus funciones emocionales. Entonces, como función básica del sistema
-nervioso, resulta interesante en su propio derecho entender ese
-sustrato. Y aunque nadie sano duda poder distinguir la alegría de la
-tristeza (ya sean los propios o ajenos), descubrir su naturaleza en
-actividad nerviosa ha probado ser especialmente dificultoso.
+sus funciones emocionales. Resulta interesante por lo tanto entender
+el sustrato de una de las funciones básicas del sistema nervioso; y
+aunque nadie sano duda poder distinguir la alegría de la tristeza (ya
+sean las propias o las ajenas), descubrir su naturaleza en actividad
+nerviosa ha probado ser especialmente dificultoso.
 
 La problemática es patente a partir del abanico de teorías
 psicológicas que compiten por caracterizarlas en términos
@@ -86,6 +91,8 @@ lugar de llana tristeza). Otros más terminarían por argüir que no hay
 modelos unificadores puesto que se trata de fenómenos corporales muy
 dispares, y los intentos por agruparlos son poco más que constructos
 culturales [ver @kragel-labar-2016 para una revisión comparativa].
+
+__Emoción y salud__
 
 Sin importar cuál sea su organización, sabemos que las
 predisposiciones en la dinámica afectiva del individuo son una
@@ -117,16 +124,15 @@ limítrofe o "emocionalmente inestable" de la personalidad.[^pathology]
 
 Aunque de menor prevalencia que las desregulaciones psiquiátricas
 anteriores, funciones emocionales completas pueden llegar a perderse
-mediante lesiones, síndromes genéticos autosómicos recesivos,
-patógenos y otras formas de deterioros neurológicos focalizados a
-estructuras del sistema emocional. Entre estas estructuras cerebrales
-diversas encontramos núcleos mesencefálicos, diencefálicos,
-telencefálicos subcorticales en ganglios basales y en la
-amígdala,[^amygdala] así como partes de la neocorteza de los
-mamíferos;[^cortex] resaltando la segregación y complejidad de los
-sistemas de la emoción. Cabe mencionar que la investigación biomédica
-en torno a problemas de salud emocional no se limita al
-_localizacionismo_. Existe un fuerte interés por encontrar
+mediante lesiones, síndromes genéticos, patógenos y otras formas de
+deterioros neurológicos focalizados a estructuras del sistema
+emocional. Entre estas estructuras cerebrales diversas encontramos
+núcleos mesencefálicos, diencefálicos, telencefálicos subcorticales en
+ganglios basales y en la amígdala,[^amygdala] así como partes de la
+neocorteza de los mamíferos;[^cortex] resaltando la segregación y
+complejidad de los sistemas de la emoción. Cabe mencionar que la
+investigación biomédica en torno a problemas de salud emocional no se
+limita al _localizacionismo_. Existe un fuerte interés por encontrar
 explicaciones y biomarcadores clínicos modelando al cerebro como una
 red de componentes en interacción [@rubinov-sporns-2010]. Por ejemplo,
 se ha hipotetizado que el síndrome de Capgras resulta de una pérdida
@@ -135,21 +141,23 @@ lóbulo temporal y el sistema emocional, no obstante que ambos siguen
 operando bien por separado [@ellis-et-al-1997; @ramachandran-1998].
 
 [^amygdala]: Lo que ocasiona el síndrome de Klüver-Bucy
-          [@marlowe-et-al-1975] o la enfermedad de Urbach-Wiethe
-          [@hurlemann-et-al-2007].
+          [@kluver-bucy-1937; @marlowe-et-al-1975] o la enfermedad de
+          Urbach-Wiethe [@hurlemann-et-al-2007].
 [^cortex]: La demencia frontotemporal en su variante conductual es un
          caso de síndrome neurológico de origen cortical con fuertes
          repercusiones emocionales [@rohrer-et-al-2011].
 
+__Emoción y cognición__
+
 Lejos de ser un mecanismo aislado — ¡y en contra del sentido común! —,
 la cognición más superior y racional es y _debe ser_ en cierta medida
-influida y modulada por emociones. En estado fisiológico, la gente usa
-sus corazonadas emocionales como información para nutrir sus creencias
-sobre la probabilidad de éxito en una actividad
-[@isen-patrick-1983]. ¿Por qué sería útil y heurístico este sesgo? La
-respuesta es simple: el mundo causa en gran mesura nuestros estados
-afectivos; por lo tanto los estados afectivos pueden proveer
-información sucinta — vaya, de calidad ejecutiva — acerca del mundo
+influida y modulada por emociones. Veamos un caso de ello: en estado
+fisiológico la gente usa sus corazonadas emocionales como información
+para nutrir sus creencias sobre la probabilidad de éxito en una
+actividad [@isen-patrick-1983]. ¿Por qué sería útil y heurístico este
+sesgo? La respuesta es simple: el mundo causa en gran mesura nuestros
+estados afectivos; por lo tanto los estados afectivos pueden proveer
+información sucinta — ¡vaya!, de calidad ejecutiva — acerca del mundo
 [@schwarz-clore-2003]. Como pieza en el rompecabezas de las funciones
 neurales, la emoción provee cimientos para algo tan crucial y etéreo
 como la motivación [@schwarz-1990; @schacter-et-at-2011]; y por
@@ -159,7 +167,7 @@ mencionar aspectos de la toma adecuada de decisiones [@schwarz-1990;
 es la _causa final_ de que el granjero ahorre sus ingresos para
 comprar un nuevo tractor? ¿Es transformar la maleza, es aumentar la
 producción, obtener incluso más ingresos, es comprar otros bienes, o
-es la búsqueda de un bienestar físico y psicológico para él y su
+es la búsqueda de un bienestar físico y psicológico para él mismo y su
 familia?
 
 También aquí la patología ofrece una oportunidad para poner de
@@ -180,18 +188,21 @@ pésima adopción de estrategias en situaciones emocionalmente cargadas
     (Iowa Gambling Task) [@bechara-et-al-2001] y la prueba por desliz
     (Faux Pas) [ver @torralva-et-al-2009].
 
-Más allá del individuo, existe especial significancia sobre lo que las
-emociones logran para el bienestar social. Este texto inició por
-plantear el concepto de emoción como una reacción corporal adaptativa
-para la supervivencia más inmediata y prosaica, sin embargo esta
-visión es miope. Es sumamente probable que entre el complejo expresivo
-y postural de una emoción también encontremos características
-seleccionadas para la comunicación, y no necesariamente para
-predisponer al organismo a sortear la situación o aprender de ella
-[@russell-fernández-1997; @tracy-et-al-2015]. A continuación se
-exponen distintos niveles en los cuales la emoción opera como facultad
-cognitiva social, desde la selección de grupo y sexual hasta las
-sofisticadas mentalización y empatía.
+__Emoción y sociedad__
+
+Los fenómenos emocionales no nacen y mueren en el individuo. Existe
+especial significancia sobre lo que las emociones logran para el
+bienestar social. Este texto inició por plantear el concepto de
+emoción como una reacción corporal adaptativa para la supervivencia
+más inmediata y prosaica, sin embargo esta visión es miope. Es
+sumamente probable que entre el complejo expresivo y postural de una
+emoción también encontremos características seleccionadas para la
+comunicación, y no necesariamente para predisponer al organismo a
+sortear la situación o aprender de ella [@russell-fernández-1997;
+@tracy-et-al-2015]. A continuación se exponen distintos niveles en los
+cuales la emoción opera como facultad cognitiva social, desde la
+selección de grupo y sexual hasta las sofisticadas mentalización y
+empatía.
 
 En etología (el estudio del comportamiento animal) se habla de que una
 señal del organismo emisor al receptor es efectiva si posee la
@@ -204,7 +215,7 @@ respectivamente. Claramente, la rana se beneficia de no ser comida
 aunque como bocadillo sea letal, así como el beneficio es compartido
 entre ambos sexos de grillo. Lo mismo estaría pasando con el llanto de
 un niño, o con la excesiva hilaridad con la que actuaba su madre
-cuando se interesó por primera vez en el padre: el llanto también
+cuando interesose por primera vez en el padre: el llanto también
 existe para beneficio de la madre, y la jocosidad con la que casi
 involuntariamente comenzó a seducir al padre — en su momento — fue más
 que una autoseñalización de estar en un ambiente agradable y
@@ -228,9 +239,9 @@ circuitos sumamente especializados, específicamente usando la
 expresión facial como medio [@tsao-et-al-2006]. Pocos estímulos son
 tan informativos como los rostros. Basta una fracción de segundo para
 que la cara de una persona nos cuente algo acerca de su sexo, edad,
-etnia; incluso de su atención y por supuesto, su estado anímico
-[@tsao-livingstone-2008; @haist-anzures-2017]. Quizás ningún otro
-induce tantas ilusiones pareidólicas, y la sofisticación de su
+etnia; incluso de su foco de atención y por supuesto, su estado
+anímico [@tsao-livingstone-2008; @haist-anzures-2017]. Quizás ninguno
+otro induce tantas ilusiones pareidólicas, y la sofisticación de su
 reconocimiento — que aparece pocas horas después de nacer y alcanza la
 cuasi-madurez naturalmente antes del primer año [@haist-anzures-2017]
 — solamente es equiparable a habilidades aprendidas arduamente como la
@@ -246,26 +257,30 @@ Se sabe al menos desde tiempos de Hughlings Jackson y Charcot que el
 cerebro humano puede perder selectivamente la capacidad para
 identificar rostros. Este desorden neurocognitivo, conocido como
 ceguera o agnosia de caras (prosopagnosia), depende de regiones
-corticales especializadas en la vía visual ventral (la vía del
-reconocimiento de objetos); específicamente de cierta área en los
-giros fusiformes ("Fusiform Face Area") [@haxby-et-al-2000;
-@said-et-al-2010].[^faces] Mucho antes de la aparición del lenguaje
-_bona fide_ humano, nuestros ancestros tuvieron que leer estas
-expresiones e interpretarlas como parte de un repertorio de
-señalización para la vida en pequeñas sociedades de tropa
-[@fessler-gervais-2010; @fridlund-2014]. Acordemente, las mismas
-técnicas modernas de neuroimagen muestran evidencia de áreas análogas
-a FFA en macacos [@tsao-et-al-2006], cuyo ancestro en común con
-humanos data de hace más de 25 millones de años [@lewis-2013]. Para
-rematar, exploraciones más invasivas mediante arreglos de
-microelectrodos han revelado que las neuronas en estos "parches" del
-macaco responden exclusivamente a rostros [@tsao-et-al-2006]. Es
-decir, no solo el agregado de actividad LFP[^LFP] sigue un código para la
-detección de rostros; el campo receptivo de cada célula individual
-de alguna manera ya lo está haciendo.
+corticales especializadas en la vía visual ventral o de reconocimiento
+de objetos. De particular prominencia es cierta área en los giros
+fusiformes de la cara ventral de los lóbulos temporales ("Fusiform
+Face Area") que responde más fuertemente para caras que para cualquier
+otro estímulo [@haxby-et-al-2000; @said-et-al-2010].[^faces] Mucho
+antes de la aparición del lenguaje _bona fide_ humano, nuestros
+ancestros tuvieron que leer estas expresiones e interpretarlas como
+parte de un repertorio de señalización para la vida en pequeñas
+sociedades de tropa [@fessler-gervais-2010;
+@fridlund-2014]. Acordemente, las mismas técnicas modernas de
+neuroimagen muestran evidencia de áreas análogas a FFA en macacos
+[@tsao-et-al-2006], cuyo ancestro en común con humanos data de hace
+más de 25 millones de años [@lewis-2013]. Para rematar, exploraciones
+más invasivas mediante arreglos de microelectrodos han revelado que
+las neuronas en estos "parches" del macaco responden exclusivamente a
+rostros [@tsao-et-al-2006]. Es decir, no solo el agregado de actividad
+LFP[^LFP] sigue un código para la detección de rostros; el campo
+receptivo de cada célula individual de alguna manera ya lo está
+haciendo.
 
 
-[^LFP]: Local Field Potential: potencial de campo local.
+[^LFP]: Local Field Potential: potencial de campo (eléctrico)
+    local. El voltaje del medio extracelular que rodea la membrana de
+    células excitables.
 
 [^faces]: Bien explican Haxby y coautores (_ibidem_) y
 @haist-anzures-2017 que la actividad del surco temporal superior
@@ -283,13 +298,14 @@ la mente[^theory-of-mind] [@mitchell-phillips-2015] y la empatía
 [@shamay-et-all-2009; @zaki-ochsner-2012]. Al ser éstas una flagrante
 muestra de los estados mentales más viscerales, todo el tiempo estamos
 leyendo las marcas de su expresión en el otro, retroalimentando
-nuestros propios aparatos cognitivos para poder lidiar con ellos, o
-bien, empatizar y sentir con ellos. Quizás una explicación de este
+nuestros propios aparatos cognitivos para poder lidiar con los demás,
+o bien, empatizar y sentir con ellos. Quizás una explicación de este
 tipo, un elaborado refriego de reflejos de antaño, subyazca
 controvertidos fenómenos (para las ciencias biológicas) como la
-adopción y la compasión que otras especies nos merecen. Debido a esto,
-más allá de ser ajenas al humano y lo humano, las emociones son parte
-y arte de los complejos razonamientos que acarrea la vida en sociedad.
+adopción o la compasión que otras especies nos merecen [@dawkins-1976;
+@wilson-2012]. Más allá de ser ajenas al humano y lo humano, las
+emociones son parte y arte de los complejos razonamientos que acarrea
+la vida en sociedad.
 
 <!-- Ya no es posible entender la formación de -->
 <!-- memorias a largo plazo o aprendizaje asociativo sin la participación -->

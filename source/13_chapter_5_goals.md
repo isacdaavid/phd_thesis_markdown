@@ -15,8 +15,8 @@
   afectiva con dicha evidencia.
 
 - Construir y documentar un _pipeline_ válido, general, reproducible y
-  reutilizable para el análisis de datos de fMRI orientado a este tipo
-  de tareas mediante clasificación multivariante de punta.
+  reutilizable para el análisis de datos de fMRI orientado a tareas
+  por bloques mediante clasificación multivariante.
 
 - Contrastar los resultados del método multivariante contra el
-  análisis clásico por GLM.
+  análisis clásico.

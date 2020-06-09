@@ -244,8 +244,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="322.70608"
-     inkscape:cy="198.10082"
+     inkscape:cx="154.41467"
+     inkscape:cy="220.72823"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -391,7 +391,7 @@
          id="tspan192"
          x="91.750023"
          y="185.85533"
-         style="font-size:3.52777767px;stroke-width:0.26458332">6 min, 10 s</tspan></text>
+         style="font-size:4.23333333px;stroke-width:0.26458332">6 min, 10 s</tspan></text>
     <rect
        style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:1.76286185;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect10-2-7"
@@ -1514,5 +1514,38 @@
          id="rect1260-5-06-3-9-5"
          style="fill:#ffffba;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:0.52916667, 1.05833336;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="5.8250957"
+       y="257.1944"
+       id="text194-3-4-3"><tspan
+         sodipodi:role="line"
+         id="tspan192-2-9-6"
+         x="5.8250957"
+         y="257.1944"
+         style="font-size:4.23333311px;text-align:start;text-anchor:start;stroke-width:0.26458332">bloque feliz</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="5.6459489"
+       y="276.25769"
+       id="text194-3-4-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan192-2-9-6-5"
+         x="5.6459489"
+         y="276.25769"
+         style="font-size:4.23333311px;text-align:start;text-anchor:start;stroke-width:0.26458332">bloque pseudocaras (&quot;scrambled&quot;)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="5.9095869"
+       y="295.36636"
+       id="text194-3-4-3-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan192-2-9-6-5-5"
+         x="5.9095869"
+         y="295.36636"
+         style="font-size:4.23333311px;text-align:start;text-anchor:start;stroke-width:0.26458332">bloque de cruz de fijación (&quot;blank&quot;)</tspan></text>
   </g>
 </svg>
