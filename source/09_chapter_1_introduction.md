@@ -126,19 +126,21 @@ Aunque de menor prevalencia que las desregulaciones psiquiátricas
 anteriores, funciones emocionales completas pueden llegar a perderse
 mediante lesiones, síndromes genéticos, patógenos y otras formas de
 deterioros neurológicos focalizados a estructuras del sistema
-emocional. Entre estas estructuras cerebrales diversas encontramos
-núcleos mesencefálicos, diencefálicos, telencefálicos subcorticales en
-ganglios basales y en la amígdala,[^amygdala] así como partes de la
-neocorteza de los mamíferos;[^cortex] resaltando la segregación y
-complejidad de los sistemas de la emoción. Cabe mencionar que la
-investigación biomédica en torno a problemas de salud emocional no se
-limita al _localizacionismo_. Existe un fuerte interés por encontrar
-explicaciones y biomarcadores clínicos modelando al cerebro como una
-red de componentes en interacción [@rubinov-sporns-2010]. Por ejemplo,
-se ha hipotetizado que el síndrome de Capgras resulta de una pérdida
-de comunicación entre el sistema de reconocimiento de caras en el
-lóbulo temporal y el sistema emocional, no obstante que ambos siguen
-operando bien por separado [@ellis-et-al-1997; @ramachandran-1998].
+emocional. Entre estas estructuras encefálicas diversas encontramos
+núcleos mesencefálicos (PGA), diencefálicos (hipotálamo posterior),
+telencefálicos subcorticales en ganglios basales (NAcc) y en la
+amígdala,[^amygdala] así como partes distantes de la neocorteza de los
+mamíferos[^cortex] y hasta del cerebelo;[^cerebelo] resaltando la
+segregación y complejidad de los sistemas de la emoción. Cabe
+mencionar que la investigación biomédica en torno a problemas de salud
+emocional no se limita al _localizacionismo_. Existe un fuerte interés
+por encontrar explicaciones y biomarcadores clínicos modelando al
+cerebro como una red de componentes en interacción
+[@rubinov-sporns-2010]. Por ejemplo, se ha hipotetizado que el
+síndrome de Capgras resulta de una pérdida de comunicación entre el
+sistema de reconocimiento de caras en el lóbulo temporal y el sistema
+emocional, no obstante que ambos siguen operando bien por separado
+[@ellis-et-al-1997; @ramachandran-1998].
 
 [^amygdala]: Lo que ocasiona el síndrome de Klüver-Bucy
           [@kluver-bucy-1937; @marlowe-et-al-1975] o la enfermedad de
@@ -146,6 +148,9 @@ operando bien por separado [@ellis-et-al-1997; @ramachandran-1998].
 [^cortex]: La demencia frontotemporal en su variante conductual es un
          caso de síndrome neurológico de origen cortical con fuertes
          repercusiones emocionales [@rohrer-et-al-2011].
+[^cerebelo]: La faceta afectiva del síndrome cognitivo-afectivo
+    cerebeloso (síndrome de Schmahmann) está ligada a daño
+    perivermiano del lóbulo posterior [@schmahmann-sherman-1997].
 
 __Emoción y cognición__
 
@@ -270,17 +275,23 @@ sociedades de tropa [@fessler-gervais-2010;
 neuroimagen muestran evidencia de áreas análogas a FFA en macacos
 [@tsao-et-al-2006], cuyo ancestro en común con humanos data de hace
 más de 25 millones de años [@lewis-2013]. Para rematar, exploraciones
-más invasivas mediante arreglos de microelectrodos han revelado que
-las neuronas en estos "parches" del macaco responden exclusivamente a
-rostros [@tsao-et-al-2006]. Es decir, no solo el agregado de actividad
-LFP[^LFP] sigue un código para la detección de rostros; el campo
-receptivo de cada célula individual de alguna manera ya lo está
-haciendo.
-
+más invasivas mediante electrocorticografía en pacientes humanos y
+arreglos de microelectrodos en el sistema de "parches" del macaco han
+revelado que las neuronas involucradas responden exclusivamente a
+rostros [@quiroga-et-al-2005; @tsao-et-al-2006]. Es decir, no solo el
+agregado de actividad LFP[^LFP] sigue un código para la detección de
+rostros; el campo receptivo de cada célula individual de alguna manera
+ya lo está haciendo.[^malach]
 
 [^LFP]: Local Field Potential: potencial de campo (eléctrico)
     local. El voltaje del medio extracelular que rodea la membrana de
     células excitables.
+[^malach]: Aunque se han encontrado neuronas individuales cuya
+    actividad correlaciona con la presentación de identidades
+    personales individuales [@quiroga-et-al-2005], es más plausible
+    que tanto el reconocimiento de rostros como su individuación en
+    realidad esté siguiendo un código poblacional, como sugiere la
+    evidencia expuesta por @grossman-et-al-2019.
 
 [^faces]: Bien explican Haxby y coautores (_ibidem_) y
 @haist-anzures-2017 que la actividad del surco temporal superior

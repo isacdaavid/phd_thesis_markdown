@@ -424,11 +424,11 @@ este marco de referencia imaginario. Un pulso con el doble de duración
 la dirección $z$ opuesta. Así, los pulsos de radiofrecuencia pueden
 ser identificados según su "flip angle": de 90°, 180°, etc. Si la
 amplitud del oscilador externo $B_1(t) = A sin(\omega t + \varphi)$ es
-constante (pulso cuadrado), entonces el ángulo obtenido se aproxima a:
+constante (pulso "cuadrado"), entonces el ángulo obtenido se aproxima a:
 
 $$ \angle (\vec{B_{0_z}}, \vec{M}) \approx \gamma A t_p $$
 
-Finalmente, el conjunto de espines va perdiendo la energía absorbida
+Finalmente, el conjunto de espines va perdiendo la energía absorbida,
 debido a la sarta de interacciones que siguen ocurriendo entre ellos
 mismos y con el medio. El vector $\vec{M}$ precesa en espiral de
 regreso al estado base. Imagine que el sistema acaba de ser excitado
@@ -439,7 +439,7 @@ longitudinal). Dichos movimientos de relajación son descritos
 clásicamente por el sistema de ecuaciones diferenciales de Bloch, con
 parámetros de tiempo T1 (longitudinal) y T2 (transversal), los cuales
 son característicos de cada compuesto o tejido. De aquí que la señal
-electromagnética devuelta registrada por una bobina antena pueda ser
+electromagnética devuelta registrada por una bobina-antena pueda ser
 más intensa en una zona del tejido que en otra, o en dos momentos
 distintos para la misma zona de tejido como sucede con el efecto BOLD.
 
@@ -503,7 +503,7 @@ variables manipuladas experimentalmente. Aunque el modelo de regresión
 suele incorporar varias covariables de movimiento o ruido, no se
 incluyen múltiples variables/señales de actividad cerebral como
 regresores o predictores. De hecho, no se incluye _ninguna_. En lugar
-de fungir como regresor, la señal cerebral única es la variable a ser
+de fungir como regresor, la señal cerebral es la variable a ser
 explicada mediante una combinación lineal de la variable experimental
 y covariables. Luego el proceso se repite por separado para modelar la
 señal cerebral en otra zona. Por esta razón, el análisis de regresión
