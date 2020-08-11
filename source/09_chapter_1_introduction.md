@@ -6,23 +6,24 @@
 
 __¿Qué son las emociones? Consideraciones biológicas y psicológicas__
 
-Las emociones son reacciones corporales estereotipadas ante estímulos
-o eventos, internos o externos, que el organismo evalúa como
-relevantes en términos de las muchas facetas del éxito evolutivo
-[@schacter-et-at-2011; @ledoux-damasio-2013]. Por ejemplo, el miedo de
-un gato espeluznado ante un perro — como cualquier instancia de esta
-emoción — es una respuesta adaptativa[^vestigial] forjada en el
-fenotipo de las especies o en su conducta aprendida para proceder con
-cautela durante la percepción de peligro. La reacción de una emoción
-abarca tanto componentes psicológicos como meramente fisiológicos
+Las emociones son reacciones corporales generalizadas y estereotipadas
+ante estímulos o eventos, ya sean internos o externos, que el
+organismo evalúa como relevantes en términos de las muchas facetas del
+éxito evolutivo [@schacter-et-at-2011; @ledoux-damasio-2013]. Por
+ejemplo, el miedo de un gato espeluznado ante un perro — como
+cualquier instancia de esta emoción — es una respuesta
+adaptativa[^vestigial] forjada en parte en el fenotipo de las especies
+y en su conducta aprendida para proceder con cautela durante la
+percepción de peligro. La reacción de una emoción abarca tanto
+componentes psicológicos como meramente fisiológicos
 [@schacter-et-at-2011; @ledoux-damasio-2013]. En el caso del
 desafortunado gato se tendrían, por un lado, la relocación súbita de
 su atención hacia el perro, la sensación misma del miedo como una
 suerte de compresión de las entrañas de abajo hacia arriba, etc. Por
-el lado fisiológico podríamos contar la sobreapertura de los
-párpados, hiperventilación y aceleración del ritmo cardiaco,
-liberación de hormonas estresantes, piloerección y quizás conductas de
-congelamiento por parte de la musculatura estriada.
+el lado fisiológico podríamos contar la sobreapertura de los párpados,
+hiperventilación y aceleración del ritmo cardiaco, liberación de
+hormonas estresantes, piloerección y quizás conductas de congelamiento
+o huida por parte de la musculatura estriada.
 
 [^vestigial]: Sin ánimos de anatematizar la existencia de vestigios a
     la par de adaptaciones.
@@ -33,25 +34,34 @@ mencionar algunas de las más populares, fenómenos como la alegría, la
 tristeza, el enojo, el asco y la vergüenza también forman parte de
 esta familia [@ekman-1994]. Cada una ameritaría su propia descripción
 en tanto que fenómeno psicofisiológico, así como su posible
-explicación funcional.
+explicación funcional (ver "las 4 preguntas de Tinbergen"
+[@tinbergen-1963] sobre la naturaleza multifacética de las
+explicaciones en biología).
 
-Existe otro sentido, entretejido al anterior, en el que se usa la
-palabra "emoción": el sentido de "sentimiento" (feeling). Desde esta
-segunda acepción, la emoción denota la sensación o experiencia
+Entretejidamente a la definición anterior, la palabra "emoción"
+también se usa para referir específicamente a uno de sus aspectos
+psicológicos: la sensación característica o experiencia
 consciente[^conscious] que suele acompañar a los exabruptos
 fisiológicos anteriormente mencionados [@tsuchiya-adolphs-2007;
-@schacter-et-at-2011; @ledoux-damasio-2013]. Dos características
-parecen ser necesarias y suficientes para distinguir la fenomenología
-de las emociones respecto de otros estados
-mentales [@schacter-et-at-2011]: la primera es que hacen referencia a
-su respectivo estado somático;[^somatic] y la segunda, no
-sorprendentemente, es que acarrean un valor hedónico. Es decir, las
-emociones parecen siempre ser agradables o desagradables, sin lugar a
-una tercera opción.[^hedonistic]
+@schacter-et-at-2011; @ledoux-damasio-2013].  Quienes abogan por una
+desambiguación proponen hablar de "sentimiento" (feeling) en lugar de
+"emoción", y para ellos, "emoción" también rima con "conducta
+observable" [@ledoux-damasio-2013]. De cualquier manera, desde esta
+segunda acepción igual de inexorable, dos características emergen como
+necesarias y suficientes para distinguir la fenomenología de los
+sentimientos respecto de otros estados
+mentales [@schacter-et-at-2011]: la primera es que su intencionalidad
+está dirigida hacia su respectivo estado somático.[^somatic] La
+segunda, no sorprendentemente, es que acarrean un valor hedónico; como
+deja entrever la estrechez entre el sistema de recompensa y el sistema
+emocional [@berridge-kringelbach-2008]. Es decir, las emociones
+parecen siempre ser agradables o desagradables, sin lugar a una
+tercera opción.[^hedonistic]
 
 [^conscious]: Por "consciencia" me referiré específicamente al
     significado amplio y rudimentario de consciencia fenoménica: la
-    cualidad de los objetos que sienten; en la línea de autores como
+    cualidad de los objetos que sienten, así como el contenido de
+    dichas experiencias subjetivas; en la línea de autores como
     Christof Koch, David Chalmers, Giulio Tononi y Ned Block.
 [^hedonistic]: A diferencia de, por ejemplo, la experiencia libre de
     placer o desagrado de un color vívido, o información
@@ -62,18 +72,19 @@ una tercera opción.[^hedonistic]
     suficiencia de _representaciones_ o simulaciones mentales del
     cuerpo.
 
-Se trata de un fenómeno _muy_ básico y bien conservado a través de la
-filogenia, tanto así que algunos estudiosos sugieren que los
-rudimentos de las manifestaciones conductuales de las emociones
-(esencialmente conductas de apertura-acercamiento o rechazo) son
-trazables a respuestas análogas en todo el árbol de la vida
-[@damasio-carvalho-2013]; aunque el caso más claro por mucho es el de
-animales con un sistema nervioso, que es lo que sustenta y coordina
-sus funciones emocionales. Resulta interesante por lo tanto entender
-el sustrato de una de las funciones básicas del sistema nervioso; y
-aunque nadie sano duda poder distinguir la alegría de la tristeza (ya
-sean las propias o las ajenas), descubrir su naturaleza en actividad
-nerviosa ha probado ser especialmente dificultoso.
+Hablar de emociones es hablar de un fenómeno biológico muy básico,
+bien conservado a través de la filogenia, tanto así que algunos
+estudiosos sugieren que los rudimentos de las manifestaciones
+conductuales de las emociones (esencialmente conductas de
+apertura-acercamiento o rechazo) son trazables a respuestas análogas
+en todo el árbol de la vida [@damasio-carvalho-2013]; aunque el caso
+más claro por mucho es el de animales con un sistema nervioso, que es
+lo que sustenta y coordina sus funciones emocionales. Resulta
+interesante por lo tanto entender el sustrato de una de las funciones
+básicas del sistema nervioso; y aunque nadie sano duda poder
+distinguir la alegría de la tristeza (ya sean las propias o las
+ajenas), descubrir su naturaleza en actividad nerviosa ha probado ser
+especialmente dificultoso.
 
 La problemática es patente a partir del abanico de teorías
 psicológicas que compiten por caracterizarlas en términos
@@ -91,6 +102,8 @@ lugar de llana tristeza). Otros más terminarían por argüir que no hay
 modelos unificadores puesto que se trata de fenómenos corporales muy
 dispares, y los intentos por agruparlos son poco más que constructos
 culturales [ver @kragel-labar-2016 para una revisión comparativa].
+
+\newpage
 
 __Emoción y salud__
 
@@ -126,18 +139,19 @@ Aunque de menor prevalencia que las desregulaciones psiquiátricas
 anteriores, funciones emocionales completas pueden llegar a perderse
 mediante lesiones, síndromes genéticos, patógenos y otras formas de
 deterioros neurológicos focalizados a estructuras del sistema
-emocional. Entre estas estructuras encefálicas diversas encontramos
-núcleos mesencefálicos (PGA), diencefálicos (hipotálamo posterior),
-telencefálicos subcorticales en ganglios basales (NAcc) y en la
-amígdala,[^amygdala] así como partes distantes de la neocorteza de los
-mamíferos[^cortex] y hasta del cerebelo;[^cerebelo] resaltando la
-segregación y complejidad de los sistemas de la emoción. Cabe
+emocional. Entre estas estructuras encefálicas dispersas encontramos
+desde núcleos mesencefálicos (como PGA), diencefálicos (hipotálamo
+posterior), telencefálicos subcorticales en ganglios basales (NAcc) y
+en la amígdala,[^amygdala] así como partes distantes de la neocorteza
+de los mamíferos[^cortex] y hasta del cerebelo;[^cerebelo] resaltando
+la segregación y complejidad de los sistemas de la emoción. Cabe
 mencionar que la investigación biomédica en torno a problemas de salud
 emocional no se limita al _localizacionismo_. Existe un fuerte interés
 por encontrar explicaciones y biomarcadores clínicos modelando al
-cerebro como una red de componentes en interacción
-[@rubinov-sporns-2010]. Por ejemplo, se ha hipotetizado que el
-síndrome de Capgras resulta de una pérdida de comunicación entre el
+cerebro como una red compleja de componentes en interacción
+[@rubinov-sporns-2010; @chialvo-2010]. Por ejemplo, se ha hipotetizado
+que el síndrome de Capgras — en el que seres queridos son confundidos
+con impostores — resulta de una pérdida de comunicación entre el
 sistema de reconocimiento de caras en el lóbulo temporal y el sistema
 emocional, no obstante que ambos siguen operando bien por separado
 [@ellis-et-al-1997; @ramachandran-1998].
@@ -150,30 +164,23 @@ emocional, no obstante que ambos siguen operando bien por separado
          repercusiones emocionales [@rohrer-et-al-2011].
 [^cerebelo]: La faceta afectiva del síndrome cognitivo-afectivo
     cerebeloso (síndrome de Schmahmann) está ligada a daño
-    perivermiano del lóbulo posterior [@schmahmann-sherman-1997].
+    perivermiano del lóbulo posterior del cerebelo
+    [@schmahmann-sherman-1997].
+
+\newpage
 
 __Emoción y cognición__
 
 Lejos de ser un mecanismo aislado — ¡y en contra del sentido común! —,
 la cognición más superior y racional es y _debe ser_ en cierta medida
-influida y modulada por emociones. Veamos un caso de ello: en estado
+modulada y sazonada por emociones. Veamos un caso de ello: en estado
 fisiológico la gente usa sus corazonadas emocionales como información
 para nutrir sus creencias sobre la probabilidad de éxito en una
 actividad [@isen-patrick-1983]. ¿Por qué sería útil y heurístico este
 sesgo? La respuesta es simple: el mundo causa en gran mesura nuestros
 estados afectivos; por lo tanto los estados afectivos pueden proveer
 información sucinta — ¡vaya!, de calidad ejecutiva — acerca del mundo
-[@schwarz-clore-2003]. Como pieza en el rompecabezas de las funciones
-neurales, la emoción provee cimientos para algo tan crucial y etéreo
-como la motivación [@schwarz-1990; @schacter-et-at-2011]; y por
-transitividad, sobre éste también descansa la planificación, sin
-mencionar aspectos de la toma adecuada de decisiones [@schwarz-1990;
-@bechara-et-al-2000], ambos característicos de la inteligencia. ¿Cuál
-es la _causa final_ de que el granjero ahorre sus ingresos para
-comprar un nuevo tractor? ¿Es transformar la maleza, es aumentar la
-producción, obtener incluso más ingresos, es comprar otros bienes, o
-es la búsqueda de un bienestar físico y psicológico para él mismo y su
-familia?
+[@schwarz-clore-2003].
 
 También aquí la patología ofrece una oportunidad para poner de
 manifiesto la relevancia cognitiva de la emocionalidad. La paciente
@@ -189,9 +196,33 @@ para sentir. La ausencia de instintos como el miedo se traduce en una
 pésima adopción de estrategias en situaciones emocionalmente cargadas
 [@damasio-1996; @bechara-et-al-2000].
 
+¿Son muestras como éstas las excepciones o la regla? Una vez
+reconocido que la emoción sobrevive porque otorga ventajas
+adaptativas, incluidas de índole cognitiva, es natural preguntarse
+hasta dónde se extienden (o deberían extender) sus dominios. Podría
+sonar a mercadeo hiperbólico, pero lo cierto es que un sinfín de
+modelos y conocimientos en aprendizaje por refuerzos
+[@berridge-kringelbach-2008], control motor [@kording-wolpert-2006],
+inteligencia artificial y robótica [@sutton-barto-2018], economía
+[@jevons-1879] y ética [@bentham-1781] solo pueden ser entendidos bajo
+la luz del valor subjetivo que las emociones esconden; o al menos su
+operacionalización en forma de utilidad o recompensa. El agente
+racional perfecto es aquel que cree por evidencia, pero actúa por
+pasiones. ¿Cuál es la _causa final_ de que el pollo cruzara el camino?
+¿Es refinar su percepción del terreno, es ponerse en forma, es
+coleccionar alimento, o es la búsqueda del bienestar para él y los
+suyos? Como pieza clave en el rompecabezas de las funciones neurales,
+la emoción provee cimientos para algo tan crucial y etéreo como la
+motivación [@schwarz-1990; @schacter-et-at-2011]; y por transitividad,
+sobre éste también descansa la planificación, sin mencionar aspectos
+de la toma adecuada de decisiones [@schwarz-1990;
+@bechara-et-al-2000], todos ellos característicos de la inteligencia.
+
 [^iowa]: Como la prueba neuropsicológica del juego de azar de Iowa
     (Iowa Gambling Task) [@bechara-et-al-2001] y la prueba por desliz
     (Faux Pas) [ver @torralva-et-al-2009].
+
+\newpage
 
 __Emoción y sociedad__
 
@@ -245,8 +276,9 @@ expresión facial como medio [@tsao-et-al-2006]. Pocos estímulos son
 tan informativos como los rostros. Basta una fracción de segundo para
 que la cara de una persona nos cuente algo acerca de su sexo, edad,
 etnia; incluso de su foco de atención y por supuesto, su estado
-anímico [@tsao-livingstone-2008; @haist-anzures-2017]. Quizás ninguno
-otro induce tantas ilusiones pareidólicas, y la sofisticación de su
+anímico [@tsao-livingstone-2008; @haist-anzures-2017;
+@reggev-et-al-2020]. Quizás ningún otro estímulo induce tantas
+ilusiones pareidólicas [@liu-et-al-2014], y la sofisticación de su
 reconocimiento — que aparece pocas horas después de nacer y alcanza la
 cuasi-madurez naturalmente antes del primer año [@haist-anzures-2017]
 — solamente es equiparable a habilidades aprendidas arduamente como la
@@ -254,7 +286,7 @@ lectura.
 
 [^perception]: Percepción es el conjunto de procesos de interfaz
     mediante los cuales un sistema cognitivo adquiere información
-    externa y la interpreta, volviéndola útil para procesos de orden
+    externa y _la interpreta_, volviéndola útil para procesos de orden
     superior como la categorización y conceptualización, la acción y el
     control ejecutivo.
 
@@ -290,7 +322,7 @@ ya lo está haciendo.[^malach]
     actividad correlaciona con la presentación de identidades
     personales individuales [@quiroga-et-al-2005], es más plausible
     que tanto el reconocimiento de rostros como su individuación en
-    realidad esté siguiendo un código poblacional, como sugiere la
+    realidad estén siguiendo un código poblacional, como sugiere la
     evidencia expuesta por @grossman-et-al-2019.
 
 [^faces]: Bien explican Haxby y coautores (_ibidem_) y
@@ -306,7 +338,7 @@ antropocentrismo. Después de la supervivencia, la salud, la cognición
 y la visita al zoológico... la buena percepción de emociones termina
 por alimentar los mecanismos de algo tan sofisticado como la teoría de
 la mente[^theory-of-mind] [@mitchell-phillips-2015] y la empatía
-[@shamay-et-all-2009; @zaki-ochsner-2012]. Al ser éstas una flagrante
+[@shamay-et-all-2009; @zaki-ochsner-2012]. Siendo las emocioens una flagrante
 muestra de los estados mentales más viscerales, todo el tiempo estamos
 leyendo las marcas de su expresión en el otro, retroalimentando
 nuestros propios aparatos cognitivos para poder lidiar con los demás,

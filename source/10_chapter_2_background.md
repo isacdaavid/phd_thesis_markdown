@@ -85,7 +85,7 @@ hemisferio, especialmente sus núcleos laterales
 eventos emocionalmente relevantes. Una larga historia de investigación
 en condicionamiento iniciada por Weiskrantz ha mostrado que la
 amígdala debe estar forzosamente presente para aprender a asociar
-implícitamente conductas y estímulos incondicionados con el miedo
+implícitamente conductas y estímulos condicionados con el miedo
 [@ledoux-damasio-2013]. Por ejemplo: cuando un niño aprende a no
 introducir sus dedos en una toma de corriente, sus amígdalas hacen
 posible que la respuesta de miedo se "copie" de la experiencia
@@ -93,9 +93,10 @@ intrínsecamente aversiva de una descarga eléctrica a la mera
 observación de la toma de corriente (siguiendo una lógica de
 condicionamiento clásico). Luego el núcleo central de cada amígdala
 proyecta a lugares como el hipotálamo y la sustancia gris
-periacueductal del mesencéfalo, que a su vez activan, respectivamente,
-actividad humoral estresante en el eje hipofisiario-adrenal y
-conductas motoras automáticas [@ledoux-damasio-2013].
+periacueductal (PGA) del mesencéfalo, que a su vez activan,
+respectivamente, actividad humoral estresante en el eje
+hipofisiario-adrenal y conductas motoras automáticas
+[@ledoux-damasio-2013].
 
 ![La amígdala se incorpora como pieza irrenunciable del sistema de las
 emociones. \label{weiskrantz}](source/figures/history-3.svg){height=25%}
@@ -117,11 +118,11 @@ ventrales[^salience] (vAIC) [@gu-et-al-2013].
        (OFC).
 [^salience]: Curiosamente, tanto la ínsula anterior como el cíngulo
     anterior mantienen la misma subdivisión durante su fuerte
-    interacción en funciones emocionales y de monitoreo. Mientras
-    que el cíngulo anterior dorsal y la ínsula anterior dorsal se han
-    asociado a la red de saliencia en estudios en estado de reposo,
-    sus contrapartes ventrales están estrechamente ligadas a la
-    emoción.
+    interacción en funciones emocionales y de
+    monitoreo/autorregulación. Mientras que el cíngulo anterior dorsal
+    y la ínsula anterior dorsal se han asociado a la red de saliencia
+    en estudios en estado de reposo, sus contrapartes ventrales están
+    estrechamente ligadas a la emoción.
 
 ![El entendimiento contemporáneo del sistema emocional abarca varios
 componentes corticales e incluso cerebelosos. En imagen se muestran
@@ -145,27 +146,26 @@ genética o cultural.
 
 Una técnica o familia de técnicas que resulta especialmente útil para
 mapear funciones cerebrales tan distribuidas (como las emociones) es
-la neuroimagen funcional.[^neuroimagenfunc] Los metanálisis y
-revisiones de la literatura hasta antes de la aplicación de detección
-de patrones multivariados no muestran una tendencia en la respuesta a
-las preguntas anteriores. @phan-et-al-2002 analizaron los mapas de
-activación de 55 estudios de PET[^pet] y fMRI[^fmri], y encontraron
-evidencia parcial para la existencia de correlatos neuroanatómicos
-consistentes a la ocurrencia de distintos tipos de emociones
-básicas. @murphy-et-al-2003 incrementaron el tamaño de muestra a 106
-estudios y mantuvieron la conclusión general respecto del metanálisis
-anterior, aunque los correlatos no fueron suficientemente
-similares. La relativa debilidad de los resultados ha sido usada como
-evidencia de hipótesis alternativas; a saber, teorías dimensionales y
-de actos conceptuales [emociones como construcciones de afectos,
-@barrett-2006]. @barrett-wager-2006 examinaron 161 estudios y
-encontraron correlatos exclusivos (mas no específicos) para miedo,
-tristeza y asco. La felicidad y el enojo no arrojaron correlatos ni
-consistentes ni específicos. @vytal-and-hamann-2010 utilizaron un
-análisis con mayor sensibilidad espacial para contrastar cinco
-emociones básicas provenientes de 83 estudios. Concluyeron que aunque
-existen _clústers_ característicos de activación para cada una de
-ellas, no es evidencia suficiente para descartar otros modelos de
+la neuroimagen funcional.[^neuroimagenfunc] Desafortunadamente, los
+metanálisis y revisiones de la literatura no muestran una tendencia en
+la respuesta a las preguntas anteriores. @phan-et-al-2002 analizaron
+los mapas de activación de 55 estudios de PET[^pet] y fMRI[^fmri], y
+encontraron evidencia parcial para la existencia de correlatos
+neuroanatómicos consistentes a la ocurrencia de distintos tipos de
+emociones básicas. @murphy-et-al-2003 incrementaron el tamaño de
+muestra a 106 estudios y mantuvieron la conclusión general respecto
+del metanálisis anterior, aunque los correlatos no fueron
+suficientemente similares. La relativa debilidad de los resultados ha
+sido usada como evidencia de hipótesis alternativas; a saber, teorías
+dimensionales y de actos conceptuales [emociones como construcciones
+de afectos, @barrett-2006]. @barrett-wager-2006 examinaron 161
+estudios y encontraron correlatos exclusivos (mas no específicos) para
+miedo, tristeza y asco. La felicidad y el enojo no arrojaron
+correlatos ni consistentes ni específicos. @vytal-and-hamann-2010
+utilizaron un análisis con mayor sensibilidad espacial para contrastar
+cinco emociones básicas provenientes de 83 estudios. Concluyeron que
+aunque existen _clústers_ característicos de activación para cada una
+de ellas, no es evidencia suficiente para descartar otros modelos de
 representación emocional en el cerebro. @lindquist-et-al-2012
 analizaron 91 estudios tanto de experiencia de emociones como de
 percepción emocional. Definieron evidencia a favor de emociones
@@ -250,11 +250,11 @@ Cuando de registrar actividad cerebral con la mayor envergadura y
 resolución espacial se trata, la técnica más conspicua actualmente es
 la resonancia magnética nuclear funcional. Escáneres modernos de este
 tipo son capaces de registrar casi simultáneamente una forma de
-metabolismo aeróbico en todas las partes de una malla virtual que bien
-puede cubrir todo el cerebro. Estas señales, conocidas como "BOLD", a
-su vez correlacionan con la actividad LFP de las neuronas
-[@logothetis-et-al-2001]. Es una técnica idónea para estudios en los
-que redes funcionales asociadas a tareas primero deben ser
+metabolismo aeróbico en todas las partes de una malla virtual, que
+bien podría cubrir la totalidad del encéfalo. Estas señales, conocidas
+como "BOLD", a su vez correlacionan con la actividad LFP de las
+neuronas [@logothetis-et-al-2001]. Es una técnica idónea para estudios
+en los que redes funcionales asociadas a tareas primero deben ser
 identificadas o refinadas — _in vivo_ y sin invasividad — allanando el
 terreno para técnicas de medición más finas que intenten establecer la
 circuitería y química sináptica [@logothetis-2008]. Estos párrafos
@@ -270,37 +270,39 @@ colaboradores en una serie de estudios al inicio de la década de 1990
 @ogawa-et-al-1992]. La señal BOLD es una medida indirecta de los
 incrementos y disminuciones de actividad neuronal. Ante una fuerte
 demanda metabólica de las neuronas, mecanismos diversos de
-acoplamiento neurovascular responden con una hiperemia e hiperoxia, es
-decir; ocurre una vasodilatación para compensar la extracción del
-oxígeno en los eritrocitos que van pasando por los capilares
-aledaños. De hecho no es una compensación, sino _sobrecompensación_
-[@uludag-et-al-2005]. Décadas atrás, el famoso químico Linus
-Pauling había descubierto que la molécula de la hemoglobina presenta
-una susceptibilidad magnética distinta dependiendo de si los dominios
-con hierro portan o no oxígeno [@pauling-coryell-1936]. Se puede
-imaginar que mientras que la versión oxigenada de la hemoglobina
-preserva el flujo del campo magnético en el que está inmerso el
-tejido, su contraparte desoxigenada lo deforma. Es entonces cuando la
-prestación del fenómeno a ser cuantificado mediante resonancia
-magnética se vuelve natural y patente: la señal BOLD como fluctuación
+acoplamiento neurovascular responden provocando vasodilatación para
+compensar la extracción del oxígeno en los eritrocitos que van pasando
+por los capilares aledaños. Más incluso, la compensación es una
+_sobrecompensación_ [@uludag-et-al-2005]; por lo que el balance neto
+conforme aumenta la tasa de disparo de potenciales de acción (junto
+con otros fenómenos celulares) es hacia la hiperemia e
+hiperoxia. Décadas atrás, el famoso químico Linus Pauling había
+descubierto que la molécula de la hemoglobina presenta una
+susceptibilidad magnética distinta dependiendo de si los dominios con
+hierro portan o no oxígeno [@pauling-coryell-1936]. Se puede imaginar
+que mientras que la versión oxigenada de la hemoglobina preserva el
+flujo del campo magnético en el que está inmerso el tejido, su
+contraparte desoxigenada lo deforma. Es entonces cuando la prestación
+del fenómeno a ser cuantificado mediante resonancia magnética se
+vuelve natural y patente: la señal BOLD como fluctuación
 electromagnética es una función de la tasa metabólica de oxígeno en la
 sangre local y, sobretodo, del flujo sanguíneo [@uludag-et-al-2005].
 
 Todas las aplicaciones usuales de resonancia magnética nuclear buscan
 excitar el _espín_ de algún isótopo particular, usualmente hidrógeno
 protio ($^{1}H$) en el ambiente imagenológico, de gran abundancia en
-las moléculas de agua. Éstos yacen en un estado basal de energía,
-alineados preponderantemente como brújulas en dirección del fuerte
-campo del magneto externo, hasta que un pulso electromagnético
-sintonizado a su frecuencia natural de resonancia los hace pasar a
-otro estado excitado en dirección opuesta. Según los protones van
-relajándose al estado inicial, la energía electromagnética es disipada
-de vuelta; no obstante, aquellos que se encuentran en un campo
-magnético diezmado se desfasan más rápidamente en su giro en
-precesión; por lo que la señal transversal al campo magnético
-principal, tal y como es obtenida en una región del tejido, es menor
-cuando la actividad neuronal y el flujo de sangre oxigenada es
-menor. Ésta es la resonancia magnética nuclear que subyace
+las moléculas de agua y biomoléculas. Los espínes yacen en un estado
+basal de energía, alineados preponderantemente como brújulas en
+dirección del fuerte campo del magneto externo, hasta que un pulso
+electromagnético sintonizado a su frecuencia natural de resonancia los
+hace pasar a otro estado excitado en dirección opuesta. Según los
+protones van relajándose al estado inicial, la energía
+electromagnética es disipada de vuelta; no obstante, aquellos que se
+encuentran en un campo magnético diezmado se desfasan más rápidamente
+en su giro en precesión; por lo que la señal transversal al campo
+magnético principal, tal y como es obtenida en una región del tejido,
+es menor cuando la actividad neuronal y el flujo de sangre oxigenada
+es menor. Ésta es la resonancia magnética nuclear que subyace
 aplicaciones como el efecto BOLD, condensada a una cáscara de
 nuez. ¿Pero qué significaría todo eso con algo más de detalle?
 
@@ -322,25 +324,25 @@ $\frac{1}{2}$. El conjunto de espines posibles está dado por la
 siguiente expresión, aquí desarrollada para el $^{1}H$ cuyo $s =
 \frac{1}{2}$:
 
-$$ \left\{ S : S = \frac{h}{2\pi} \sqrt{s(s+1)} = \frac{h}{2\pi} \sqrt{\frac{1}{2} \left( \frac{1}{2}+1 \right) } = \pm \frac{h}{2\pi} \sqrt{\frac{3}{4}} \right\} $$
+$$ \left\{ S : S = \frac{h}{2\pi} \sqrt{s(s+1)} = \frac{h}{2\pi} \sqrt{\frac{1}{2} \left( \frac{1}{2}+1 \right) } = \pm \frac{h}{2\pi} \sqrt{\frac{3}{4}} \right\} $$ {#eq:}
 
 Donde $h$ es la constante de Planck, equivalente a $2 \pi \hbar$.
 
 El estado cuántico de dirección del espín en espacio 3D,
 correspondiente a la noción clásica de eje de rotación, puede
-modelarse como un vector $\vec{S}$ con un componente con el valor esperado del
+modelarse como un vector $\bm{s}$ con un componente con el valor esperado del
 espín proyectado en cada coordenada. Para coordenadas cartesianas:
 
-$$ \left|\left. S \right>\right. = \vec{S} = \left( S_x, S_y, S_z \right)^T = \hbar \left( s_x, s_y, s_z \right)^T $$
+$$ \left|\left. S \right>\right. = \bm{s} = \left( S_x, S_y, S_z \right)^T = \hbar \left( s_x, s_y, s_z \right)^T $$ {#eq:}
 
 Aunque el principio de incertidumbre impide asignar valores definidos
 y simultáneos a cada componente, esta representación vectorial sigue
 siendo de gran utilidad cuando se toma en cuenta que el espín de la
-partícula en conjunto con su carga producen un _momento de dipolo
-magnético de espín_ $\vec{\mu}$ , como si se tratase de una brújula
+partícula en mancuerna con su carga producen un _momento de dipolo
+magnético de espín_, $\bm{\mu}$ , como si se tratase de una brújula
 que experimentará realineación o torque conforme al campo magnético:
 
-$$ \vec{\mu}_S = \gamma \vec{S} $$
+$$ \bm{\mu}_S = \gamma \bm{s} $$ {#eq:}
 
 Donde $\gamma$, llamada "_razón giromagnética_", es una constante
 particular a cada partícula o sistema ya que está dada por su masa,
@@ -348,26 +350,26 @@ su carga y su factor-g, según $\gamma = gq/2m$.
 
 Cuando el campo magnético es nulo, ambos estados de $s$ ($+\frac{1}{2}$
 y $-\frac{1}{2}$) son equiprobables o de misma energía, pero en
-presencia de un campo magnético $\vec{B}_0$, la energía de cada estado
-será el producto escalar:
+presencia de un campo magnético $\bm{b}_0$, la energía de cada estado
+será el producto interior:
 
-$$ E = -  \vec{B}_0 \cdot \vec{\mu}_S $$
+$$ E = -  \bm{b}_0 \cdot \bm{\mu}_S $$ {#eq:energy-magnetic}
 
-Si el campo es despreciable excepto en una dirección, como en el caso
-de un solenoide, la expresión anterior se reduce a $E = -\gamma \hbar
-s_z B_{0_z}$; es decir, que la energía para cada estado es función
-lineal de la magnitud del campo, cambiando la pendiente según el signo
-de $s_z$. Lo que esto significa para el tejido o muestra rodeado por
-un electroimán es que el espín de todas sus partículas con un momento
-magnético se "realinea" en dirección de $\vec{B}_0,$ o la exactamente
-opuesta, pero no en la misma proporción.[^boltzmann] La ligera
-preferencia por ocupar estados de menor energía se traduce en un
-_vector neto de magnetización de espín_ distinto de cero, llamado
-$\vec{M}$, para el cual el análisis puede proseguir sin hacer alusión
-a la mecánica cuántica subyacente.
+Si el campo es despreciable excepto en una dirección (llámese $z$),
+como en el caso de un solenoide, la expresión (@eq:energy-magnetic) se
+reduce a $E = -b_{0_z} \gamma \hbar s_z$. Es decir: que la energía
+para cada estado es una función lineal de la magnitud del campo,
+cambiando la pendiente según el signo de $s_z$. Lo que esto significa
+para el tejido o muestra rodeado por un electroimán es que el espín de
+todas sus partículas con un momento magnético se "realinea" en
+dirección de $\bm{b}_0,$ o la exactamente opuesta, pero no en la misma
+proporción.[^boltzmann] La ligera preferencia por ocupar estados de
+menor energía se traduce en un _vector neto de magnetización de espín_
+distinto de cero, llamado $\bm{m}$, para el cual el análisis puede
+proseguir sin hacer alusión a la mecánica cuántica subyacente.
 
 [^boltzmann]: La distrubución de Boltzmann nos dice que la
-    probabilidad de encontrar $\vec{\mu}_S$ en uno u otro estado
+    probabilidad de encontrar $\bm{\mu}_S$ en uno u otro estado
     energético es (a temperatura $T$ y usando la constante homónima
     $k$):
 
@@ -379,17 +381,17 @@ dominio público por J. Bancroft
 Brown. \label{nmr-energy}](source/figures/NMR_splitting.gif){height=18%}
 
 Si ese fuera el fin de la historia no habría resonancia ni
-aplicaciones interesantes. En términos informales, resulta que no solo
-$\vec{M}$ gira incesantemente sobre su propio eje debido al espín, y
-un poco más en cualquiera que sea el eje necesario para volverse
-paralelo a $\vec{B_0}$. El eje $\vec{M}$ además sufre precesión: una
-reorientación cíclica alrededor del eje de $\vec{B_0}$, análogo a los
-tambaleos de un trompo que se desalinea. El movimiento de $\vec{M}$
-llevará por nombre y apellido "_precesión de Larmor_".[^rabi] La
-frecuencia de la precesión de Larmor sólo depende de la razón
-giromagnética y la magnitud de $\vec{B_0}$:
+aplicaciones interesantes. Sin embargo resulta que, narrado de manera
+un tanto informal, $\bm{m}$ no sólo gira incesantemente sobre su
+propio eje debido al espín; y no sólo rota momentáneamente un poco más
+con tal de volverse paralelo a $\bm{b_0}$. $\bm{m}$ además sufre
+precesión: una reorientación cíclica alrededor del eje de $\bm{b_0}$,
+análogo a los tambaleos de un trompo desalineado en su giro. El
+movimiento de $\bm{m}$ llevará por nombre y apellido "_precesión de
+Larmor_".[^rabi] La frecuencia de la precesión de Larmor sólo depende
+de la razón giromagnética y la magnitud de $\bm{b_0}$:
 
-$$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E_{B}}{h} = \frac{-\gamma |\vec{B}_0|}{2\pi} $$
+$$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E_{B}}{h} = \frac{-\gamma |\bm{b}_0|}{2\pi} $$ {#eq:}
 
 [^rabi]: En una verdadera explicación cuántica se hablaría de
     oscilaciones de Rabi.
@@ -398,10 +400,10 @@ Mera sustitución de valores permite conocer cuál sería el límite de
 intensidad del campo magnético antes de tener que exponer la muestra a
 ondas ionizantes para lograr la precesión. Por ejemplo, para $^{1}H$ y
 radiación en el infrarrojo lejano a 1 THz (que por supuesto, todavía
-no es ionizante), $|\vec{B}_0| = 2 \pi \nu / \gamma = 2 \pi$(1 THz) /
+no es ionizante), $|\bm{b}_0| = 2 \pi \nu / \gamma = 2 \pi$(1 THz) /
 (42.57 MHz/T) $\approx$ 147 kT. Claro está que la radiación ionizante
-sería el menor de los peligros exponiendo biomoléculas a tales fuerzas
-magnéticas.
+sería el menor de los peligros exponiendo biomoléculas a semejantes
+fuerzas magnéticas.
 
 La resonancia propiamente es una característica matemática de toda
 ecuación diferencial con soluciones ondulatorias a la cual se ha
@@ -411,46 +413,49 @@ sirve como suministro de energía al sistema; y cuando esto ocurre en
 sincronía a la ondulación natural, la energía es aprovechada para
 excitarla.
 
-Sea notado que la precesión de Larmor existe por la mera presencia del
-campo magnético estático, pero su amplitud es contingente a que un
-campo $\vec{B_1(t)}$, oscilando a la frecuencia adecuada en el plano
-$xy$, se monte en superposición con $\vec{B_0}$. Entre más duradera la
-pulsación de $\vec{B_1(t)}$, mayor la apertura del cono que $\vec{M}$
-forma mientras precesa. Inclusive podría pasar de precesar en un cono
-alrededor de la dirección $z$ a girar como manecilla sobre el plano
-ortogonal $xy$; con el origen del vector siempre pinchado al origen de
-este marco de referencia imaginario. Un pulso con el doble de duración
-($t_p$) alimentaría suficiente energía para invertir la precesión en
-la dirección $z$ opuesta. Así, los pulsos de radiofrecuencia pueden
-ser identificados según su "flip angle": de 90°, 180°, etc. Si la
-amplitud del oscilador externo $B_1(t) = A sin(\omega t + \varphi)$ es
-constante (pulso "cuadrado"), entonces el ángulo obtenido se aproxima a:
+Algo sobresaliente es que la precesión de Larmor existe por la mera
+presencia del campo magnético estático, pero su amplitud es
+contingente a que un campo $\bm{b}_1(t)$, oscilando a la frecuencia
+adecuada en el plano $xy$, se monte en superposición con
+$\bm{b}_0$. Más aún, el pulso resonante sincroniza la precesión. Entre
+más duradera la pulsación de $\bm{b}_1(t)$, mayor la apertura del cono
+que $\bm{m}$ forma mientras precesa. Inclusive podría pasar de
+precesar en un cono alrededor de la dirección $z$ a girar como
+manecilla sobre el plano ortogonal $xy$; con el origen del vector
+siempre pinchado al origen de este marco de referencia imaginario. Un
+pulso con el doble de duración ($t_p$) alimentaría suficiente energía
+para invertir la precesión en la dirección $z$ opuesta. Así, los
+pulsos de radiofrecuencia pueden ser identificados según su "flip
+angle": de 90°, 180°, etc. Si la amplitud ($A$) del oscilador externo
+$b_1(t) = A sin(\omega t + \varphi)$ es constante (pulso "cuadrado"),
+entonces el ángulo obtenido se aproxima a:
 
-$$ \angle (\vec{B_{0_z}}, \vec{M}) \approx \gamma A t_p $$
+$$ \angle (\bm{b}_{0_z}, \bm{m}) \approx \gamma A t_p $$ {#eq:}
 
-Finalmente, el conjunto de espines va perdiendo la energía absorbida,
-debido a la sarta de interacciones que siguen ocurriendo entre ellos
-mismos y con el medio. El vector $\vec{M}$ precesa en espiral de
-regreso al estado base. Imagine que el sistema acaba de ser excitado
-con un pulso de resonancia de 90°. Mientras que $\vec{M}$ va perdiendo
-su componente en el plano transversal $xy$ a su regreso (relajación
-transversal), el eje $z$ lo ve recuperarse (relajación
-longitudinal). Dichos movimientos de relajación son descritos
-clásicamente por el sistema de ecuaciones diferenciales de Bloch, con
-parámetros de tiempo T1 (longitudinal) y T2 (transversal), los cuales
-son característicos de cada compuesto o tejido. De aquí que la señal
-electromagnética devuelta registrada por una bobina-antena pueda ser
-más intensa en una zona del tejido que en otra, o en dos momentos
-distintos para la misma zona de tejido como sucede con el efecto BOLD.
+Una vez que dicho pulso resonante haya cesado, el conjunto de espines
+irá perdiendo la energía absorbida debido a la sarta de interacciones
+que siguen ocurriendo entre ellos mismos y con el medio. El vector
+$\bm{m}$ precesa en espiral de regreso al estado base. Imagine que el
+sistema acaba de ser excitado con un pulso de resonancia de
+90°. Mientras que $\bm{m}$ va perdiendo su componente en el plano
+transversal "$xy$" a su regreso (relajación transversal), el eje $z$
+lo ve recuperarse (relajación longitudinal). Dichos movimientos de
+relajación son descritos clásicamente por el sistema de ecuaciones
+diferenciales de Bloch, con parámetros de tiempo T1 (longitudinal) y
+T2 (transversal), los cuales son característicos de cada compuesto o
+tejido. De aquí que la señal electromagnética devuelta registrada por
+una bobina-antena pueda ser más intensa en una zona del tejido que en
+otra, o en dos momentos distintos para la misma zona de tejido como
+sucede con el efecto BOLD.
 
-![Columna izquierda: $\vec{M}$ en precesión. Centro: $\vec{M}$ tras
-aplicar un pulso resonante de 90° en $B_1$. Derecha: relajación de
-vuelta al estado de inicio. Recuérdese que $\vec{M}$ es la suma de
+![Columna izquierda: $\bm{m}$ en precesión. Centro: $\bm{m}$ tras
+aplicar un pulso resonante de 90° en $b_1$. Derecha: relajación de
+vuelta al estado de inicio. Recuérdese que $\bm{m}$ es la suma de
 varios momentos magnéticos de espines individuales. La precesión
 inicial no tiene por qué ser coherente como en el diagrama, pero una
 vez "tumbados" al plano $xy$, todos los espines entran en fase. La
 velocidad de desfasamiento es crucial para el efecto
-BOLD. \label{nmr}](source/figures/NMR.png){height=25%}
+BOLD. \label{nmr}](source/figures/NMR.png){width=100%}
 
 Se espera que el lector ahora tenga elementos suficientes para lograr
 una lectura autocontenida del trabajo, sobre todo durante la
@@ -462,9 +467,9 @@ excita selectivamente una rebanada de la muestra y cómo se reconstruye
 la imagen a partir del simple muestreo de señales unidimensionales que
 llegan a la antena.
 
-## Análisis de patrones multivoxel
+## Análisis estadístico de patrones de actividad cerebral
 
-### Neuroimagen funcional como un sistema dinámico
+### Análisis clásico
 
 Es necesario visualizar en conjunto todas las señales de actividad
 cerebral para entender en qué difiere el análisis clásico respecto del
@@ -495,25 +500,235 @@ estudio.
 
 <!-- Table: Tipos de sistemas dinámicos. \label{tipos-sistdin} -->
 
-En un análisis clásico por regresión lo que se pretende es ajustar un
-modelo estadístico de cómo se presentaron los estímulos o cómo
-aconteció la tarea, con el afán de encontrar voxeles o pequeñas
-regiones cuyas señales por sí solas correlacionan altamente con las
-variables manipuladas experimentalmente. Aunque el modelo de regresión
-suele incorporar varias covariables de movimiento o ruido, no se
-incluyen múltiples variables/señales de actividad cerebral como
-regresores o predictores. De hecho, no se incluye _ninguna_. En lugar
-de fungir como regresor, la señal cerebral es la variable a ser
-explicada mediante una combinación lineal de la variable experimental
-y covariables. Luego el proceso se repite por separado para modelar la
-señal cerebral en otra zona. Por esta razón, el análisis de regresión
-generalizada clásico de GLM[^glm] se ha denominado "univariado
-masivo", aunque en realidad sí incorpora múltiples variables, con la
-salvedad de que no son actividad cerebral.
+@friston-et-al-1994 introdujeron al mundo de la neuroimagen funcional
+la forma de análisis que terminaría convirtiéndose en estándar, en un
+exitoso intento por unificar las distintas herramientas estadísticas
+lineales que iban aplicándose al incipiente tipo de datos [por
+ejemplo, @friston-et-al-1991; @worsley-et-al-1992], y que pretendían
+otorgar rigor y madurez a las (a veces) abyectas interpretaciones y
+conclusiones de los estudios.
 
-[^glm]: General Linear Model: modelo (de regresión) lineal general. En
-    el contexto de neuroimagen funcional, consúltense
-    @friston-et-al-1994 y @penny-et-al-2011.
+El análisis clásico busca ajustar un modelo de regresión lineal entre
+la actividad fisiológica y cómo se presentaron los estímulos o cómo
+aconteció la tarea, con el afán de encontrar voxeles o pequeñas
+regiones cuyas señales por sí solas se correlacionan altamente con las
+variables manipuladas experimentalmente. Aunque el modelo de regresión
+suele incorporar varias covariables con información del movimiento del
+sujeto y otras formas de ruido, no se acostumbra incluir múltiples
+señales de actividad cerebral como predictores (también llamados
+"regresores" o simplemente "variables independientes"). De hecho, no
+se incluye _ninguna_. En lugar de fungir como regresor, la serie de
+tiempo de una región cerebral es la variable a ser explicada mediante
+una combinación lineal o suma ponderada de la variable experimental y
+covariables. Luego el algoritmo se repite por separado para modelar la
+señal cerebral en otra zona. Por esta razón, y un tanto erradamente, el
+análisis de regresión clásico también se denomina "univariado masivo".
+
+La forma más general de análisis por regresión lineal
+es el modelo lineal generalizado de efectos mixtos (GLMM), que en
+notación matricial[^linop] reza:
+
+[^linop]: O más generalmente, para operadores lineales de espacios
+    vectoriales arbitrarios, discretos como matrices o continuos.
+
+$$ \bm{Y} = g( \bm{X \Theta} + \bm{Z U} ) + \bm{\mathcal{E}} $$ {#eq:}
+
+Donde $\bm{Y}$ es la matriz de vectores-columna de series de tiempo a
+explicar (las observaciones de variables dependientes), $\bm{X}$ y
+$\bm{Z}$ son matrices de diseño con vectores-columna de series de
+tiempo de regresores (variables independientes); y $\bm{\Theta}$ y
+$\bm{U}$ son las matrices de parámetros a estimar (efectos fijos y
+efectos aleatorios, respectivamente). $g$ es una función de activación
+arbitraria, no necesariamente lineal, pero que se aplica elemento a
+elemento para preservar las dimensiones de su matriz
+argumento. $\bm{\mathcal{E}}$ es el error o ruido, modelado como una variable
+aleatoria que puede pertenecer a cualquier distribución de la familia
+exponencial.
+
+Si se elige la no-linealidad $g$ como la simple función identidad y se
+asume ruido gaussiano, el modelo se reduce al modelo lineal de efectos
+mixtos (LME, $\bm{\hat{Y}} = \bm{X}\bm{\Theta} + \bm{Z}\bm{U};\;
+\bm{\mathcal{E}} \sim \mathcal{N}(0,\bm{\Sigma})$). Si se omiten los
+efectos aleatorios, se obtiene un modelo lineal generalizado (GLM,[^generalised]
+$\bm{\hat{Y}} = g(\bm{X}\bm{\Theta})$). En la
+intersección entre ambas simplificaciones se encuentra el modelo
+lineal general (GLM también,[^regression-history] $\bm{\hat{Y}} =
+\bm{X}\bm{\Theta};\;\bm{\mathcal{E}} \sim \mathcal{N}(0,\bm{\Sigma})$).
+
+[^generalised]: Inventado por @nelder-wedderburn-1972.
+[^regression-history]: La idea de ajustar modelos lineales de
+    regresión (y regresión lineal múltiple) puede ser trazada hasta
+    los trabajos en astronomía matemática de @legendre-1805 y
+    @gauss-1823. Más tarde serían retomados y elaborados en un
+    contexto genético y estadístico por @yule-1897, @pearson-1903 y
+    @fisher-1922.
+
+El marco teórico del modelo lineal generalizado ya es suficientemente
+maleable como para capturar diversos tipos de variable de respuesta
+(booleana, categórica, entera, real, etc.)
+[@nelder-wedderburn-1972]. Por ejemplo, los GLMs son modelos
+descriptivos[^descriptivo] populares de la tasa de disparo de una
+neurona. Dadas las series de tiempo de potenciales de neuronas
+presinápticas y las observaciones de los potenciales de acción de la
+neurona de interés, GLM aprende los pesos que debería poseer cada
+sinapsis con el afán de que su combinación produzca la respuesta
+observada (integración espacial de la información). Con algunos trucos
+también podría aprender el filtro de convolución que determina la
+contribución de cada potencial de entrada en el pasado
+(des)polarizando la neurona en el presente (integración temporal).
+
+[^descriptivo]: A diferencia de un modelo mecanístico como el sistema
+    dinámico de Hodgkin-Huxley.
+
+De cualquier manera, la probabilidad empírica de observar cierto
+número de espigas en la variable respuesta por unidad de tiempo no es
+simétrica: no tiene sentido hablar de tasas de disparo negativas, y
+hay un sesgo a disparar apenas terminado el periodo refractario, por
+lo que el GLM se adapta con una distribución de probabilidad de
+Poisson o una exponencial para modelar este tipo de aleatoriedad de la
+respuesta. También se introduce una función $g$ que acomode este
+cambio, respecto de cuando se usa ruido gaussiano para la regresión
+lineal múltiple.
+
+\small
+
+| Tipo de GLM | $\bm{y}$ | $\bm{\mathcal{E}}$ | $g$ |
+|-|-|-|-|
+| regresión lineal | $\mathbb{R}$ | $\mathcal{N}(\mu,\sigma^2)$ | $\bm{X \Theta}$ (identidad) |
+| regresión Poisson | $\mathbb{N}$ | $Poisson(\lambda)$ | $e^{\bm{X}\bm{\Theta}}$ (exponencial) |
+| regresión logística | $\left\{0,1\right\}$ | $Bernoulli(p)$ | $\frac{1}{1+e^{-\bm{X \Theta}}}$ (sigmoide) |
+
+Table: Algunas variantes comunes de modelos lineales generalizados
+(GLMs) y sus peculiaridades matemáticas. \label{glms}
+
+\normalsize
+
+¿Cómo se estiman los parámetros $\bm{\Theta}$ del modelo? Los
+algoritmos y heurísticas de optimización son muchos. Una vez más, aquí
+se describirá la forma más propia y general de asignar valores a
+variables no libres de estos o cualesquiera otros modelos estadísticos
+paramétricos: la estimación por máxima probabilidad _a posteriori_
+(Maximum A Posteriori: MAP), y el subcaso de estimación por
+máxima verosimilitud (Maximum Likelihood Estimation: MLE).
+
+La estimación está constreñida a trabajar óptimamente con datos
+limitados. Imagine que conoce la distribución de probabilidad de
+observar ciertos valores de los parámetros del modelo, para todas las
+posibles muestras de datos que de él emanaron
+($P(\bm{\Theta}|\bm{Y})$). Entonces lo mejor que se podría hacer es
+tomar los parámetros más probables. No obstante, eso es exactamente lo
+que se ignora. No obstante, se puede recurrir al teorema de Bayes para
+descomponer la distribución condicional:
+
+$$ \overbrace{P(\bm{\Theta}|\bm{Y})}^{posterior} = \frac{\overbrace{P(\bm{Y}|\bm{\Theta})}^{verosimilitud} \;\; \overbrace{P(\bm{\Theta})}^{a\;priori\;(sesgo)} } {\underbrace{P(\bm{Y})}_{evidencia} } $$ {#eq:}
+
+$P(\bm{Y})$ es uniforme si la respuesta realmente es lineal y si se
+muestrea uniformemente en $\bm{X}$, por lo que su efecto sólo es el de
+normalizar el numerador, y se ignora. A menos que se quiera incorporar
+un sesgo con conocimiento previo acerca de $P(\bm{\Theta})$ — razón de
+ser de la tradición estadística bayesiana — se asume que su
+distribución es uniforme y también se ignora. Lo único que resta es
+modelar la verosimilitud y maximizarla.
+
+A continuación se expone el método de MLE para el caso de regresión
+lineal simple (una sola variable y un solo parámetro $\theta$ en
+representación de la pendiente). Luego se extenderá la solución para
+todo modelo lineal general.
+
+Se asumirá que los ensayos de medición son independientes (la
+probabilidad de observar algún valor no depende de lo observado en
+otros ensayos, ó $P(y_i|y_j) = P(y_i)$); de manera que se pueda
+aplicar la regla del producto para simplificar el cálculo de
+probabilidades conjuntas. Expresado en notación matemática,
+$P(y_i,\;y_j)$ en general es $P(y_i|y_j)P(y_j)$, pero la independencia
+lo reduce a $P(y_i)P(y_j)$:
+
+$$ P(\bm{y}|\theta) = P(y_1,\;...\;,\;y_n |\theta) = \prod_{i=1}^{n} P(y_i|\theta) $$ {#eq:}
+
+Supongamos que las mediciones $y_i$ para un mismo valor de $x$ se
+ciñen a un ruido gaussiano, con media en el valor verdadero según la
+recta de regresión. Esto ocurre sin ataduras al valor que $\theta$
+resulte tener. Supongamos además que la varianza del ruido es la misma
+a lo largo de la variable explicativa, condición conocida como
+_homocedasticidad_, que permite repetir exactamente la misma
+distribución de probabilidad en cada factor. Así se otorga forma
+concreta a la función de verosimilitud:
+
+$$ P(\bm{y}|\theta) = \mathcal{L}(\bm{y}, \theta) = \prod_{i=1}^{n} \mathcal{N}(\mu=x_i\theta,\;\sigma^2) $$ {#eq:}
+
+Por conveniencia analítica y numérica,[^loglik] se acostumbra trabajar
+con el logaritmo natural de $\mathcal{L}$. Ya que los logaritmos son
+funciones monotónicas, se garantiza que ambas optimizaciones sean
+idénticas:
+
+[^loglik]: Retrospectivamente al uso de MLE, los fundamentos de la
+    teoría de la información ofrecen fuertes argumentos para trabajar
+    con logaritmos de probabilidades. No sorprendentemente, existe una
+    equivalencia entre MLE y estimación por minimización de
+    información. Ortogonalmente, la mayoría de los lenguajes de
+    programación ofrecen números de punto flotante para implementar
+    métodos numéricos. Este tipo de dato representa números reales con
+    precisión limitada, y el error acumulado de multiplicarlos resulta
+    peor que el de sumarlos.
+
+$$ ln(\mathcal{L}(\bm{y}, \theta)) = ln \left( \prod_{i=1}^{n} \mathcal{N}(\mu,\sigma^2) \right) = \sum_{i=1}^{n} ln\left[ \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left( \frac{y_i - \mu}{\sigma}\right)^2} \right] $$
+
+$$ = -\frac{n}{2}\;ln(2\pi\sigma^2) -\frac{1}{2\sigma^2} \sum_{i=1}^{n} \left( y_i - \underbrace{x_i\theta}_{\mu} \right)^2 $$ {#eq:}
+
+Encontrar el parámetro que maximiza la log-verosimilitud equivale a
+encontrar dónde la derivada de la log-verosimilitud respecto al
+parámetro es cero. $ln(\mathcal{L})$ como función de $\theta$
+claramente es una función parabólica cóncava; por lo que el máximo es
+único, ergo también hay un solo modelo lineal óptimo. Aunque no se
+demostrará aquí, de hecho el máximo se obtiene sin percances para
+cualquier distribución de la familia exponencial; aunque no siempre
+esté disponible en forma de expresión analítica, teniendo que echar
+mano de optimización numérica. Esta propiedad de todos los modelos
+lineales generalizados es atractiva computacionalmente. Nótese también
+que desde el punto de vista de la derivada, que eliminará el primer
+término por ser constante, se ha obtenido la misma función de costo
+que si se hubiera elegido arbitrariamente el error cuadrático medio
+(MSE) de los residuos, como se hace con estimación ordinaria por
+mínimos cuadrados (OLS). A saber, se está hablando de la función
+objetivo: $\frac{1}{N} \sum_{i=1}^{n} \left( y_i - x_i\theta
+\right)^2$.
+
+De vuelta con la derivada:
+
+$$ \hat{\theta} = arg_\theta max \;\; ln(\mathcal{L}) = \left\{ \theta : 0 = \frac{\partial ln(\mathcal{L})}{\partial\theta} \right\} $$
+
+$$ = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2} = \frac{ \bm{x} \cdot \bm{y} }{ \bm{x} \cdot \bm{x} } = \frac{Cov(x,y)}{Var(x)}$$ {#eq:normal-eq-simple}
+
+La expresión anterior es conocida como _ecuación normal_, y permite
+ajustar óptimamente la pendiente del modelo en un solo paso. Podría
+seguirse un esquema de demostración similar para obtener que el
+estimador por máxima verosimilitud de la varianza del ruido gaussiano
+es, no sorprendentemente, la conocida fórmula de la varianza:
+
+$$ \hat{\sigma}^2 = arg_{\sigma^2} max \;\; ln(\mathcal{L}) = \left\{ \sigma^2 : 0 = \frac{\partial ln(\mathcal{L})}{\partial\sigma^2} \right\} $$
+
+$$ = \frac{1}{n} \sum_{i=1}^{n} (y-\mu)^2 = Var(y) $$ {#eq:}
+
+Teniendo la pendiente y la media observada empíricamente para cierta
+$x$, obtener el parámetro de ordenada al origen se vuelve
+trivial. Éste parámetro también podría obtenerse durante la mismo paso
+de MLE, añadiendo otra entrada al vector $\bm{\theta}$ en un modelo
+lineal general, haciendo que su respectiva columna en la matriz de
+diseño sea $(1 \; ... \; 1)^T$. Se puede probar usando los mismos
+razonamientos que el modelo lineal general o de regresión lineal
+múltiple tiene una ecuación normal análoga a la ecuación
+(@eq:normal-eq-simple) de la regresión lineal simple. Para ser
+precisos:
+
+$$ \hat{\bm{\theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{y} $$ {#eq:}
+
+O más generalmente, para ajustar todos los modelos simultáneamente en
+una operación matricial (por ejemplo, cuando se quiere ajustar el GLM
+de cada serie de tiempo):
+
+$$ \hat{\bm{\Theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{Y} $$ {#eq:}
+
+### Neuroimagen funcional como un sistema dinámico
 
 En cambio se podrían considerar todas las señales cerebrales
 simultáneamente como sistema, y tratar de predecir con ellas la
@@ -574,18 +789,18 @@ condiciones o macroestados experimentales, llamados _A_ y _B_, ha sido
 construido según la siguiente relación (reducida a dos voxeles por
 simplicidad):
 
-(@math-circle) $$ \left\{ \begin{array}{cc}
+$$ \left\{ \begin{array}{cc}
                            A: & voxel_1^2 + voxel_2^2 > r^2 \\
                            B: & voxel_1^2 + voxel_2^2 < r^2
-           \end{array} \right. $$
+           \end{array} \right. $$ {#eq:math-circle}
 
 Esto no es más que un círculo en el espacio fase. Si restringimos los
 valores a un intervalo finito y constante centrado en $(0,0)$, llamado
 $c$, entonces podemos obligar a los macroestados _A_ y _B_ a poseer el
 mismo número de puntos; si y solo si $r$ en la expresión
-(@math-circle) cumple que:
+(@eq:math-circle) cumple que:
 
-(@math-circle-area) $$ \frac{c^2}{2} = \pi r^2 $$
+$$ \frac{c^2}{2} = \pi r^2 $$ {#eq:math-circle-area}
 
 Luego, se muestrean algunos puntos aleatoriamente de manera uniforme
 (40 en las figuras \ref{lm-vs-multivariate-2} y
@@ -618,7 +833,7 @@ estacionario que empuje sistemáticamente los valores; ya que el
 proceso usado para generar los estados fue explícitamente ninguna de
 esas cosas.
 
-![Modelos de regresión lineal simplificados y valores $p$ de las pruebas $t$ para las proyecciones de los datos de la figura \ref{lm-vs-multivariate-2} sobre cada eje. El efecto de las condiciones experimentales sobre voxeles individuales es negligible (atestiguado por las pequeñas pendientes de los modelos), y probablemente son resultado del azar (valores $p$), como se esperaba. También por construcción, una prueba de Shapiro-Wilk revela que las distribuciones de datos _A_ no pasan el criterio de normalidad, haciendo más cuestionable la aplicación de este tipo de análisis. \label{lm-vs-multivariate-1}](source/figures/./lm-vs-multivariate-1.svg){width=43%}
+![Modelos de regresión lineal simplificados y valores $p$ de las pruebas $t$ para las proyecciones de los datos de la figura \ref{lm-vs-multivariate-2} sobre cada eje. El efecto de las condiciones experimentales sobre voxeles individuales es negligible (atestiguado por las pequeñas pendientes de los modelos), y probablemente son resultado del azar (valores $p$), como se esperaba. También por construcción, una prueba de Shapiro-Wilk revela que las distribuciones de datos _A_ no lucen gaussianas, haciendo más cuestionable la aplicación de este tipo de análisis. \label{lm-vs-multivariate-1}](source/figures/./lm-vs-multivariate-1.svg){width=43%}
 
 Incluso un clasificador univariado no lineal cometería una gran
 cantidad de errores en la intersección entre ambas

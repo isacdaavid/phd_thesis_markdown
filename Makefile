@@ -39,6 +39,7 @@ pdf: # figures
 	-V documentclass=report \
 	-N \
 	--pdf-engine=xelatex \
+	--filter pandoc-eqnos \
 #	--verbose
 
 tex: figures

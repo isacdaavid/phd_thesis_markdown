@@ -115,15 +115,15 @@ intentó un análisis grupal, probablemente porque el poco traslape
 espacial tras los ANOVAs por sujeto lo volvería fútil. Los puntajes
 $F$ son una razón entre la varianza media intergrupal (Mean Square
 Among groups) y la varianza media intragrupal (Mean Square Within
-groups), como define la ecuación (@math-f-score). Asume entre otras
+groups), como define la ecuación (@eq:math-f-score). Asume entre otras
 cosas que los voxeles más relevantes para lograr la decodificación son
 los que, vistos como distribuciones de probabilidad gaussianas, se
 separan más del resto. Esto merma la decisión de usar MVPA en primer
 lugar, que suele ofrecer mayor generalidad.
 
-(@math-f-score) $$ F = \frac{MSA}{MSW} =
+$$ F = \frac{MSA}{MSW} =
      \frac{\frac{1}{G-1} \sum_{g=1}^{G} n_g \left( \bar{x}_{g.}-\bar{x}..\right)^2}
-     {\frac{1}{N-G} \sum_{g=1}^G \sum_{i=1}^{n_g}\left(x_{gi}-\bar{x}_{g.}\right)^2} $$
+     {\frac{1}{N-G} \sum_{g=1}^G \sum_{i=1}^{n_g}\left(x_{gi}-\bar{x}_{g.}\right)^2} $$ {#eq:math-f-score}
 
 Donde $G$ es el número de grupos, $N$ el número neto de datos y $n_g$
 el número de datos para el grupo $g$.
