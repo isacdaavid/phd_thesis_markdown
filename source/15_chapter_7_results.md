@@ -12,21 +12,45 @@ alcanzó su punto máximo (28%) tras un retraso de etiquetado cercano a
 los 2.5 s. Seleccionar el 1% de voxeles de sustancia gris según su
 puntaje-F en una prueba ANOVA empujó marginalmente el rendimiento
 promedio (35%, 2.2 s y 5.2 s) por encima del nivel por azar a priori
-(33%).
+(33%). Ver figura \ref{exp1-accuracy-timeseries}.
 
 ![Series de tiempo de exactitud de clasificación individuales (arriba)
 y promedio (abajo), como función del retraso de etiquetado
-estímulo-respuesta. Series por sujeto "clústerizadas" por algoritmo de
-Ward. Se muestran series promedio a distintos suavizados temporales
-por media móvil (convolución
-cuadrada). \label{exp1-accuracy-timeseries}](source/figures/results_emo/exp1/accuracy-timeseries.svg){width=90%}
+estímulo-respuesta. Los resultados por sujeto fueron conglomerados
+("clusterizados") mediante el algoritmo de Ward. Abajo se muestran
+series promedio a distintos suavizados temporales por media móvil
+(convolución cuadrada). Destaca una ligera tendencia a la alza pasados
+entre 2 y 7 segundos tras la presentación del
+estímulo. \label{exp1-accuracy-timeseries}](source/figures/results_emo/exp1/accuracy-timeseries.svg){width=90%}
 
 Como última alternativa se permitió explorar el uso de un
 retraso de etiquetado distinto por sujeto. Entonces la exactitud de
 clasificación promedio superó el 50% con un gran efecto estadístico (D
 de Cohen = 3.72), pero la probabilidad de que se debiera a una
 coincidencia por la exhaustividad de la búsqueda fue considerable
-(valor p (Bonferroni) = 0.22).
+(valor p (Bonferroni) = 0.22). Ver figura \ref{test-exp-1}.
+
+![Prueba estadística por permutaciones de la exactitud de
+clasificación de 3 vías (feliz vs triste vs neutro), para el 1% de los
+voxeles de materia gris más destacados según su puntaje-F. La latencia
+a la que fueron etiquetadas las muestras cerebrales se dejó variar por
+sujeto, permitiendo encontrar un gran efecto (D de Cohen = 3.72) a
+costa de hacer 100 búsquedas por sujeto (ver figura
+\ref{best_acc_over_p}). La mitad inferior muestra resultados por
+sujeto, y la superior, el agregado grupal. La mitad izquierda
+corresponde a las distribuciones nulas empíricas estimadas por
+permutaciones, y la derecha, al valor puntual de exactitud de
+clasificación observada (promedio de la validación
+cruzada). \label{test-exp-1}](source/figures/results_emo/exp1/test.svg){height=30%}
+
+En resumen, la evidencia entregada por el análisis de clasificación no
+puede justificar una búsqueda de correlatos neuroanatómicos a nivel
+grupal; sin embargo se hizo una exploración cualitativa de los sujetos
+más ejemplares. Ésta sugiere que el mesencéfalo, porciones de los
+lóbulos cerebelosos anteriores, los giros fusiformes, las ínsulas, el
+cíngulo anterior y dorsal, la corteza orbitofrontal y el surco
+temporal superior podrían contener información relevante para la
+discriminación de rostros emocionales.
 
 ![Optimización de parámetros para búsqueda de latencias óptimas
 individuales. ¿Cuál es la mejor relación entre exactitud de
@@ -34,25 +58,7 @@ clasificación y número de búsquedas?  Esta exploración de la tasa de
 muestreo a la que se intentan nuevos retrasos de etiquetado y el
 retraso máximo probado reveló que la búsqueda más exhaustiva sigue
 siendo más conveniente, pese a inflar los valores p por el número de
-comparaciones.](source/figures/results_emo/exp1/best_acc_over_p.png){height=30%}
-
-En resumen, la evidencia entregada por el análisis de clasificación no
-puede justificar una búsqueda de correlatos neuroanatómicos a nivel
-grupal; sin embargo se hizo una exploración cualitativa de los sujetos
-más ejemplares. Ésta sugiere que el mesencéfalo, porciones de los
-lóbulos cerebelosos anteriores y de fisura media, los giros
-fusiformes, las ínsulas, el cíngulo anterior y dorsal, la corteza
-orbitofrontal y el surco temporal superior podrían contener
-información relevante para la discriminación de rostros emocionales.
-
-![Prueba estadística por permutaciones de la exactitud de
-clasificación de 3 vías (feliz vs triste vs neutro), para el 1% de los
-voxeles de materia gris más destacados por puntaje-F, y a latencia de
-etiquetado variable por sujeto. La mitad inferior muestra resultados
-por sujeto, y la superior, el agregado grupal. La mitad izquierda
-corresponde a las distribuciones nulas empíricas estimadas por
-permutaciones, y la derecha, al valor puntual de exactitud de
-clasificación observada.](source/figures/results_emo/exp1/test.svg){height=30%}
+comparaciones. \label{best_acc_over_p}](source/figures/results_emo/exp1/best_acc_over_p.png){height=30%}
 
 ## Experimento 2
 
@@ -106,7 +112,7 @@ ensayos dicotómicos independientes (en este caso, las respuesta de
 todos los sujetos para dicho estímulo) está dada por la distribución
 binomial, y pruebas estadísticas homónimas revelaron que sólo 2
 imágenes tenían una probabilidad superior a 0.05 de estar siendo
-clasificadas al azar (tras corrección de Holm-Bonferroni). La prueba
+clasificadas al azar (tras corrección de FWER de Holm). La prueba
 $\chi^2$ de toda la matriz sigue mostrando que los bloques en general
 elicitan la categoría emocional requerida, con buenos niveles de
 relación señal ruido para cada tipo de bloque.
@@ -118,7 +124,7 @@ su propósito se esperaría observar una fuerte diagonal, indicando que
 la percepción subjetiva se conforma a las categorías
 preasignadas. Izquierda: agrupando por emoción. Derecha: separando por
 estímulo para detallar la estructura de los errores. Se muestran los
-valores _p_ corregidos (Bonferroni) de aquellos estímulos con $p>0.05$
+valores _p_ corregidos (Holm) de aquellos estímulos con $p>0.05$
 según una prueba binomial de una cola bajo la hipótesis de que sólo se
 asigna la categoría correcta al 25% de los
 ensayos de Bernoulli. \label{conf-matrix-global-emotion}](source/figures/conf-matrix-global-emotion.svg){height=80%}
@@ -141,20 +147,21 @@ errores). \label{cumm-hits-vs-misses-timeseries}](source/figures/cumm-hits-vs-mi
 También se analizaron los tiempos de reacción por sujeto como medida
 de la prestación de atención. Cada curva de la figura
 \ref{cumm-hits-vs-misses-timeseries-2} corresponde al tiempo de
-reacción promedio en segundos de algún sujeto y su intervalo de
-confianza del 95%. La recta negra superpuesta proyecta un modelo de
-regresión de efectos mixtos lineales. El modelo de efectos mixtos es
-una generalización de regresión por GLM que utiliza una matriz de
-parámetros de efectos fijos (como en GLM), pero añade otra para
-modelar efectos aleatorios. Esto es especialmente apto para diseños
-factoriales jerárquicos; ya que el efecto de cada medición en el
-tiempo puede provenir de un sujeto distinto con su propia varianza
-personal. El ajuste usó el factor sujeto como efecto aleatorio, y el
-pasar de los bloques y el tipo de bloque como efectos fijos. El
-propósito de esto es encontrar el efecto o tendencia que tiene el
-transcurrir de la tarea en los tiempos de reacción. Se observa un
-cambio casi imperceptible en los tiempos de reacción debido al tiempo,
-y de hecho a la baja.
+reacción promedio en segundos de algún sujeto, y se sombrean sus
+intervalo de confianza del 95%. La recta negra superpuesta proyecta la
+parte relevante de un modelo de regresión de efectos mixtos
+lineales. El modelo de efectos mixtos es una generalización de
+regresión por GLM que utiliza una matriz de parámetros de efectos
+fijos (como en GLM), pero añade otra para modelar efectos
+aleatorios. Esto es especialmente apto para diseños factoriales
+jerárquicos; ya que el efecto de cada medición en el tiempo puede
+provenir de un sujeto distinto con su propia varianza personal. El
+ajuste usó el factor sujeto como efecto aleatorio, y el pasar de los
+bloques y el tipo de bloque como efectos fijos. El propósito de esto
+es encontrar el efecto o tendencia que tiene el transcurrir de la
+tarea en los tiempos de reacción. Se observa un cambio casi
+imperceptible en los tiempos de reacción debido al tiempo, y de hecho
+a la baja.
 
 ![Desempeño instantáneo durante la tarea (tiempo de reacción por sujeto y ajuste lineal por modelo de efectos mixtos). \label{cumm-hits-vs-misses-timeseries-2}](source/figures/cumm-hits-vs-misses-timeseries-2.svg){width=80%}
 

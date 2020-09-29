@@ -85,14 +85,14 @@ hemisferio, especialmente sus núcleos laterales
 eventos emocionalmente relevantes. Una larga historia de investigación
 en condicionamiento iniciada por Weiskrantz ha mostrado que la
 amígdala debe estar forzosamente presente para aprender a asociar
-implícitamente conductas y estímulos condicionados con el miedo
-[@ledoux-damasio-2013]. Por ejemplo: cuando un niño aprende a no
-introducir sus dedos en una toma de corriente, sus amígdalas hacen
-posible que la respuesta de miedo se "copie" de la experiencia
-intrínsecamente aversiva de una descarga eléctrica a la mera
-observación de la toma de corriente (siguiendo una lógica de
-condicionamiento clásico). Luego el núcleo central de cada amígdala
-proyecta a lugares como el hipotálamo y la sustancia gris
+implícitamente conductas y estímulos condicionados con el miedo,
+aunque por sí sola no es suficiente [@ledoux-damasio-2013]. Por
+ejemplo: cuando un niño aprende a no introducir sus dedos en una toma
+de corriente, sus amígdalas hacen posible que la respuesta de miedo se
+"copie" de la experiencia intrínsecamente aversiva de una descarga
+eléctrica a la mera observación de la toma de corriente (siguiendo una
+lógica de condicionamiento clásico). Luego el núcleo central de cada
+amígdala proyecta a lugares como el hipotálamo y la sustancia gris
 periacueductal (PGA) del mesencéfalo, que a su vez activan,
 respectivamente, actividad humoral estresante en el eje
 hipofisiario-adrenal y conductas motoras automáticas
@@ -251,10 +251,12 @@ resolución espacial se trata, la técnica más conspicua actualmente es
 la resonancia magnética nuclear funcional. Escáneres modernos de este
 tipo son capaces de registrar casi simultáneamente una forma de
 metabolismo aeróbico en todas las partes de una malla virtual, que
-bien podría cubrir la totalidad del encéfalo. Estas señales, conocidas
-como "BOLD", a su vez correlacionan con la actividad LFP de las
-neuronas [@logothetis-et-al-2001]. Es una técnica idónea para estudios
-en los que redes funcionales asociadas a tareas primero deben ser
+bien podría cubrir la totalidad del encéfalo. La resolución temporal
+de estas señales, conocidas como "BOLD", difícilmente puede ir por
+debajo de 1 ó 2 segundos. Sin embargo, está correlacionada con la
+actividad de potencial de campo local de las neuronas
+[@logothetis-et-al-2001]. Es una técnica idónea para estudios en los
+que redes funcionales asociadas a tareas primero deben ser
 identificadas o refinadas — _in vivo_ y sin invasividad — allanando el
 terreno para técnicas de medición más finas que intenten establecer la
 circuitería y química sináptica [@logothetis-2008]. Estos párrafos
@@ -272,11 +274,11 @@ incrementos y disminuciones de actividad neuronal. Ante una fuerte
 demanda metabólica de las neuronas, mecanismos diversos de
 acoplamiento neurovascular responden provocando vasodilatación para
 compensar la extracción del oxígeno en los eritrocitos que van pasando
-por los capilares aledaños. Más incluso, la compensación es una
-_sobrecompensación_ [@uludag-et-al-2005]; por lo que el balance neto
-conforme aumenta la tasa de disparo de potenciales de acción (junto
-con otros fenómenos celulares) es hacia la hiperemia e
-hiperoxia. Décadas atrás, el famoso químico Linus Pauling había
+por los capilares aledaños (ver figura \ref{bold}). Más incluso, la
+compensación es una _sobrecompensación_ [@uludag-et-al-2005]; por lo
+que el balance neto conforme aumenta la tasa de disparo de potenciales
+de acción (junto con otros fenómenos celulares) es hacia la hiperemia
+e hiperoxia. Décadas atrás, el famoso químico Linus Pauling había
 descubierto que la molécula de la hemoglobina presenta una
 susceptibilidad magnética distinta dependiendo de si los dominios con
 hierro portan o no oxígeno [@pauling-coryell-1936]. Se puede imaginar
@@ -306,37 +308,126 @@ es menor. Ésta es la resonancia magnética nuclear que subyace
 aplicaciones como el efecto BOLD, condensada a una cáscara de
 nuez. ¿Pero qué significaría todo eso con algo más de detalle?
 
-El espín ($S$), al igual que la carga electromagnética y la masa, es
-una de las propiedades fundamentales de la materia según la física
-cuántica contemporánea. El espín es una forma de ímpetu (momento)
-angular o cantidad de movimiento angular, intrínseco a cada partícula
-fundamental o campo cuántico, que expresa la magnitud de algo
-abstracto aunque concebible como la rotación que sufre un punto en el
-espacio sobre sí mismo antes de regresar a la configuración de
-inicio. El espín también tiene dirección o signo, que a diferencia de
-la magnitud, está sujeto a cambios discretos a través del
-tiempo. Sistemas de partículas como bariones y núcleos atómicos
-enteros también pueden acumular un espín distinto de 0, siempre que el
-número de neutrones o protones sea impar. El espín como momento
-angular se calcula a partir del número cuántico de espín ($s$),
-magnitud adimensional que solo toma valores múltiplos de
-$\frac{1}{2}$. El conjunto de espines posibles está dado por la
-siguiente expresión, aquí desarrollada para el $^{1}H$ cuyo $s =
-\frac{1}{2}$:
+![Fisiología y física básicas de la señal BOLD. __A__: unión
+neuro-astrocítica-vascular provoca vasodilatación además de consumir
+una fracción del oxígeno hematogénico del capilar. __B__: efecto del
+fenómeno fisiológico sobre el campo magnético, y cómo es aprovechado
+para medir una señal dependiente de la actividad
+sanguínea. Créditos.[^bold]
+\label{bold}](source/figures/bold-effect.svg){width=70%}
 
-$$ \left\{ S : S = \frac{h}{2\pi} \sqrt{s(s+1)} = \frac{h}{2\pi} \sqrt{\frac{1}{2} \left( \frac{1}{2}+1 \right) } = \pm \frac{h}{2\pi} \sqrt{\frac{3}{4}} \right\} $$ {#eq:}
+[^bold]: Neuron Silhouette [@scidraw-2020].
 
-Donde $h$ es la constante de Planck, equivalente a $2 \pi \hbar$.
+El espín ($S$) es una de las propiedades fundamentales de la materia
+según la física contemporánea, al igual que la carga electromagnética
+y la masa. El espín es una forma de ímpetu angular o cantidad de
+movimiento angular (también llamado "momento angular"), como el giro
+de una rueda o la traslación de los planetas a través de su órbita. A
+diferencia de esos momentos angulares, el espín se distingue por ser
+un movimiento en ausencia de cambio de posición; es decir, un giro
+"sobre su propio eje", como la rotación de la Tierra. Para sorpresa de
+los físicos de la década de 1920, el espín resultó ser más que una
+descripción sumaria de un desplazamiento cíclico de varias partículas
+(como las que conforman la Tierra en rotación), sino que se encuentra
+de forma muy sofisticada en las escalas más microscópicas e
+indivisibles del Universo. Este espín fundamental fue propuesto en
+primer lugar como aditamento a la mecánica cuántica básica del
+electrón [@pauli-1924; @uhlenbeck-goudsmit-1925; @pauli-1927],
+poniendo fin a los misteriosos resultados de experimentos como el de
+Stern-Gerlach [@gerlach-stern-1922-1; @gerlach-stern-1922-2] y el
+efecto Zeeman [@preston-1898].
 
-El estado cuántico de dirección del espín en espacio 3D,
-correspondiente a la noción clásica de eje de rotación, puede
-modelarse como un vector $\bm{s}$ con un componente con el valor esperado del
-espín proyectado en cada coordenada. Para coordenadas cartesianas:
+Como propiedad intrínseca a cada partícula fundamental o campo
+cuántico, el espín expresa la magnitud de algo abstracto, aunque
+concebible en un primer abordaje como la rotación que sufre un punto
+en el espacio sobre sí mismo antes de regresar a la configuración de
+inicio.[^kroning] Más propiamente, se trata de una transformación en
+un espacio puramente matemático, interno a la partícula o asociado a
+ésta, sin tratarse de una rotación de la partícula misma
+[@pauli-1927].
 
-$$ \left|\left. S \right>\right. = \bm{s} = \left( S_x, S_y, S_z \right)^T = \hbar \left( s_x, s_y, s_z \right)^T $$ {#eq:}
+[^kroning]: Ralph Kroning ofreció en 1925 dicha interpretación física
+    para la primera formulación de @pauli-1924; pero éste último la
+    rechazó porque la rotación sería más rápida que $c$.
+
+Por lo tanto el espín se concibe como cantidad vectorial: además de
+magnitud, posee dirección o signo que está sujeto a cambios, si bien
+son cambios discretos. Sistemas de partículas como bariones y núcleos
+atómicos enteros también pueden acumular un espín distinto de 0,
+siempre que el número de neutrones o protones sea impar. El espín como
+momento angular se calcula a partir del número cuántico de espín
+($s$), magnitud adimensional que solo toma valores múltiplos de
+$\frac{1}{2}$, según las indagaciones experimentales que se han hecho
+desde Stern y Gerlach. Este hecho empírico puede ser difícil de
+asimilar, sin embargo dio pauta a tan peculiar desarrollo
+matemático. Por ejemplo, los únicos valores posibles para el $s$ del
+$^{1}H$ congruentes con sus efectos medibles como momento angular y
+momento magnético son $+\frac{1}{2}$ y $-\frac{1}{2}$. Obtener $S$ a
+partir de $s$ simplemente conlleva multiplicar por $\hbar$: la
+constante reducida de Planck.
+
+Como en cualquier esquema de mecánica cuántica, el estado del sistema
+existe en un espacio de Hilbert con tantas dimensiones como estados,
+de manera que el $S$ del $^{1}H$ — antes de ser medido — puede estar
+en una superposición de ambas posibilidades. Esto se modela como el
+vector unitario $\bm{s}$ (o el _ket_ $\left|\left. S \right>\right.$
+siguiendo notación de Dirac). Para el caso no relativista de
+partículas con espín $\frac{1}{2}$ se tiene:
+
+$$ \left|\left. S \right>\right. = \bm{s} = \begin{pmatrix} a \\ b \end{pmatrix} \;\;\;\; a,b \in \mathbb{C}; \;\;\;\; |a|^2+|b|^2=1 $$ {#eq:}
+
+El vector complejo $\bm{s}$ también es conocido como un
+_espinor_.[^bloch-sphere] Siguiendo la regla de Born, $|a|^2$ y
+$|b|^2$ son las probabilidades de observar $S$ como $+\hbar/2$ ó
+$-\hbar/2$.
+
+[^bloch-sphere]: Otra representación popular equivalente para sistemas
+    de dos niveles (qubits) es la superficie de la esfera de Bloch.
+
+Es claro que elegir entre $a$ o $b$ para representar el signo es
+meramente arbitrario, por lo que se necesita un método de cambio de
+coordenadas para que distintos experimentadores traduzcan sus
+resultados, y para seguir la pista dinámica del sistema conforme
+evolucione según la ecuación de Schrödinger. Sin embargo, al tratarse
+de vectores complejos, no es posible traducir el estado cuántico
+$\bm{s}$ entre rotaciones de los ejes usando el grupo de matrices
+$SO(3)$ para espacio euclidiano 3D. Ejemplo insólito de ello es que si
+uno midiera el espín de un átomo de hidrógeno estático, llamara a eso
+$\left|\left. \uparrow \right>\right.$, lo rotara 360° y luego
+volviera a medir; ¡el espín observado de hecho sería el opuesto a
+$\left|\left. \uparrow \right>\right.$!
+
+Mientras tanto, en espacio 3D la medición de $S$ requiere de una base
+con tres observables; en coordenadas cartesianas: $S_x$, $S_y$ y
+$S_z$. Por lo tanto, para rotar un espín $\frac{1}{2}$ se precisa una
+base de operadores lineales de $2 \times 2$, que llamaremos
+$\bm{\Sigma_x}$, $\bm{\Sigma_y}$ y $\bm{\Sigma_z}$ (las matrices de
+Pauli). Como todo operador en mecánica cuántica, además deben ser
+autoadjuntos (matrices Hermitias) y $det(\bm{\Sigma})=1$ para
+preservar la probabilidad o norma de $\bm{s}$, y sus _eigenvectores_
+(también llamados autovectores o vectores propios) deberían ser los
+únicos estados posibles (en este caso: $(+\hbar/2, \; 0)^T$ y $(0, \;
+-\hbar/2)^T$); de modo que existe la certeza de que el operador jamás
+convertirá estados posibles en estados imposibles.
+
+Aquí es donde el álgebra abstracta y la teoría de grupos no abelianos
+salvan el día, encontrando una simetría homomórfica de tipo
+sobreyectivo entre el grupo de Lie $SO(3)$ ("special orthogonal") para
+componer rotaciones continuas en espacio físico, con base ortonormal
+canónica:
+
+$$ \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix},
+   \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ -1 & 0 & 0 \end{pmatrix},
+   \begin{pmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}; $$
+
+y sus correspondientes matrices en el grupo $SU(2)$ ("special unitary"):
+
+$$ \bm{\Sigma_x} = \begin{pmatrix} 0 & 1/2 \\ 1/2 & 0 \end{pmatrix},
+   \bm{\Sigma_y} = \begin{pmatrix} 0 & -i/2 \\ i/2 & 0 \end{pmatrix},
+   \bm{\Sigma_z} = \begin{pmatrix} 1/2 & 0 \\ 0 & -1/2 \end{pmatrix}. $$ {#eq:}
 
 Aunque el principio de incertidumbre impide asignar valores definidos
-y simultáneos a cada componente, esta representación vectorial sigue
+y simultáneos a cada componente,  representación vectorial sigue
 siendo de gran utilidad cuando se toma en cuenta que el espín de la
 partícula en mancuerna con su carga producen un _momento de dipolo
 magnético de espín_, $\bm{\mu}$ , como si se tratase de una brújula
@@ -386,24 +477,19 @@ un tanto informal, $\bm{m}$ no sólo gira incesantemente sobre su
 propio eje debido al espín; y no sólo rota momentáneamente un poco más
 con tal de volverse paralelo a $\bm{b_0}$. $\bm{m}$ además sufre
 precesión: una reorientación cíclica alrededor del eje de $\bm{b_0}$,
-análogo a los tambaleos de un trompo desalineado en su giro. El
+similar a los tambaleos de un trompo desalineado en su giro. El
 movimiento de $\bm{m}$ llevará por nombre y apellido "_precesión de
 Larmor_".[^rabi] La frecuencia de la precesión de Larmor sólo depende
 de la razón giromagnética y la magnitud de $\bm{b_0}$:
 
-$$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E_{B}}{h} = \frac{-\gamma |\bm{b}_0|}{2\pi} $$ {#eq:}
+$$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E}{h} = \frac{-\gamma |\bm{b}_0|}{2\pi} $$ {#eq:}
 
 [^rabi]: En una verdadera explicación cuántica se hablaría de
     oscilaciones de Rabi.
 
 Mera sustitución de valores permite conocer cuál sería el límite de
 intensidad del campo magnético antes de tener que exponer la muestra a
-ondas ionizantes para lograr la precesión. Por ejemplo, para $^{1}H$ y
-radiación en el infrarrojo lejano a 1 THz (que por supuesto, todavía
-no es ionizante), $|\bm{b}_0| = 2 \pi \nu / \gamma = 2 \pi$(1 THz) /
-(42.57 MHz/T) $\approx$ 147 kT. Claro está que la radiación ionizante
-sería el menor de los peligros exponiendo biomoléculas a semejantes
-fuerzas magnéticas.
+ondas ionizantes para lograr la precesión.
 
 La resonancia propiamente es una característica matemática de toda
 ecuación diferencial con soluciones ondulatorias a la cual se ha
@@ -463,9 +549,10 @@ descripción del protocolo de imágenes en la sección de _Métodos_. Sin
 embargo, cabe señalar que no se ha dicho nada al respecto del diseño
 de secuencias de pulsos para obtener uno u otro tipo de imagen (pesada
 a T1, pesada a T2, funcional, pesada a difusión, etc.), ni de cómo se
-excita selectivamente una rebanada de la muestra y cómo se reconstruye
-la imagen a partir del simple muestreo de señales unidimensionales que
-llegan a la antena.
+excita selectivamente una rebanada de la muestra, y cómo se
+reconstruye la imagen a partir del simple muestreo de señales
+unidimensionales que llegan a la antena y a partir de la transformada
+inversa de Fourier.
 
 ## Análisis estadístico de patrones de actividad cerebral
 
@@ -509,20 +596,25 @@ otorgar rigor y madurez a las (a veces) abyectas interpretaciones y
 conclusiones de los estudios.
 
 El análisis clásico busca ajustar un modelo de regresión lineal entre
-la actividad fisiológica y cómo se presentaron los estímulos o cómo
-aconteció la tarea, con el afán de encontrar voxeles o pequeñas
-regiones cuyas señales por sí solas se correlacionan altamente con las
-variables manipuladas experimentalmente. Aunque el modelo de regresión
-suele incorporar varias covariables con información del movimiento del
-sujeto y otras formas de ruido, no se acostumbra incluir múltiples
-señales de actividad cerebral como predictores (también llamados
-"regresores" o simplemente "variables independientes"). De hecho, no
-se incluye _ninguna_. En lugar de fungir como regresor, la serie de
-tiempo de una región cerebral es la variable a ser explicada mediante
-una combinación lineal o suma ponderada de la variable experimental y
-covariables. Luego el algoritmo se repite por separado para modelar la
-señal cerebral en otra zona. Por esta razón, y un tanto erradamente, el
-análisis de regresión clásico también se denomina "univariado masivo".
+las muestras de datos provenientes de dos o más series de tiempo: la
+actividad fisiológica y cómo se presentaron los estímulos o cómo
+aconteció la tarea. El afán es encontrar voxeles o pequeñas regiones
+cuyas señales fisiológicas por sí solas se correlacionan altamente con
+las variables manipuladas experimentalmente. Aunque el modelo de
+regresión suele incorporar varias covariables predictoras[^regresores]
+con información del movimiento del sujeto y otras formas de ruido
+(para reducir la inflación del verdadero efecto experimental), no se
+acostumbra incluir múltiples señales de actividad cerebral. De hecho,
+no se incluye _ninguna_. En lugar de fungir como predictor del
+experimento, la serie de tiempo de una región cerebral es la variable
+a ser explicada mediante una combinación lineal o suma ponderada de la
+variable experimental y covariables. Luego el algoritmo se repite por
+separado para modelar la señal cerebral en otra zona. Por esta razón,
+y un tanto erradamente, el análisis de regresión clásico también se
+denomina "univariado masivo".
+
+[^regresores]: También llamados "regresores" o simplemente "variables
+            independientes".
 
 La forma más general de análisis por regresión lineal
 es el modelo lineal generalizado de efectos mixtos (GLMM), que en
@@ -567,7 +659,7 @@ El marco teórico del modelo lineal generalizado ya es suficientemente
 maleable como para capturar diversos tipos de variable de respuesta
 (booleana, categórica, entera, real, etc.)
 [@nelder-wedderburn-1972]. Por ejemplo, los GLMs son modelos
-descriptivos[^descriptivo] populares de la tasa de disparo de una
+descriptivos populares de la tasa de disparo de una
 neurona. Dadas las series de tiempo de potenciales de neuronas
 presinápticas y las observaciones de los potenciales de acción de la
 neurona de interés, GLM aprende los pesos que debería poseer cada
@@ -576,9 +668,6 @@ observada (integración espacial de la información). Con algunos trucos
 también podría aprender el filtro de convolución que determina la
 contribución de cada potencial de entrada en el pasado
 (des)polarizando la neurona en el presente (integración temporal).
-
-[^descriptivo]: A diferencia de un modelo mecanístico como el sistema
-    dinámico de Hodgkin-Huxley.
 
 De cualquier manera, la probabilidad empírica de observar cierto
 número de espigas en la variable respuesta por unidad de tiempo no es
@@ -658,8 +747,8 @@ $$ P(\bm{y}|\theta) = \mathcal{L}(\bm{y}, \theta) = \prod_{i=1}^{n} \mathcal{N}(
 
 Por conveniencia analítica y numérica,[^loglik] se acostumbra trabajar
 con el logaritmo natural de $\mathcal{L}$. Ya que los logaritmos son
-funciones monotónicas, se garantiza que ambas optimizaciones sean
-idénticas:
+funciones monotónicas, se garantiza que ambas optimizaciones produzcan
+resultados idénticos:
 
 [^loglik]: Retrospectivamente al uso de MLE, los fundamentos de la
     teoría de la información ofrecen fuertes argumentos para trabajar
@@ -673,7 +762,7 @@ idénticas:
 
 $$ ln(\mathcal{L}(\bm{y}, \theta)) = ln \left( \prod_{i=1}^{n} \mathcal{N}(\mu,\sigma^2) \right) = \sum_{i=1}^{n} ln\left[ \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left( \frac{y_i - \mu}{\sigma}\right)^2} \right] $$
 
-$$ = -\frac{n}{2}\;ln(2\pi\sigma^2) -\frac{1}{2\sigma^2} \sum_{i=1}^{n} \left( y_i - \underbrace{x_i\theta}_{\mu} \right)^2 $$ {#eq:}
+$$ = -\frac{n}{2}\;ln(2\pi\sigma^2) -\frac{1}{2\sigma^2} \sum_{i=1}^{n} \left( y_i - \underbrace{x_i\theta}_{\mu} \right)^2 $$ {#eq:simple-linear-reg-loglik}
 
 Encontrar el parámetro que maximiza la log-verosimilitud equivale a
 encontrar dónde la derivada de la log-verosimilitud respecto al
@@ -681,19 +770,20 @@ parámetro es cero. $ln(\mathcal{L})$ como función de $\theta$
 claramente es una función parabólica cóncava; por lo que el máximo es
 único, ergo también hay un solo modelo lineal óptimo. Aunque no se
 demostrará aquí, de hecho el máximo se obtiene sin percances para
-cualquier distribución de la familia exponencial; aunque no siempre
-esté disponible en forma de expresión analítica, teniendo que echar
-mano de optimización numérica. Esta propiedad de todos los modelos
-lineales generalizados es atractiva computacionalmente. Nótese también
-que desde el punto de vista de la derivada, que eliminará el primer
-término por ser constante, se ha obtenido la misma función de costo
-que si se hubiera elegido arbitrariamente el error cuadrático medio
-(MSE) de los residuos, como se hace con estimación ordinaria por
-mínimos cuadrados (OLS). A saber, se está hablando de la función
-objetivo: $\frac{1}{N} \sum_{i=1}^{n} \left( y_i - x_i\theta
-\right)^2$.
+cualquier distribución de la familia exponencial
+[@nelder-wedderburn-1972]; aunque no siempre esté disponible en forma
+de expresión analítica, teniendo que echar mano de optimización
+numérica. Esta propiedad de todos los modelos lineales generalizados
+es atractiva computacionalmente. Nótese también que desde el punto de
+vista de la derivada, que eliminará el primer término por ser
+constante, se ha obtenido la misma función de costo que si se hubiera
+elegido arbitrariamente el error cuadrático medio (MSE) de los
+residuos, como se hace con estimación ordinaria por mínimos cuadrados
+(OLS). A saber, se está hablando de la función objetivo $\frac{1}{n}
+\sum_{i=1}^{n} \left( y_i - x_i\theta \right)^2$.
 
-De vuelta con la derivada:
+De vuelta con la derivada y sustituyendo $ln(\mathcal{L})$ por el
+resultado de la ecuación (@eq:simple-linear-reg-loglik):
 
 $$ \hat{\theta} = arg_\theta max \;\; ln(\mathcal{L}) = \left\{ \theta : 0 = \frac{\partial ln(\mathcal{L})}{\partial\theta} \right\} $$
 
@@ -709,16 +799,16 @@ $$ \hat{\sigma}^2 = arg_{\sigma^2} max \;\; ln(\mathcal{L}) = \left\{ \sigma^2 :
 
 $$ = \frac{1}{n} \sum_{i=1}^{n} (y-\mu)^2 = Var(y) $$ {#eq:}
 
-Teniendo la pendiente y la media observada empíricamente para cierta
-$x$, obtener el parámetro de ordenada al origen se vuelve
-trivial. Éste parámetro también podría obtenerse durante la mismo paso
-de MLE, añadiendo otra entrada al vector $\bm{\theta}$ en un modelo
-lineal general, haciendo que su respectiva columna en la matriz de
-diseño sea $(1 \; ... \; 1)^T$. Se puede probar usando los mismos
-razonamientos que el modelo lineal general o de regresión lineal
-múltiple tiene una ecuación normal análoga a la ecuación
-(@eq:normal-eq-simple) de la regresión lineal simple. Para ser
-precisos:
+Teniendo la pendiente $\theta$ y la media $\mu_y$ observada
+empíricamente para cierto valor fijo de $x$, obtener el parámetro de
+ordenada al origen se vuelve trivial. Éste parámetro también podría
+obtenerse durante la mismo paso de MLE, añadiendo otra entrada al
+vector $\bm{\theta}$ en un modelo lineal general, haciendo que su
+respectiva columna en la matriz de diseño sea $(1 \; ... \; 1)^T$. Se
+puede probar usando los mismos razonamientos que el modelo lineal
+general o de regresión lineal múltiple tiene una ecuación normal
+análoga a la ecuación (@eq:normal-eq-simple) de la regresión lineal
+simple. Para ser precisos:
 
 $$ \hat{\bm{\theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{y} $$ {#eq:}
 

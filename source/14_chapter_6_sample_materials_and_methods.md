@@ -4,9 +4,8 @@ Se analizaron dos bases de datos distintas en búsqueda de evidencia de
 una representación neural de la emoción de los estímulos. Mientras que
 la primera proviene de un experimento psicológico que no involucró al
 autor del presente proyecto, el segundo experimento fue diseñado desde
-cero con el propósito expreso de mitigar las deficiencias del primero,
-en tanto que idóneo para responder a la pregunta de
-investigación. Ambos estudios siguen un diseño transversal de un solo
+cero con el propósito expreso de mitigar las deficiencias percibidas
+en el primero. Ambos estudios siguen un diseño transversal de un solo
 grupo. En lo subsecuente serán referidos como __Experimento 1__ y
 __Experimento 2__, respectivamente. Es importante redundar en que
 ambos se destinaron a responder exactamente la misma cuestión, y por
@@ -15,8 +14,8 @@ lo tanto serán descritos simultáneamente, resaltando sus diferencias.
 ## Participantes
 
 El Experimento 1 reunió 34 participantes neurotípicos; sin reporte de
-padecer o haber sido diagnosticados con alguna condición neurológica o
-psiquiátrica.
+padecer o haber sido diagnosticados con algún síndrome neurológico o
+psiquiátrico.
 
 <!-- [tabla demográfica muestra 1]. -->
 
@@ -24,11 +23,12 @@ El Experimento 2 reunió 17 participantes de ambos sexos con edad
 promedio de 24 años, quienes también negaron padecer o en algún
 momento haber sido diagnosticados con alguna condición neurológica o
 psiquiátrica, motivo por el cual tres interesados fueron excluidos.
-Todos excepto uno reportaron tener fenotipo de lateralidad
-diestra. Uno de los participantes diestros fue excluido del análisis
-debido a una falla de sincronización en la adquisición de imágenes, ya
-que habría conducido a un desbalance en el número de muestras
-disponibles para entrenar los modelos de clasificación automática. \newline
+Con excepción de un participante zurdo, todos reportaron expresar
+fenotipo de lateralidad diestra en algún grado. Posterior a su
+participación, un sujeto fue excluido del análisis debido a una falla
+de sincronización en la adquisición de imágenes; ya que habría
+conducido a un desbalance en el número de muestras disponibles para
+entrenar los modelos de clasificación automática.
 
 \scriptsize
 
@@ -61,7 +61,7 @@ En una sola sesión por participante se adquirieron 3 (Experimento 1) ó
 5 (Experimento 2) secuencias eco-planares para señal BOLD,
 respectivamente de 260 y 185 volúmenes c/u. Cada volumen contiene 34 ó
 35 rebanadas transversales respectivamente, con una matriz de 64x64
-cada una a voxeles isométricos de 4mm $\cdot$ 4mm $\cdot$ 4mm para ambos
+cada una, a voxeles isométricos de 4mm $\cdot$ 4mm $\cdot$ 4mm para ambos
 experimentos. Además se adquirió una imagen anatómica pesada a
 contraste T2 y otra a T1 por sujeto. La tabla
 \ref{sequence-parameters} describe los parámetros de cada
@@ -159,15 +159,15 @@ mejor control contrastando entre tipos de emociones. De lo contrario
 sería imposible concluir a partir de un buen desempeño que el
 algoritmo de clasificación ha aprendido a identificar las marcas de
 cada emoción, en lugar de aprender a reconocer las de $n-1$ emociones
-y algo que no es ninguna de ellas a la vez que distinto de los
+junto con algo que no es ninguna de ellas, aunque distinto de los
 correlatos de la emoción restante. La elección de bloques de
-pseudocaras y nula estimulación visual fue motivada por los malos
-resultados analizando la base de datos del Experimento 1: mediante
+pseudocaras y de nula estimulación visual fue motivada por los malos
+resultados analizando la base de datos del Experimento 1. Mediante
 distinciones más triviales y de resultados bien conocidos (como simple
 estimulación visual) se buscó hacer una validación de todo el
 análisis, que al involucrar una cantidad considerable de piezas
-móviles y programación, ofrece muchas oportunidades para cometer
-errores.
+móviles y programación, ofrecía muchas oportunidades para haber
+cometido un errores.
 
 A su vez, cada bloque consta de la presentación aleatoria de 10
 imágenes pertenecientes a esa categoría, durante aproximadamente 3
@@ -177,11 +177,11 @@ obtiene un total de 12 bloques por secuencia (360 s = 6 min). Al
 término de los 12, toda estimulación y petición de respuesta era
 interrumpida, debiendo el sujeto esperar 10 segundos antes de concluir
 el experimento (para dar tiempo suficiente al escáner de capturar la
-respuesta hemodinámica elicitada por los últimos estímulos). Todas las
-secuencias del Experimento 2 se realizaron en una sola sesión por
-sujeto, de aproximadamente 30 minutos, 50 segundos ($370 \; s \;
-\times \; 5$), justo después de haber obtenido las imágenes anatómicas
-por resonancia magnética.
+respuesta hemodinámica elicitada por los últimos estímulos). La
+totalidad de una sesión para el Experimento 2 es de aproximadamente 30
+minutos, 50 segundos ($370 \; s \; \times \; 5$), sin considerar el
+tiempo de obtención de las referencias anatómicas justo antes de la
+tarea de fMRI.
 
 En lo que concierne a los estímulos que conforman cada bloque, éstos
 fueron seleccionados de la clásica base de datos de Paul Ekman,
@@ -205,26 +205,65 @@ pertenecía a un hombre o a una mujer. La respuesta era registrada con
 botones para cada dedo índice, con controles a cada mano que les
 permitían mantener los brazos lo más fijos posibles. En cambio, cuando
 la imagen claramente no correspondía a un hombre o una mujer (o
-persona siquiera: bloques "scrambled" y "blank"), la instrucción
-simplemente era reportar cada cambio en la imagen usando los índices
-alternadamente. De esta manera se garantizaba que la actividad motora
-fuera lo más homogénea posible durante todos los bloques, controlando
-otro posible efecto confusorio durante el análisis de clasificación de
-patrones pertenecientes a rostros vs bloques "scrambled". Aunque jamás
-se suministró consigna explícita de catalogar o pensar en la expresión
-o emoción de los rostros, no es posible descartar la posibilidad de
-que este proceso lingüístico-conceptual apareciera espontáneamente en
-su tren de pensamiento; lo cual añadiría otra posible variable de
-confusión.
+persona siquiera; caso de los bloques "scrambled" y "blank"), la
+instrucción simplemente era reportar cada cambio en la imagen usando
+los índices alternadamente. De esta manera se garantizaba que la
+actividad motora fuera lo más homogénea posible durante todos los
+bloques, controlando otro posible efecto confusorio durante el
+análisis de clasificación de patrones pertenecientes a rostros vs
+bloques "scrambled". Aunque jamás se suministró consigna explícita de
+catalogar o pensar en la expresión o emoción de los rostros, no es
+posible descartar la posibilidad de que este proceso
+lingüístico-conceptual apareciera espontáneamente en el tren de
+pensamiento de los participantes; lo cual añadiría otra posible
+variable de confusión.
 
 ## Métodos de análisis
 
-<!-- (pipeline: DICOM -> NIFTI, volbrain, Feat prepro, atlases/masks, pymvpa, etc) -->
+### Preprocesamiento de imágenes
+
+Los tres tipos de imágenes por resonancia magnética fueron convertidos
+del formato DICOM [@mustra-et-al-2008] al formato NIfTI-1
+[@cox-et-al-2004] y estructurados en un árbol de archivos conforme al
+estándar BIDS 1.4.0 [@gorgolewski-et-al-2016] usando la herramienta
+Dcm2Bids 2.1.4 [@bedetti-et-al-2019], que a su vez fue configurada
+para usar el convertidor dcm2niix 1.0.20170411 [@li-et-al-2016] y para
+anonimizar los rostros de los participantes con el software pydeface
+2.0.0 [@faruk-gulban-et-al-2019]. La sanidad de la base de datos
+resultante fue verificada mediante BIDS Validator 1.5.4.
+
+Se recurrió al servicio Web de segmentación de tejidos y volumetría
+cerebrales Volbrain [@manjon-coupe-2016] por sus máscaras de encéfalo
+("deskulling") y sustancia gris, y serendípicamente se aprovechó su
+corrección de intensidad por sesgos de campo en las imágenes T1w.
+
+Luego las secuencias de fMRI fueron yuxtapuestas por orden temporal en
+una gran secuencia por sujeto, y los resultados fueron sometidos al
+siguiente preprocesamiento a cargo de las utilerías de
+FSL 6.0 [@jenkinson-et-al-2012]: filtro de frecuencias pasa-altas (>50
+segundos) e interpolación para tiempo de adquisición de rebanada
+[@woolrich-et-al-2001], corrección lineal de movimiento y corregistro
+lineal [12 grados de libertad, @jenkinson-smith-2001;
+@jenkinson-et-al-2002] con su respectiva referencia T1w y con la
+plantilla T1w promedio del estándar MNI-152 [@fonov-et-al-2009;
+@fonov-et-al-2011] a 1 mm de resolución.
+
+Terminado el corregistro, se aplicó la matriz resultante
+correspondiente para transformar las máscaras de Volbrain al espacio
+de baja resolución de las imágenes de fMRI. Al sobrante de series de
+tiempo de origen en sustancia gris posteriormente se restan las
+tendencias lineales, conservando los residuos de un ajuste de
+regresión lineal simple por cada una de las secuencias que componen la
+gran serie concatenada. Finalmente y para evitar sesgar los modelos de
+clasificación hacia alguna dimensión, cada gran serie concatenada para
+cada voxel es normalizada a puntajes-z, lo que lleva la matriz de
+covarianza de los datos a parecerse a la matriz identidad,
+decorrelacionando el espacio fase.
 
 Para el Experimento 1, tras preprocesamiento de rutina se entrenó un
 clasificador SVM lineal por sujeto con los tres tipos de caras (16
 muestras por clase, después de descartar volúmenes subsecuentes
-pertenecientes al mismo bloque para disminuir la autocorrelación de
+pertenecientes al mismo bloque, con tal de disminuir la autocorrelación de
 los datos). El poder predictivo intra-sujeto fue estimado usando
 validación cruzada "leave-one-out" (16 validaciones, usando un dato
 distinto a los 15 de entrenamiento como prueba en cada iteración). La
@@ -238,11 +277,3 @@ presentación de estímulo, se midieron las series de tiempo de
 exactitud de clasificación por sujeto para todos los retrasos posibles
 (hasta 20 s) a una resolución de 200 ms.
 
-<!-- Uno de los inconvenientes de estos métodos radica en la promiscuidad -->
-<!-- con la que consumen variables que faciliten la clasificación, -->
-<!-- independientemente de si tienen conexión causal a la variable -->
-<!-- respuesta de interés. Los hallazgos hechos con MVPA y neuroimagen -->
-<!-- podrían maridarse con estudios que irrumpan en la función de los -->
-<!-- correlatos (como lesiones, manipulación farmacológica o estimulación -->
-<!-- magnética transcraneal) para validar la relevancia de las conexiones -->
-<!-- estadísticas. -->

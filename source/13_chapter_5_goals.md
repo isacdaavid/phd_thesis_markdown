@@ -2,8 +2,8 @@
 
 ## General
 
-- Estudiar las bases biológicas de la percepción emocional a escala de
-  redes funcionales enteras de cerebros humanos.
+- Estudiar las bases biológicas de la percepción emocional en la
+  macroescala de redes funcionales de cerebros humanos.
 
 ## Específicos
 

@@ -199,28 +199,31 @@ pésima adopción de estrategias en situaciones emocionalmente cargadas
 ¿Son muestras como éstas las excepciones o la regla? Una vez
 reconocido que la emoción sobrevive porque otorga ventajas
 adaptativas, incluidas de índole cognitiva, es natural preguntarse
-hasta dónde se extienden (o deberían extender) sus dominios. Podría
-sonar a mercadeo hiperbólico, pero lo cierto es que un sinfín de
-modelos y conocimientos en aprendizaje por refuerzos
+hasta dónde se extienden (o deberían extender) sus dominios. Lo cierto
+es que un sinfín de conocimientos en aprendizaje por refuerzos
 [@berridge-kringelbach-2008], control motor [@kording-wolpert-2006],
 inteligencia artificial y robótica [@sutton-barto-2018], economía
-[@jevons-1879] y ética [@bentham-1781] solo pueden ser entendidos bajo
-la luz del valor subjetivo que las emociones esconden; o al menos su
-operacionalización en forma de utilidad o recompensa. El agente
-racional perfecto es aquel que cree por evidencia, pero actúa por
-pasiones. ¿Cuál es la _causa final_ de que el pollo cruzara el camino?
-¿Es refinar su percepción del terreno, es ponerse en forma, es
-coleccionar alimento, o es la búsqueda del bienestar para él y los
-suyos? Como pieza clave en el rompecabezas de las funciones neurales,
-la emoción provee cimientos para algo tan crucial y etéreo como la
-motivación [@schwarz-1990; @schacter-et-at-2011]; y por transitividad,
-sobre éste también descansa la planificación, sin mencionar aspectos
-de la toma adecuada de decisiones [@schwarz-1990;
-@bechara-et-al-2000], todos ellos característicos de la inteligencia.
+[@jevons-1879] y ética[^ética] [@bentham-1781] solo pueden ser
+entendidos bajo la luz del valor subjetivo que las emociones esconden;
+o al menos su operacionalización en forma de utilidad o recompensa. Su
+relación no es fortuita. Como pieza clave en el rompecabezas de las
+funciones neurales, la emoción provió los cimientos para algo tan
+crucial y etéreo como la motivación [@schwarz-1990;
+@schacter-et-at-2011]; y por transitividad, sobre éste también
+descansa la planificación, sin mencionar aspectos de la toma adecuada
+de decisiones [@schwarz-1990; @bechara-et-al-2000], todos ellos
+característicos de la inteligencia. Parece que el agente racional
+perfecto cree por evidencia, pero actúa por pasiones; de lo contrario
+su conducta caería en la quiescencia o en la trivialidad de un
+arco reflejo.
 
 [^iowa]: Como la prueba neuropsicológica del juego de azar de Iowa
     (Iowa Gambling Task) [@bechara-et-al-2001] y la prueba por desliz
     (Faux Pas) [ver @torralva-et-al-2009].
+[^ética]: Más allá del utilitarismo de Bentham y Mill, la mayoría de
+    las teorías en ética normativa pertenecientes a la familia
+    consecuencialista están formuladas en términos como "felicidad" y
+    "sufrimiento".
 
 \newpage
 

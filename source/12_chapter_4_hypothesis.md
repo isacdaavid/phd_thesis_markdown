@@ -22,9 +22,11 @@ de dichos estímulos es _mayor_ al nivel de predicción por azar.
 
 ## Predicciones
 
-Si existiera evidencia (en las señales BOLD, por ejemplo) para falsar
-la hipótesis nula, entonces las estructuras anatómicas involucradas y
-su actividad hemodinámica podrían ser obtenidas a partir de los
-modelos de clasificación exitosos; ya sea a nivel individual o grupal.
+Si existiera evidencia (en las señales BOLD, por ejemplo) para
+preferir la hipótesis de trabajo, entonces las estructuras anatómicas
+involucradas (ver sección de _Antecedentes_, subsección de _Bases
+neurales de las emociones_) y su actividad podrían obtenerse a
+partir de los modelos de clasificación exitosos; ya sea a nivel
+individual o grupal.
 
 <!-- poner lo siguiente? las estructuras resultantes serán bla bla bla -->
