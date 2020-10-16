@@ -111,7 +111,7 @@ justificación de sus ROIs y evidencia
 complementaria. @hernandez-et-al-2018 limitaron la elaboración de
 mapas anatómicos a un espacio de búsqueda con el 1% de voxeles más
 sobresalientes según sus puntajes $F$ en una prueba ANOVA, y no se
-intentó un análisis grupal, probablemente porque el poco traslape
+intentó un análisis grupal, probablemente porque el exiguo traslape
 espacial tras los ANOVAs por sujeto lo volvería fútil. Los puntajes
 $F$ son una razón entre la varianza media intergrupal (Mean Square
 Among groups) y la varianza media intragrupal (Mean Square Within

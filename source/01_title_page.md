@@ -51,7 +51,7 @@ and add the centred logo
         
         \vfill
         \normalsize
-        México, junio de 2020
+        México, octubre de 2020
 
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 

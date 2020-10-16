@@ -111,7 +111,7 @@ prefrontal ventral y medial alrededor de los giros rectos[^pfc]
 (vACC) [@bush-et-al-2000; @allman-et-al-2001], contigua a los giros
 rectos y ya mencionada como parte del sistema límbico; además de los
 lóbulos de las ínsulas en sus porciones más anteriores y
-ventrales[^salience] (vAIC) [@gu-et-al-2013].
+ventrales[^salience] (vAIC) [@gu-et-al-2013; @alcauter-et-al-2015].
 
 [^pfc]: Corteza prefrontal ventromedial (vmPFC), aunque a veces el
        énfasis se hace más lateral, hacia la parte orbitofrontal
@@ -164,7 +164,7 @@ miedo, tristeza y asco. La felicidad y el enojo no arrojaron
 correlatos ni consistentes ni específicos. @vytal-and-hamann-2010
 utilizaron un análisis con mayor sensibilidad espacial para contrastar
 cinco emociones básicas provenientes de 83 estudios. Concluyeron que
-aunque existen _clústers_ característicos de activación para cada una
+aunque existen _clusters_ característicos de activación para cada una
 de ellas, no es evidencia suficiente para descartar otros modelos de
 representación emocional en el cerebro. @lindquist-et-al-2012
 analizaron 91 estudios tanto de experiencia de emociones como de
@@ -172,7 +172,7 @@ percepción emocional. Definieron evidencia a favor de emociones
 básicas como actividad consistente en áreas específicas selectivas a
 una única categoría. Se encontró consistencia y selectividad para las
 cinco categorías bajo consideración, mas no especificidad
-funcional. Es decir, las escurridizas emociones básicas tienen
+funcional. Es decir, las escurridizas emociones básicas tendrían
 correlatos distinguibles entre sí, aunque las mismas regiones
 cerebrales están vinculadas a otras funciones psicológicas
 extraemocionales.
@@ -253,17 +253,20 @@ tipo son capaces de registrar casi simultáneamente una forma de
 metabolismo aeróbico en todas las partes de una malla virtual, que
 bien podría cubrir la totalidad del encéfalo. La resolución temporal
 de estas señales, conocidas como "BOLD", difícilmente puede ir por
-debajo de 1 ó 2 segundos. Sin embargo, está correlacionada con la
-actividad de potencial de campo local de las neuronas
-[@logothetis-et-al-2001]. Es una técnica idónea para estudios en los
-que redes funcionales asociadas a tareas primero deben ser
-identificadas o refinadas — _in vivo_ y sin invasividad — allanando el
-terreno para técnicas de medición más finas que intenten establecer la
-circuitería y química sináptica [@logothetis-2008]. Estos párrafos
-pretenden esbozar los fundamentos físicos de la resonancia magnética
-nuclear en general, y su aplicación al estudio de la función cerebral
-como representante tácito de muchas otras aplicaciones que se le han
-encontrado tan solo en el campo de las imágenes médicas.
+debajo de una muestra cada 1 ó 2 segundos. Sin embargo, se sabe que
+esta forma de actividad fisiológica está correlacionada con el
+potencial de campo local de los ensambles de neuronas involucradas
+[@logothetis-et-al-2001]; si bien se sabe menos de los mecanismos
+detrás del acoplamiento entre ambos fenómenos. Es una técnica idónea
+para estudios en los que redes funcionales asociadas a tareas primero
+deben ser identificadas o refinadas — _in vivo_ y sin invasividad —
+allanando el terreno para técnicas de medición más finas que intenten
+establecer la circuitería y química sináptica
+[@logothetis-2008]. Estos párrafos pretenden esbozar los fundamentos
+físicos de la resonancia magnética nuclear en general, y su aplicación
+al estudio de la función cerebral como representante tácito de muchas
+otras aplicaciones que se le han encontrado tan solo en el campo de
+las imágenes médicas.
 
 El efecto BOLD se ha convertido en la forma más común de hacer
 fMRI. Éste fue descubierto (o quizás redescubierto) por Seiji Ogawa y
@@ -308,14 +311,6 @@ es menor. Ésta es la resonancia magnética nuclear que subyace
 aplicaciones como el efecto BOLD, condensada a una cáscara de
 nuez. ¿Pero qué significaría todo eso con algo más de detalle?
 
-![Fisiología y física básicas de la señal BOLD. __A__: unión
-neuro-astrocítica-vascular provoca vasodilatación además de consumir
-una fracción del oxígeno hematogénico del capilar. __B__: efecto del
-fenómeno fisiológico sobre el campo magnético, y cómo es aprovechado
-para medir una señal dependiente de la actividad
-sanguínea. Créditos.[^bold]
-\label{bold}](source/figures/bold-effect.svg){width=70%}
-
 [^bold]: Neuron Silhouette [@scidraw-2020].
 
 El espín ($S$) es una de las propiedades fundamentales de la materia
@@ -324,18 +319,26 @@ y la masa. El espín es una forma de ímpetu angular o cantidad de
 movimiento angular (también llamado "momento angular"), como el giro
 de una rueda o la traslación de los planetas a través de su órbita. A
 diferencia de esos momentos angulares, el espín se distingue por ser
-un movimiento en ausencia de cambio de posición; es decir, un giro
-"sobre su propio eje", como la rotación de la Tierra. Para sorpresa de
-los físicos de la década de 1920, el espín resultó ser más que una
-descripción sumaria de un desplazamiento cíclico de varias partículas
-(como las que conforman la Tierra en rotación), sino que se encuentra
-de forma muy sofisticada en las escalas más microscópicas e
+un movimiento en ausencia de cambio de posición; dicho de otra manera,
+un giro "sobre su propio eje", como la rotación de la Tierra. Para
+sorpresa de los físicos de la década de 1920, el espín resultó ser más
+que una descripción sumaria de un desplazamiento cíclico de varias
+partículas (como las que conforman la Tierra en rotación), sino que se
+encuentra de forma muy sofisticada en las escalas más microscópicas e
 indivisibles del Universo. Este espín fundamental fue propuesto en
 primer lugar como aditamento a la mecánica cuántica básica del
 electrón [@pauli-1924; @uhlenbeck-goudsmit-1925; @pauli-1927],
 poniendo fin a los misteriosos resultados de experimentos como el de
 Stern-Gerlach [@gerlach-stern-1922-1; @gerlach-stern-1922-2] y el
 efecto Zeeman [@preston-1898].
+
+![Fisiología y física básicas de la señal BOLD. __A__: unión
+neuro-astrocítica-vascular provoca vasodilatación además de consumir
+una fracción del oxígeno hematogénico del capilar. __B__: efecto del
+fenómeno fisiológico sobre el campo magnético, y cómo es aprovechado
+para medir una señal dependiente de la actividad
+sanguínea. Créditos.[^bold]
+\label{bold}](source/figures/bold-effect.svg){width=65%}
 
 Como propiedad intrínseca a cada partícula fundamental o campo
 cuántico, el espín expresa la magnitud de algo abstracto, aunque
@@ -364,15 +367,15 @@ matemático. Por ejemplo, los únicos valores posibles para el $s$ del
 $^{1}H$ congruentes con sus efectos medibles como momento angular y
 momento magnético son $+\frac{1}{2}$ y $-\frac{1}{2}$. Obtener $S$ a
 partir de $s$ simplemente conlleva multiplicar por $\hbar$: la
-constante reducida de Planck.
+constante reducida de Planck [@brown-et-al-2014].
 
 Como en cualquier esquema de mecánica cuántica, el estado del sistema
-existe en un espacio de Hilbert con tantas dimensiones como estados,
-de manera que el $S$ del $^{1}H$ — antes de ser medido — puede estar
-en una superposición de ambas posibilidades. Esto se modela como el
-vector unitario $\bm{s}$ (o el _ket_ $\left|\left. S \right>\right.$
-siguiendo notación de Dirac). Para el caso no relativista de
-partículas con espín $\frac{1}{2}$ se tiene:
+existe en un espacio de Hilbert con tantas dimensiones como estados
+observables, de manera que el $S$ del $^{1}H$ — antes de ser medido —
+puede estar en una superposición de ambas posibilidades. Esto se
+modela como el vector unitario $\bm{s}$ (o el _ket_ $\left|\left. S
+\right>\right.$ siguiendo notación de Dirac). Para el caso no
+relativista de partículas con espín $\frac{1}{2}$ se tiene [@brown-et-al-2014]:
 
 $$ \left|\left. S \right>\right. = \bm{s} = \begin{pmatrix} a \\ b \end{pmatrix} \;\;\;\; a,b \in \mathbb{C}; \;\;\;\; |a|^2+|b|^2=1 $$ {#eq:}
 
@@ -382,7 +385,8 @@ $|b|^2$ son las probabilidades de observar $S$ como $+\hbar/2$ ó
 $-\hbar/2$.
 
 [^bloch-sphere]: Otra representación popular equivalente para sistemas
-    de dos niveles (qubits) es la superficie de la esfera de Bloch.
+    de dos niveles (qubits) como el espín del $^{1}H$ es la superficie
+    de la esfera de Bloch.
 
 Es claro que elegir entre $a$ o $b$ para representar el signo es
 meramente arbitrario, por lo que se necesita un método de cambio de
@@ -395,20 +399,21 @@ $SO(3)$ para espacio euclidiano 3D. Ejemplo insólito de ello es que si
 uno midiera el espín de un átomo de hidrógeno estático, llamara a eso
 $\left|\left. \uparrow \right>\right.$, lo rotara 360° y luego
 volviera a medir; ¡el espín observado de hecho sería el opuesto a
-$\left|\left. \uparrow \right>\right.$!
+$\left|\left. \uparrow \right>\right.$! [@brown-et-al-2014].
 
 Mientras tanto, en espacio 3D la medición de $S$ requiere de una base
-con tres observables; en coordenadas cartesianas: $S_x$, $S_y$ y
-$S_z$. Por lo tanto, para rotar un espín $\frac{1}{2}$ se precisa una
-base de operadores lineales de $2 \times 2$, que llamaremos
-$\bm{\Sigma_x}$, $\bm{\Sigma_y}$ y $\bm{\Sigma_z}$ (las matrices de
-Pauli). Como todo operador en mecánica cuántica, además deben ser
-autoadjuntos (matrices Hermitias) y $det(\bm{\Sigma})=1$ para
-preservar la probabilidad o norma de $\bm{s}$, y sus _eigenvectores_
-(también llamados autovectores o vectores propios) deberían ser los
-únicos estados posibles (en este caso: $(+\hbar/2, \; 0)^T$ y $(0, \;
--\hbar/2)^T$); de modo que existe la certeza de que el operador jamás
-convertirá estados posibles en estados imposibles.
+con tres observables ($S_x$, $S_y$ y $S_z$ en coordenadas
+cartesianas). Por lo tanto, para rotar un espín $\frac{1}{2}$ se
+precisa una base de operadores lineales de $2 \times 2$, que
+llamaremos $\bm{\Sigma_x}$, $\bm{\Sigma_y}$ y $\bm{\Sigma_z}$ (las
+matrices de Pauli). Como todo operador en mecánica cuántica, además
+deben ser autoadjuntos (matrices Hermitias) y deben cumplir que
+$det(\bm{\Sigma})=1$ para preservar la probabilidad o norma de
+$\bm{s}$, y sus _eigenvectores_ (también llamados autovectores o
+vectores propios) deberían ser los únicos estados posibles (en este
+caso: $(+\hbar/2, \; 0)^T$ y $(0, \; -\hbar/2)^T$); de modo que existe
+la certeza de que el operador jamás convertirá estados posibles en
+estados imposibles.
 
 Aquí es donde el álgebra abstracta y la teoría de grupos no abelianos
 salvan el día, encontrando una simetría homomórfica de tipo
@@ -420,18 +425,22 @@ $$ \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix},
    \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ -1 & 0 & 0 \end{pmatrix},
    \begin{pmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}; $$
 
-y sus correspondientes matrices en el grupo $SU(2)$ ("special unitary"):
+y sus correspondientes matrices en el grupo $SU(2)$ ("special
+unitary") [@brown-et-al-2014]:
 
-$$ \bm{\Sigma_x} = \begin{pmatrix} 0 & 1/2 \\ 1/2 & 0 \end{pmatrix},
-   \bm{\Sigma_y} = \begin{pmatrix} 0 & -i/2 \\ i/2 & 0 \end{pmatrix},
-   \bm{\Sigma_z} = \begin{pmatrix} 1/2 & 0 \\ 0 & -1/2 \end{pmatrix}. $$ {#eq:}
+$$ \bm{\Sigma_x} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix},
+   \bm{\Sigma_y} = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix},
+   \bm{\Sigma_z} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}. $$ {#eq:}
 
-Aunque el principio de incertidumbre impide asignar valores definidos
-y simultáneos a cada componente,  representación vectorial sigue
-siendo de gran utilidad cuando se toma en cuenta que el espín de la
-partícula en mancuerna con su carga producen un _momento de dipolo
-magnético de espín_, $\bm{\mu}$ , como si se tratase de una brújula
-que experimentará realineación o torque conforme al campo magnético:
+A pesar de poder ahora modelar la evolución del espín en el espacio 3D
+gracias a estas matrices de Pauli, el principio de incertidumbre
+impide asignar valores definidos y simultáneos a los tres
+componentes. Sin embargo, sigue siendo de gran utilidad pensar en este
+vector cuando se toma en cuenta que el espín de la partícula en
+mancuerna con su carga producen un _momento de dipolo magnético de
+espín_, $\bm{\mu}$ , como si se tratase de una brújula que
+experimentará realineación o torque conforme al campo magnético
+[@brown-et-al-2014]:
 
 $$ \bm{\mu}_S = \gamma \bm{s} $$ {#eq:}
 
@@ -442,7 +451,7 @@ su carga y su factor-g, según $\gamma = gq/2m$.
 Cuando el campo magnético es nulo, ambos estados de $s$ ($+\frac{1}{2}$
 y $-\frac{1}{2}$) son equiprobables o de misma energía, pero en
 presencia de un campo magnético $\bm{b}_0$, la energía de cada estado
-será el producto interior:
+será el producto interior [@brown-et-al-2014]:
 
 $$ E = -  \bm{b}_0 \cdot \bm{\mu}_S $$ {#eq:energy-magnetic}
 
@@ -457,7 +466,8 @@ dirección de $\bm{b}_0,$ o la exactamente opuesta, pero no en la misma
 proporción.[^boltzmann] La ligera preferencia por ocupar estados de
 menor energía se traduce en un _vector neto de magnetización de espín_
 distinto de cero, llamado $\bm{m}$, para el cual el análisis puede
-proseguir sin hacer alusión a la mecánica cuántica subyacente.
+proseguir sin hacer alusión a la mecánica cuántica subyacente
+[@brown-et-al-2014].
 
 [^boltzmann]: La distrubución de Boltzmann nos dice que la
     probabilidad de encontrar $\bm{\mu}_S$ en uno u otro estado
@@ -469,7 +479,7 @@ proseguir sin hacer alusión a la mecánica cuántica subyacente.
 ![Ruptura de los niveles de energía del momento magnético de espín de
 un protón en presencia de un campo magnético externo. Imagen donada al
 dominio público por J. Bancroft
-Brown. \label{nmr-energy}](source/figures/NMR_splitting.gif){height=18%}
+Brown. \label{nmr-energy}](source/figures/NMR_splitting.gif){height=15%}
 
 Si ese fuera el fin de la historia no habría resonancia ni
 aplicaciones interesantes. Sin embargo resulta que, narrado de manera
@@ -480,7 +490,7 @@ precesión: una reorientación cíclica alrededor del eje de $\bm{b_0}$,
 similar a los tambaleos de un trompo desalineado en su giro. El
 movimiento de $\bm{m}$ llevará por nombre y apellido "_precesión de
 Larmor_".[^rabi] La frecuencia de la precesión de Larmor sólo depende
-de la razón giromagnética y la magnitud de $\bm{b_0}$:
+de la razón giromagnética y la magnitud de $\bm{b_0}$ [@brown-et-al-2014]:
 
 $$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E}{h} = \frac{-\gamma |\bm{b}_0|}{2\pi} $$ {#eq:}
 
@@ -493,11 +503,11 @@ ondas ionizantes para lograr la precesión.
 
 La resonancia propiamente es una característica matemática de toda
 ecuación diferencial con soluciones ondulatorias a la cual se ha
-añadido un término inhomogéneo (es decir, que no depende de la
+añadido un término inhomogéneo (o sea que no depende de la
 incógnita). Lo que sea que esté representando el término inhomogéneo
 sirve como suministro de energía al sistema; y cuando esto ocurre en
 sincronía a la ondulación natural, la energía es aprovechada para
-excitarla.
+excitar las oscilaciones.
 
 Algo sobresaliente es que la precesión de Larmor existe por la mera
 presencia del campo magnético estático, pero su amplitud es
@@ -514,7 +524,7 @@ para invertir la precesión en la dirección $z$ opuesta. Así, los
 pulsos de radiofrecuencia pueden ser identificados según su "flip
 angle": de 90°, 180°, etc. Si la amplitud ($A$) del oscilador externo
 $b_1(t) = A sin(\omega t + \varphi)$ es constante (pulso "cuadrado"),
-entonces el ángulo obtenido se aproxima a:
+entonces el ángulo obtenido se aproxima a [@brown-et-al-2014]:
 
 $$ \angle (\bm{b}_{0_z}, \bm{m}) \approx \gamma A t_p $$ {#eq:}
 
@@ -532,7 +542,7 @@ T2 (transversal), los cuales son característicos de cada compuesto o
 tejido. De aquí que la señal electromagnética devuelta registrada por
 una bobina-antena pueda ser más intensa en una zona del tejido que en
 otra, o en dos momentos distintos para la misma zona de tejido como
-sucede con el efecto BOLD.
+sucede con el efecto BOLD [@brown-et-al-2014].
 
 ![Columna izquierda: $\bm{m}$ en precesión. Centro: $\bm{m}$ tras
 aplicar un pulso resonante de 90° en $b_1$. Derecha: relajación de
@@ -541,7 +551,7 @@ varios momentos magnéticos de espines individuales. La precesión
 inicial no tiene por qué ser coherente como en el diagrama, pero una
 vez "tumbados" al plano $xy$, todos los espines entran en fase. La
 velocidad de desfasamiento es crucial para el efecto
-BOLD. \label{nmr}](source/figures/NMR.png){width=100%}
+BOLD. \label{nmr}](source/figures/NMR.png){width=85%}
 
 Se espera que el lector ahora tenga elementos suficientes para lograr
 una lectura autocontenida del trabajo, sobre todo durante la
@@ -552,7 +562,8 @@ a T1, pesada a T2, funcional, pesada a difusión, etc.), ni de cómo se
 excita selectivamente una rebanada de la muestra, y cómo se
 reconstruye la imagen a partir del simple muestreo de señales
 unidimensionales que llegan a la antena y a partir de la transformada
-inversa de Fourier.
+inversa de Fourier. Al mismo tenor puede consultarse el libro de
+@brown-et-al-2014.
 
 ## Análisis estadístico de patrones de actividad cerebral
 
@@ -561,39 +572,24 @@ inversa de Fourier.
 Es necesario visualizar en conjunto todas las señales de actividad
 cerebral para entender en qué difiere el análisis clásico respecto del
 análisis de patrones multivariados. El argumento es una abstracción
-matemática, y por lo tanto no se limita a considerar exclusivamente
+matemática y por lo tanto no se limita a considerar exclusivamente
 los voxeles en una secuencia de fMRI y su señal BOLD. Los mismos
 métodos de análisis son aplicables a registros con electrodos,
 imágenes de microscopía de doble fotón de calcio o cualquier otra
 forma de dinámica cerebral, fisiológica o de cualquier otro campo de
 estudio.
 
-<!-- Un sistema dinámico más variables en función del tiempo. De conocerse -->
-<!-- expresiones analíticas para estas funciones de transición pueden estar -->
-<!-- definidas en los términos más dispares; usualmente interacciones -->
-<!-- funcionales o causales entre las variables, pero también eventos -->
-<!-- puramente aleatorios.[^estocástico] Si el dominio temporal es discreto -->
-<!-- se habla de ecuaciones de diferencia o relaciones de recurrencia; -->
-<!-- mientras que en variable continua se usan ecuaciones diferenciales. -->
-
-<!-- [^estocástico]: A veces se usa el término "sistema dinámico" para -->
-<!--     implicar que el sistema es determinista, en cuyo caso, los -->
-<!--     sistemas estocásticos son excluidos por definición. -->
-
-<!-- |          | __Determinista__ | __Estocástico__ | -->
-<!-- |----------|--------------|-------------| -->
-<!-- | __Discreto__ | máquinas de estados finitos, máquinas de Turing, autómatas celulares, relaciones recurrentes (mapas de diferencia) | cadena de Markov | -->
-<!-- | __Continuo__ | ecuaciones diferenciales | procesos estocásticos | -->
-
-<!-- Table: Tipos de sistemas dinámicos. \label{tipos-sistdin} -->
-
-@friston-et-al-1994 introdujeron al mundo de la neuroimagen funcional
-la forma de análisis que terminaría convirtiéndose en estándar, en un
-exitoso intento por unificar las distintas herramientas estadísticas
-lineales que iban aplicándose al incipiente tipo de datos [por
-ejemplo, @friston-et-al-1991; @worsley-et-al-1992], y que pretendían
-otorgar rigor y madurez a las (a veces) abyectas interpretaciones y
-conclusiones de los estudios.
+Una característica de la señal de fMRI es su pobre razón con el ruido
+y cambios netos de apenas entre el 1% y 3% sobre la línea base, que
+además es arbitraria para cada voxel. Naturalmente, es imprescindible
+un análisis estadístico riguroso para extraer información de
+ellas. @friston-et-al-1994 introdujeron al mundo de la neuroimagen
+funcional la forma de análisis que terminaría convirtiéndose en
+estándar, en un exitoso intento por unificar las distintas
+herramientas estadísticas lineales que iban aplicándose al incipiente
+tipo de datos [por ejemplo, @friston-et-al-1991; @worsley-et-al-1992],
+y que pretendían otorgar rigor y madurez a las (a veces) abyectas
+interpretaciones y conclusiones de los estudios.
 
 El análisis clásico busca ajustar un modelo de regresión lineal entre
 las muestras de datos provenientes de dos o más series de tiempo: la
@@ -623,7 +619,7 @@ notación matricial[^linop] reza:
 [^linop]: O más generalmente, para operadores lineales de espacios
     vectoriales arbitrarios, discretos como matrices o continuos.
 
-$$ \bm{Y} = g( \bm{X \Theta} + \bm{Z U} ) + \bm{\mathcal{E}} $$ {#eq:}
+$$ \bm{Y} = g( \bm{X \Theta} + \bm{Z U} ) + \bm{\mathcal{E}} $$ {#eq:glme}
 
 Donde $\bm{Y}$ es la matriz de vectores-columna de series de tiempo a
 explicar (las observaciones de variables dependientes), $\bm{X}$ y
@@ -697,8 +693,9 @@ algoritmos y heurísticas de optimización son muchos. Una vez más, aquí
 se describirá la forma más propia y general de asignar valores a
 variables no libres de estos o cualesquiera otros modelos estadísticos
 paramétricos: la estimación por máxima probabilidad _a posteriori_
-(Maximum A Posteriori: MAP), y el subcaso de estimación por
-máxima verosimilitud (Maximum Likelihood Estimation: MLE).
+(Maximum A Posteriori: MAP), y el subcaso de estimación por máxima
+verosimilitud (Maximum Likelihood Estimation: MLE) [@sorenson-1980;
+@christensen-2002].
 
 La estimación está constreñida a trabajar óptimamente con datos
 limitados. Imagine que conoce la distribución de probabilidad de
@@ -717,7 +714,7 @@ normalizar el numerador, y se ignora. A menos que se quiera incorporar
 un sesgo con conocimiento previo acerca de $P(\bm{\Theta})$ — razón de
 ser de la tradición estadística bayesiana — se asume que su
 distribución es uniforme y también se ignora. Lo único que resta es
-modelar la verosimilitud y maximizarla.
+modelar la verosimilitud y maximizarla [@devore-2011].
 
 A continuación se expone el método de MLE para el caso de regresión
 lineal simple (una sola variable y un solo parámetro $\theta$ en
@@ -741,14 +738,16 @@ resulte tener. Supongamos además que la varianza del ruido es la misma
 a lo largo de la variable explicativa, condición conocida como
 _homocedasticidad_, que permite repetir exactamente la misma
 distribución de probabilidad en cada factor. Así se otorga forma
-concreta a la función de verosimilitud:
+concreta a la función de verosimilitud [@devore-2011]:
 
 $$ P(\bm{y}|\theta) = \mathcal{L}(\bm{y}, \theta) = \prod_{i=1}^{n} \mathcal{N}(\mu=x_i\theta,\;\sigma^2) $$ {#eq:}
 
 Por conveniencia analítica y numérica,[^loglik] se acostumbra trabajar
 con el logaritmo natural de $\mathcal{L}$. Ya que los logaritmos son
 funciones monotónicas, se garantiza que ambas optimizaciones produzcan
-resultados idénticos:
+resultados idénticos:[^prueba1]
+
+[^prueba1]: Ver el _Apéndice 1: prueba 1_ para una demostración más completa.
 
 [^loglik]: Retrospectivamente al uso de MLE, los fundamentos de la
     teoría de la información ofrecen fuertes argumentos para trabajar
@@ -783,17 +782,22 @@ residuos, como se hace con estimación ordinaria por mínimos cuadrados
 \sum_{i=1}^{n} \left( y_i - x_i\theta \right)^2$.
 
 De vuelta con la derivada y sustituyendo $ln(\mathcal{L})$ por el
-resultado de la ecuación (@eq:simple-linear-reg-loglik):
+resultado de la ecuación (@eq:simple-linear-reg-loglik):[^prueba2]
+
+[^prueba2]: Ver el _Apéndice 1: prueba 2_ para una demostración más completa.
 
 $$ \hat{\theta} = arg_\theta max \;\; ln(\mathcal{L}) = \left\{ \theta : 0 = \frac{\partial ln(\mathcal{L})}{\partial\theta} \right\} $$
 
 $$ = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2} = \frac{ \bm{x} \cdot \bm{y} }{ \bm{x} \cdot \bm{x} } = \frac{Cov(x,y)}{Var(x)}$$ {#eq:normal-eq-simple}
 
 La expresión anterior es conocida como _ecuación normal_, y permite
-ajustar óptimamente la pendiente del modelo en un solo paso. Podría
-seguirse un esquema de demostración similar para obtener que el
-estimador por máxima verosimilitud de la varianza del ruido gaussiano
-es, no sorprendentemente, la conocida fórmula de la varianza:
+ajustar óptimamente la pendiente del modelo en un solo paso
+[@devore-2011]. Podría seguirse un esquema de demostración similar
+para obtener que el estimador por máxima verosimilitud de la varianza
+del ruido gaussiano es, no sorprendentemente, la conocida fórmula de
+la varianza [@devore-2011]:[^prueba3]
+
+[^prueba3]: Ver el _Apéndice 1: prueba 3_ para una demostración más completa.
 
 $$ \hat{\sigma}^2 = arg_{\sigma^2} max \;\; ln(\mathcal{L}) = \left\{ \sigma^2 : 0 = \frac{\partial ln(\mathcal{L})}{\partial\sigma^2} \right\} $$
 
@@ -808,7 +812,7 @@ respectiva columna en la matriz de diseño sea $(1 \; ... \; 1)^T$. Se
 puede probar usando los mismos razonamientos que el modelo lineal
 general o de regresión lineal múltiple tiene una ecuación normal
 análoga a la ecuación (@eq:normal-eq-simple) de la regresión lineal
-simple. Para ser precisos:
+simple [@christensen-2002]. Para ser precisos:
 
 $$ \hat{\bm{\theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{y} $$ {#eq:}
 
@@ -818,10 +822,10 @@ de cada serie de tiempo):
 
 $$ \hat{\bm{\Theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{Y} $$ {#eq:}
 
-### Neuroimagen funcional como un sistema dinámico
+### Análisis clásico vs MVPA
 
 En cambio se podrían considerar todas las señales cerebrales
-simultáneamente como sistema, y tratar de predecir con ellas la
+simultáneamente como sistema y tratar de predecir con ellas la
 manipulación experimental: para cada instante, cada una de estas
 señales aporta una coordenada para localizar el estado actual del
 sistema. Entonces podemos pensar que el video completo de fMRI es
@@ -845,15 +849,6 @@ del sistema a moverse a lo largo de diagonales entre los ejes. Como
 veremos enseguida, el análisis clásico por GLM tiene cabida de la misma
 manera usando esta representación.
 
-![Representando la función cerebral como un sistema dinámico. Una
-secuencia de imágenes funcionales (izquierda) es equivalente a la
-trayectoria de un punto en espacio fase (derecha), con una dimensión
-distinta para cada señal BOLD (centro). Aquí solo se han seleccionado
-tres
-dimensiones. \label{dynsyst}](source/figures/dynamical-system.svg){height=17.5%}
-
-### Mapas de activación: análisis clásico vs MVPA
-
 En este punto se vuelve clara la limitante del análisis por GLM: asume
 que el correlato neural yace en sitios individuales. Siguiendo con
 nuestra representación de varios voxeles, podemos fácilmente concebir
@@ -873,6 +868,13 @@ función de muchas dimensiones; que en el caso de fMRI toman la forma
 de voxeles distantes en espacio o tiempo [@norman-et-al-2006;
 @huettel-et-al-2009; @mahmoudi-et-al-2012; @lewis-peacock-norman-2013]
 
+![Representando la función cerebral como un sistema dinámico. Una
+secuencia de imágenes funcionales (izquierda) es equivalente a la
+trayectoria de un punto en espacio fase (derecha), con una dimensión
+distinta para cada señal BOLD (centro). Aquí solo se han seleccionado
+tres
+dimensiones. \label{dynsyst}](source/figures/dynamical-system.svg){height=15%}
+
 Considere el siguiente ejemplo en el que el patrón de activación (ej.,
 la señales de actividad en distintas áreas del cerebro) bajo dos
 condiciones o macroestados experimentales, llamados _A_ y _B_, ha sido
@@ -888,31 +890,22 @@ Esto no es más que un círculo en el espacio fase. Si restringimos los
 valores a un intervalo finito y constante centrado en $(0,0)$, llamado
 $c$, entonces podemos obligar a los macroestados _A_ y _B_ a poseer el
 mismo número de puntos; si y solo si $r$ en la expresión
-(@eq:math-circle) cumple que:
-
-$$ \frac{c^2}{2} = \pi r^2 $$ {#eq:math-circle-area}
+(@eq:math-circle) cumple que $\frac{c^2}{2} = \pi r^2$.
 
 Luego, se muestrean algunos puntos aleatoriamente de manera uniforme
-(40 en las figuras \ref{lm-vs-multivariate-2} y
-\ref{lm-vs-multivariate-1}). Al graficarlos en el plano, se observa
-que nuestras mediciones contienen suficiente información para
-distinguir ambos estados cerebrales, incluso por simple inspección
-visual. Aunque la actividad de ningún voxel correlaciona con que el
-estímulo haya sido "círculo" o "triángulo", un patrón discriminante
-emerge de la actividad conjunta. MVPA no es más que el uso de
-algoritmos de aprendizaje automático para distinguir esos patrones. En
-el caso del aprendizaje supervisado o clasificación, lo que se
-pretende es construir una frontera capaz de catalogar los datos.
-
-![Patrón bidimensional no lineal de actividad de dos voxeles, según se
-muestreó aleatoriamente con 18 ensayos bajo la condición experimental
-_A_ más 22 bajo la _B_. Las mediciones de la señales que corresponden
-a la condición _A_ pueden distinguirse por su excentricidad con
-respecto de la condición
-_B_. \label{lm-vs-multivariate-2}](source/figures/./lm-vs-multivariate-2.svg){width=43%}
+(40 en la figura \ref{lm-vs-multivariate}). Al graficarlos en el
+plano, se observa que nuestras mediciones contienen suficiente
+información para distinguir ambos estados cerebrales, incluso por
+simple inspección visual. Aunque la actividad de ningún voxel
+correlaciona con que el estímulo haya sido "círculo" o "triángulo", un
+patrón discriminante emerge de la actividad conjunta. MVPA no es más
+que el uso de algoritmos de aprendizaje automático para distinguir
+esos patrones. En el caso del aprendizaje supervisado o clasificación,
+lo que se pretende es construir una frontera capaz de catalogar los
+datos.
 
 Sin embargo un análisis univariado (como regresión mediante GLM) está
-destinado a fracasar (ver figura \ref{lm-vs-multivariate-1}). Las
+destinado a fracasar (ver figura \ref{lm-vs-multivariate}). Las
 distribuciones unidimensionales de muestra se encuentran
 aproximadamente centradas alrededor del mismo valor de intensidad, así
 que no se observa ningún efecto intercondición. Por otro lado, las
@@ -923,7 +916,20 @@ estacionario que empuje sistemáticamente los valores; ya que el
 proceso usado para generar los estados fue explícitamente ninguna de
 esas cosas.
 
-![Modelos de regresión lineal simplificados y valores $p$ de las pruebas $t$ para las proyecciones de los datos de la figura \ref{lm-vs-multivariate-2} sobre cada eje. El efecto de las condiciones experimentales sobre voxeles individuales es negligible (atestiguado por las pequeñas pendientes de los modelos), y probablemente son resultado del azar (valores $p$), como se esperaba. También por construcción, una prueba de Shapiro-Wilk revela que las distribuciones de datos _A_ no lucen gaussianas, haciendo más cuestionable la aplicación de este tipo de análisis. \label{lm-vs-multivariate-1}](source/figures/./lm-vs-multivariate-1.svg){width=43%}
+![Izquierda: patrón bidimensional no lineal de actividad de dos
+voxeles, según se muestreó aleatoriamente con 18 ensayos bajo la
+condición experimental _A_ más 22 bajo la _B_. Las mediciones de la
+señales que corresponden a la condición _A_ pueden distinguirse por su
+excentricidad con respecto de la condición _B_. Derecha: modelos de
+regresión lineal simplificados y valores $p$ de las pruebas $t$ para
+las proyecciones de los datos de la figura izquierda sobre cada
+eje. El efecto de las condiciones experimentales sobre voxeles
+individuales es negligible (atestiguado por las pequeñas pendientes de
+los modelos), y probablemente son resultado del azar (valores $p$),
+como se esperaba. También por construcción, una prueba de Shapiro-Wilk
+revela que las distribuciones de datos _A_ no lucen gaussianas,
+haciendo más cuestionable la aplicación de este tipo de
+análisis. \label{lm-vs-multivariate}](source/figures/./lm-vs-multivariate.svg){width=85%}
 
 Incluso un clasificador univariado no lineal cometería una gran
 cantidad de errores en la intersección entre ambas
@@ -931,7 +937,7 @@ distribuciones.[^uni-curvo] Un patrón discriminante univariado podría
 observarse a partir de un análisis dinámico del espectro de
 frecuencias bajo condiciones dinámicas especiales,[^fourier] pero el
 enfoque más adecuado por mucho es considerar ambos voxeles
-simultáneamente; como en la figura \ref{lm-vs-multivariate-2}, ya que
+simultáneamente; como en la figura \ref{lm-vs-multivariate}, ya que
 así es como se generaron los datos en primer lugar.
 
 [^uni-curvo]: Imagine que todos los puntos de un voxel son colocados
@@ -950,9 +956,9 @@ buen desempeño del modelo predictivo. Muchas otras sólo serán
 detrimentales. Bastan unos cuantos cientos de señales para que el
 número de combinaciones rápidamente exceda el número de átomos en el
 universo observable. Las toscas imágenes de fMRI suelen contener
-decenas de miles de señales.
+decenas de miles de series de tiempo.
 
-### MVPA en neuroimagen funcional afectiva
+## MVPA en neuroimagen funcional afectiva
 
 Dada esta limitante en los métodos clásicos de análisis de patrones
 diferenciales de activación en fMRI y PET, el campo de neuroimagen
@@ -984,8 +990,8 @@ Mientras que los primeros decodifican estados preestablecidos a partir
 de la actividad registrada, la segunda línea de análisis se asemeja a
 la teoría de los modelos de aprendizaje automático no supervisado; y
 puede entre otras cosas usarse para discernir si dos zonas del sistema
-nervioso codifican información similar
-[@lewis-peacock-norman-2013].
+nervioso codifican información similar [@kriegeskorte-et-al-2008;
+@walther-et-al-2016].
 
 Para 2012 ya se habían realizado un puñado de estudios de
 decodificación emocional con análisis multivariado, y su potencial era
@@ -1001,22 +1007,22 @@ exactamente análoga a la experiencia en primera persona de una emoción
 además puede involucrar procesos de evaluación, atribución de estados
 mentales e intenciones; a la vez que puede estar exenta de emoción
 _per se_ (debido a la modulación empática y sus trastornos)
-[@peelen-et-al-2010]. Con todo y eso, ambos procesos parecen recurrir
-a los mismos circuitos de evaluación de carga emocional. En lo
-subsecuente se hará la distinción, poniendo énfasis en los trabajos
-relativos a _clasificación_ de estados de _percepción_ emocional.
+[@peelen-et-al-2010]. Con todo y eso, ambos procesos parecen compartir
+muchos circuitos de evaluación de carga emocional. En lo subsecuente
+se hará la distinción, poniendo énfasis en los trabajos relativos a
+_clasificación_ de estados de _percepción_ emocional.
 
 La tabla \ref{table-mvpa-in-emotion-perception} enlista todos los
-estudios encontrados para clasificación de percepción emocional. Éstos
-pueden ser tamizados según la modalidad de los estímulos, las
-emociones probadas, si la búsqueda se concentra en regiones de interés
-o si se hizo algo más parecido a un análisis de cerebro
-completo. También, por el algoritmo de clasificación, y obviamente por
-sus resultados. La forma más sucinta de expresar el resultado es
-comparando la capacidad de clasificar correctamente los patrones
-cerebrales (exactitud) respecto de un desempeño por azar. Observamos
-que si bien no son perfectos, siempre se ha reportado evidencia de
-estar por encima del azar.
+estudios encontrados para clasificación de percepción emocional y
+algún otro. Éstos pueden ser tamizados según la modalidad de los
+estímulos, las emociones probadas, si la búsqueda se concentra en
+regiones de interés o si se hizo algo más parecido a un análisis de
+cerebro completo. También, por el algoritmo de clasificación, y
+obviamente por sus resultados. La forma más sucinta de expresar el
+resultado es comparando la capacidad de clasificar correctamente los
+patrones cerebrales (exactitud) respecto de un desempeño por
+azar. Observamos que si bien no son perfectos, siempre se ha reportado
+evidencia de estar por encima del azar.
 
 @pessoa-padmala-2007 demostraron la factibilidad de usar MVPA para
 predecir la respuesta conductual en una tarea de fMRI sobre percepción
@@ -1039,21 +1045,20 @@ actividad de ciertas regiones del surco temporal superior (STS,
 previamente vinculadas a detección de expresiones faciales) predice la
 categoría emocional de los rostros. Los mismos datos bajo análisis
 univariado fueron incapaces de repetir la hazaña. @peelen-et-al-2010
-probaron estímulos de cinco categorías emocionales en modalidades
-distintas (audición, visión de gesticulaciones y de lenguaje
-corporal), y realizaron una búsqueda de regiones codificantes en todo
-el encéfalo mediante el método de "searchlight". Sorprendentemente, el
-uso de corteza prefrontal medial (mPFC), o bien del STS, resultó capaz
-de hacer la distinción entre emociones, independientemente de la
-modalidad sensorial e intensidad del estímulo. En cambio, la
-aplicación de GLM sólo replico este hallazgo supramodal en el caso del
-miedo. @wegrzyn-et-al-2015 exploraron varias ROIs[^roi] asociadas a
-procesamiento de rostros para comparar la magnitud en la que contienen
-información emocional. Todas resultaron aptas, especialmente el STS y
-la bien conocida FFA (especialmente la derecha, convergiendo con el
-conocimiento previo).
-
-[^roi]: Region of Interest: región de interés.
+hicieron un estudio de similitud de patrones, probando estímulos de
+cinco categorías emocionales en modalidades distintas (audición,
+visión de gesticulaciones y de lenguaje corporal), y realizaron una
+búsqueda de regiones codificantes en todo el encéfalo mediante el
+método de "searchlight". Sorprendentemente, en la corteza prefrontal
+medial (mPFC) y en el STS posterior, los patrones de actividad son más
+similares entre sí cuando se agrupan por emociones que
+por  modalidad sensorial o intensidad del
+estímulo. En cambio, la aplicación de GLM sólo replicó este hallazgo
+supramodal en el caso del miedo. @wegrzyn-et-al-2015 exploraron varias
+ROIs asociadas a procesamiento de rostros para comparar la magnitud en
+la que contienen información emocional. Todas resultaron aptas,
+especialmente el STS y la bien conocida FFA (especialmente la derecha,
+convergiendo con el conocimiento previo).
 
 El uso de MVPA en predicción de percepción emocional también ha
 alcanzado a otros modelos de las emociones y a otras
@@ -1096,9 +1101,9 @@ hipótesis vencedora.\newline
 | | | | | | |
 | @ethofer-et-al-2009 | auditiva | alegría, enojo, tristeza, alivio | corteza auditiva | SVM | 33% > 20% |
 | | | | | | |
-| @said-et-al-2010 | visual | alegría, enojo, tristeza, asco, sorpresa, miedo | surco temporal superior | regresión logística | 22% > 14% |
+| @said-et-al-2010 | visual | alegría, enojo, tristeza, asco, sorpresa, miedo | surco temporal superior, opérculo frontal | regresión logística multinomial regularizada (SMLR) | 22% > 14% |
 | | | | | | |
-| @peelen-et-al-2010 | auditiva, visual (gesticulaciones, lenguaje corporal) | alegría, enojo, tristeza, asco, miedo | encéfalo (searchlight) | no especificado | no especificado |
+| @peelen-et-al-2010 | auditiva, visual (gesticulaciones, lenguaje corporal) | alegría, enojo, tristeza, asco, miedo | encéfalo (searchlight) | RSA | RSA |
 | | | | | | |
 | @kotz-et-al-2012 | auditiva | alegría, enojo, tristeza, sorpresa | encéfalo (searchlight) | SVM | 28% > 20% |
 | | | | | | |
@@ -1108,9 +1113,9 @@ hipótesis vencedora.\newline
 | | | | | | |
 | @hernandez-et-al-2018 | visual (caras) | alegría | (_canis familiaris_) corteza temporal derecha, caudado. Encéfalo (searchlight) | SVM | ~65% > 50% (ROIs) |
 
-Table: Muestra representativa de estudios experimentales sobre los
-correlatos neurales de la percepción de emociones que han empleado
-MVPA. \label{table-mvpa-in-emotion-perception}
+Table: Muestra representativa de estudios experimentales con MVPA que
+versan sobre los correlatos neurales de la percepción de
+emociones. \label{table-mvpa-in-emotion-perception}
 
 \normalsize
 

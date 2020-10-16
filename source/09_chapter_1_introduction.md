@@ -137,27 +137,28 @@ limítrofe o "emocionalmente inestable" de la personalidad.[^pathology]
 
 Aunque de menor prevalencia que las desregulaciones psiquiátricas
 anteriores, funciones emocionales completas pueden llegar a perderse
-mediante lesiones, síndromes genéticos, patógenos y otras formas de
+debido a lesiones, síndromes genéticos, patógenos y otras formas de
 deterioros neurológicos focalizados a estructuras del sistema
 emocional. Entre estas estructuras encefálicas dispersas encontramos
-desde núcleos mesencefálicos (como PGA), diencefálicos (hipotálamo
-posterior), telencefálicos subcorticales en ganglios basales (NAcc) y
-en la amígdala,[^amygdala] así como partes distantes de la neocorteza
-de los mamíferos[^cortex] y hasta del cerebelo;[^cerebelo] resaltando
-la segregación y complejidad de los sistemas de la emoción. Cabe
-mencionar que la investigación biomédica en torno a problemas de salud
-emocional no se limita al _localizacionismo_. Existe un fuerte interés
-por encontrar explicaciones y biomarcadores clínicos modelando al
-cerebro como una red compleja de componentes en interacción
-[@rubinov-sporns-2010; @chialvo-2010]. Por ejemplo, se ha hipotetizado
-que el síndrome de Capgras — en el que seres queridos son confundidos
-con impostores — resulta de una pérdida de comunicación entre el
-sistema de reconocimiento de caras en el lóbulo temporal y el sistema
-emocional, no obstante que ambos siguen operando bien por separado
+desde núcleos mesencefálicos (como PGA), diencefálicos (en hipotálamo
+posterior), telencefálicos subcorticales en ganglios basales (NAcc),
+arquicorticales en la amígdala,[^amygdala] así como partes distantes
+de la neocorteza de los mamíferos[^cortex] y hasta del
+cerebelo;[^cerebelo] resaltando la segregación y complejidad de los
+sistemas de la emoción. Cabe mencionar que la investigación biomédica
+en torno a problemas de salud emocional no se limita al
+_localizacionismo_. Existe un fuerte interés por encontrar
+explicaciones y biomarcadores clínicos modelando al cerebro como una
+red compleja de componentes en interacción [@rubinov-sporns-2010;
+@chialvo-2010]. Por ejemplo, se ha hipotetizado que el síndrome de
+Capgras — en el que seres queridos son confundidos con impostores —
+resulta de una pérdida de comunicación entre el sistema de
+reconocimiento de caras en el lóbulo temporal y el sistema emocional,
+no obstante que ambos siguen operando bien por separado
 [@ellis-et-al-1997; @ramachandran-1998].
 
-[^amygdala]: Lo que ocasiona el síndrome de Klüver-Bucy
-          [@kluver-bucy-1937; @marlowe-et-al-1975] o la enfermedad de
+[^amygdala]: Cuyo deterioro ocasiona el síndrome de Klüver-Bucy
+          [@kluver-bucy-1937; @marlowe-et-al-1975] y la enfermedad de
           Urbach-Wiethe [@hurlemann-et-al-2007].
 [^cortex]: La demencia frontotemporal en su variante conductual es un
          caso de síndrome neurológico de origen cortical con fuertes
@@ -189,7 +190,7 @@ Urbach-Wiethe, mantiene un desempeño ileso en pruebas comunes de
 conocimientos, reconocimiento, inteligencia fluida y memoria. ¿Qué la
 lleva entonces a apostar y perder todo su dinero en
 simulaciones,[^iowa] a mostrar dificultades decidiendo sobre la
-prioridad de las opciones que se le presentan en su vida cotidiana, y
+prioridad de las opciones que se le presentan en su vida cotidiana y
 a mostrarse transgresora al punto de la ineptitud interpersonal?  El
 problema no está en su habilidad para razonar, sino en su incapacidad
 para sentir. La ausencia de instintos como el miedo se traduce en una
@@ -203,16 +204,16 @@ hasta dónde se extienden (o deberían extender) sus dominios. Lo cierto
 es que un sinfín de conocimientos en aprendizaje por refuerzos
 [@berridge-kringelbach-2008], control motor [@kording-wolpert-2006],
 inteligencia artificial y robótica [@sutton-barto-2018], economía
-[@jevons-1879] y ética[^ética] [@bentham-1781] solo pueden ser
+[@jevons-1879] y ética[^ética] [@bentham-1781] sólo pueden ser
 entendidos bajo la luz del valor subjetivo que las emociones esconden;
 o al menos su operacionalización en forma de utilidad o recompensa. Su
 relación no es fortuita. Como pieza clave en el rompecabezas de las
-funciones neurales, la emoción provió los cimientos para algo tan
+funciones neurales, la emoción provee cimientos para algo tan
 crucial y etéreo como la motivación [@schwarz-1990;
-@schacter-et-at-2011]; y por transitividad, sobre éste también
+@schacter-et-at-2011]; y por transitividad, sobre ésta también
 descansa la planificación, sin mencionar aspectos de la toma adecuada
 de decisiones [@schwarz-1990; @bechara-et-al-2000], todos ellos
-característicos de la inteligencia. Parece que el agente racional
+característicos de la inteligencia. Pareciera que el agente racional
 perfecto cree por evidencia, pero actúa por pasiones; de lo contrario
 su conducta caería en la quiescencia o en la trivialidad de un
 arco reflejo.
@@ -313,10 +314,10 @@ más de 25 millones de años [@lewis-2013]. Para rematar, exploraciones
 más invasivas mediante electrocorticografía en pacientes humanos y
 arreglos de microelectrodos en el sistema de "parches" del macaco han
 revelado que las neuronas involucradas responden exclusivamente a
-rostros [@quiroga-et-al-2005; @tsao-et-al-2006]. Es decir, no solo el
-agregado de actividad LFP[^LFP] sigue un código para la detección de
-rostros; el campo receptivo de cada célula individual de alguna manera
-ya lo está haciendo.[^malach]
+rostros [@quiroga-et-al-2005; @tsao-et-al-2006]. Dicho de otra manera,
+no solo el agregado de actividad LFP[^LFP] sigue un código para la
+detección de rostros; el campo receptivo de cada célula individual de
+alguna manera ya lo está haciendo.[^malach]
 
 [^LFP]: Local Field Potential: potencial de campo (eléctrico)
     local. El voltaje del medio extracelular que rodea la membrana de
@@ -339,19 +340,20 @@ Este sobrevuelo por los extensos territorios de las emociones no
 podría finalizar sin rozar las cumbres más elevadas del
 antropocentrismo. Después de la supervivencia, la salud, la cognición
 y la visita al zoológico... la buena percepción de emociones termina
-por alimentar los mecanismos de algo tan sofisticado como la teoría de
-la mente[^theory-of-mind] [@mitchell-phillips-2015] y la empatía
-[@shamay-et-all-2009; @zaki-ochsner-2012]. Siendo las emocioens una flagrante
-muestra de los estados mentales más viscerales, todo el tiempo estamos
-leyendo las marcas de su expresión en el otro, retroalimentando
-nuestros propios aparatos cognitivos para poder lidiar con los demás,
-o bien, empatizar y sentir con ellos. Quizás una explicación de este
-tipo, un elaborado refriego de reflejos de antaño, subyazca
-controvertidos fenómenos (para las ciencias biológicas) como la
-adopción o la compasión que otras especies nos merecen [@dawkins-1976;
-@wilson-2012]. Más allá de ser ajenas al humano y lo humano, las
-emociones son parte y arte de los complejos razonamientos que acarrea
-la vida en sociedad.
+mezclándose en la arcilla de algo tan sofisticado como la teoría de la
+mente[^theory-of-mind] y la empatía [@shamay-et-all-2009;
+@zaki-ochsner-2012; @mitchell-phillips-2015;
+@mercadillo-et-al-2018]. Siendo las emociones una flagrante muestra de
+los estados mentales más viscerales, todo el tiempo estamos leyendo
+las marcas de su expresión en el otro, retroalimentando nuestros
+propios aparatos cognitivos para poder lidiar con los demás, o bien,
+empatizar y sentir con ellos. Quizás una explicación de este tipo, un
+elaborado refriego de reflejos de antaño, subyazca controvertidos
+fenómenos (para las ciencias biológicas) como la adopción o la
+compasión que otras especies nos merecen [@dawkins-1976;
+@mercadillo-et-al-2011; @wilson-2012]. Más allá de ser ajenas al
+humano y lo humano, las emociones son parte y arte de los complejos
+razonamientos que acarrea la vida en sociedad.
 
 <!-- Ya no es posible entender la formación de -->
 <!-- memorias a largo plazo o aprendizaje asociativo sin la participación -->
