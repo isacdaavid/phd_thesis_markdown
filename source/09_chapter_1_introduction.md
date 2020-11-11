@@ -213,10 +213,10 @@ crucial y etéreo como la motivación [@schwarz-1990;
 @schacter-et-at-2011]; y por transitividad, sobre ésta también
 descansa la planificación, sin mencionar aspectos de la toma adecuada
 de decisiones [@schwarz-1990; @bechara-et-al-2000], todos ellos
-característicos de la inteligencia. Pareciera que el agente racional
+característicos de la inteligencia. Parecería que el agente racional
 perfecto cree por evidencia, pero actúa por pasiones; de lo contrario
 su conducta caería en la quiescencia o en la trivialidad de un
-arco reflejo.
+arco reflejo [@sha-2020].
 
 [^iowa]: Como la prueba neuropsicológica del juego de azar de Iowa
     (Iowa Gambling Task) [@bechara-et-al-2001] y la prueba por desliz
@@ -292,7 +292,7 @@ lectura.
     mediante los cuales un sistema cognitivo adquiere información
     externa y _la interpreta_, volviéndola útil para procesos de orden
     superior como la categorización y conceptualización, la acción y el
-    control ejecutivo.
+    control ejecutivo. Adquisición e interpretación de estímulos.
 
 Se sabe al menos desde tiempos de Hughlings Jackson y Charcot que el
 cerebro humano puede perder selectivamente la capacidad para

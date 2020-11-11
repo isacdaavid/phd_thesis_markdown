@@ -136,12 +136,12 @@ entrenada para hacer la clasificación. Esta red únicamente contenía
 capa de entrada (con una neurona por voxel) y capa de salida (una
 neurona por categoría), por lo que su entrenamiento es equivalente a
 optimizar las combinaciones lineales de señales que "activan" una
-categoría; no muy distinto de lo que logra el algoritmo SVM
-lineal. Extrañamente, se reportó el producto del peso de la sinapsis
-artificial y el valor del voxel; asumiendo sin garantías que un voxel
+categoría; no muy distinto de lo que logra el algoritmo SVM lineal y
+el GLM. Extrañamente, se reportó el producto del peso de la sinapsis
+artificial con el valor del voxel; asumiendo sin garantías que un voxel
 "silencioso" durante determinado estado emocional no contribuye a
-manufacturar dicho estado, aunque la red neuronal le hubiese dado mucho
-peso. Quizás el reporte más completo hasta ahora sea el de
+manufacturar dicho estado, aunque la red neuronal le hubiese dado
+mucho peso. Quizás el reporte más completo hasta ahora sea el de
 @kragel-labar-2015: un estudio multimodal de inducción de emociones
 que además comparó el modelo de emociones básicas vis-a-vis un modelo
 dimensional. Utilizó un algoritmo de análisis discriminante por
@@ -169,13 +169,14 @@ cruzada resulte alto.[^autocorrelation][^filter-detrending]
 
 [^autocorrelation]: Se puede explicar mediante la siguiente analogía:
     imagine que toma consecutivamente dos fotografías de un amigo, con
-    el afán de usar la primera para pedirle a un tercero que aprenda a
+    tal de usar la primera para pedirle a un tercero que aprenda a
     reconocerlo, y la segunda para poner su habilidad a prueba. Puede
     que acierte debido a que en la segunda foto llevaba la misma ropa,
     porque el fondo y los colores son similares; y no debido a que
-    aprendió a reconocer a la persona.
+    aprendió a reconocer a la persona en sí.
 
 [^filter-detrending]: Aunque no son usados explícitamente para este
     propósito, el uso de filtros pasa-altas y regresión para
-    "detrending" podrían estar mitigando el problema.
+    "detrending" durante el preprocesamiento podrían estar mitigando
+    el problema.
 

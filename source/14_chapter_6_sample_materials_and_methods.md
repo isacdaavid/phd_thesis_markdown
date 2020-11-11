@@ -124,28 +124,27 @@ expresiones requeridas, étnicamente europeoides, presentados de forma
 balanceada. Los identificadores de los modelos dentro de la base de
 datos son: 3, 5, 7, 8, 24, 25, 32, 36).
 
-Para el Experimento 2 se utilizaron 5 secuencias contrabalanceadas en
-un diseño por bloques de 30 segundos. Las secuencias son idénticas
-salvo por el orden pseudoaleatorio de presentación de los bloques. A
-las 3 clases de bloques del Experimento 1 (neutral, felicidad,
-tristeza) se añadieron otras 3: de enojo, pseudocaras revueltas como
-rompecabezas ("scrambled") que conservan las mismas propiedades
-estadísticas de los rostros neutrales aunque ya no pueden ser
-reconocidas como tal, y bloques de estimulación visual mínima
-("blank"). Las caras neutras o poco expresivas podrían ofrecer un
-mejor control contrastando entre tipos de emociones. De lo contrario
-sería imposible concluir a partir de un buen desempeño que el
-algoritmo de clasificación ha aprendido a identificar las marcas de
-cada emoción, en lugar de aprender a reconocer las de $n-1$ emociones
-junto con algo que no es ninguna de ellas, aunque distinto de los
-correlatos de la emoción restante. La elección de introducir bloques de
-pseudocaras y de nula estimulación visual fue motivada por los malos
-resultados analizando la base de datos del Experimento 1. Mediante
-distinciones más triviales y de resultados bien conocidos (como simple
-estimulación visual) se buscó hacer una validación de todo el
-análisis, que al involucrar una cantidad considerable de piezas
-móviles y programación, ofrecía muchas oportunidades para haber
-cometido errores.
+Para el Experimento 2 se utilizaron 5 secuencias en un diseño por
+bloques de 30 segundos. Las secuencias son idénticas salvo por el
+orden pseudoaleatorio de presentación de los bloques. A las 3 clases
+de bloques del Experimento 1 (neutral, felicidad, tristeza) se
+añadieron otras 3: de enojo, pseudocaras revueltas como rompecabezas
+("scrambled") que conservan las mismas propiedades estadísticas de los
+rostros neutrales aunque ya no pueden ser reconocidas como tal, y
+bloques de estimulación visual mínima ("blank"). Las caras neutras o
+poco expresivas podrían ofrecer un mejor control contrastando entre
+tipos de emociones. De lo contrario sería imposible concluir a partir
+de un buen desempeño que el algoritmo de clasificación ha aprendido a
+identificar las marcas de cada emoción, en lugar de aprender a
+reconocer las de $n-1$ emociones junto con algo que no es ninguna de
+ellas, aunque distinto de los correlatos de la emoción restante. La
+elección de introducir bloques de pseudocaras y de nula estimulación
+visual fue motivada por los malos resultados analizando la base de
+datos del Experimento 1. Mediante distinciones más triviales y de
+resultados bien conocidos (como simple estimulación visual) se buscó
+hacer una validación de todo el análisis, que al involucrar una
+cantidad considerable de piezas móviles y programación, ofrecía muchas
+oportunidades para haber cometido errores.
 
 ![Paradigma de _gaze cuing_ del Experimento 1. Los nodos representan
 estímulos visuales, su orden de presentación es indicado usando
@@ -224,8 +223,10 @@ En cumplimiento con el tercer objetivo específico del presente
 proyecto, todo el análisis de los datos debería ser reproducible, y su
 código fuente — que fue (re)implementado para poder ser reutilizado
 con otras bases de datos de fMRI — se encuentra disponible bajo una
-licencia libre en la dirección Web 
-[https://github.com/isacdaavid/np-mvpa](https://github.com/isacdaavid/np-mvpa).
+licencia libre en las direcciones Web
+[https://github.com/isacdaavid/np-mvpa](https://github.com/isacdaavid/np-mvpa)
+y
+[https://github.com/isacdaavid/emotional-faces-psychopy-task](https://github.com/isacdaavid/emotional-faces-psychopy-task).
 
 ### Preprocesamiento de imágenes
 
@@ -399,8 +400,8 @@ ecuación (@eq:svm-decision-rule2) se descubre que:
 $$ anchura = \frac{((1-b) - (-1-b))}{||\bm{w}||} = \frac{2}{||\bm{w}||} $$ {#eq:svm-width2}
 
 Por lo tanto, el hiperplano óptimo puede computarse a partir de
-minimizar $||\bm{w}||$, sujeto a que $y_i(\bm{w} \cdot \bm{x_i} + b)
-\geq 1$ para todos los datos $x_i$ en la muestra.[^soft-margin]. El
+minimizar $||\bm{w}||$, sujeto a que $y_i(\bm{w} \cdot \bm{x_i} + b) \geq 1$
+para todos los datos $x_i$ en la muestra.[^soft-margin] El
 vector óptimo estimado $\bm{\hat{w}}$, también llamado "vector de
 pesos", ofrece una correspondencia directa entre la magnitud de sus
 componentes y la importancia relativa de cada dimensión o

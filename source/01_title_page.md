@@ -51,9 +51,37 @@ and add the centred logo
         
         \vfill
         \normalsize
-        México, octubre de 2020
+        México, noviembre de 2020
 
         % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,Tom Pollard.
 
     \end{center}
+    \pagenumbering{gobble}
 \end{titlepage}
+
+\pagenumbering{gobble}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+
+\begin{center}
+\footnotesize
+
+Derechos de autor
+
+Isaac David Reyes González
+
+2020.
+
+Excepto donde se indique lo contrario, este documento puede ser usado,
+modificado, copiado y distribuido libremente de acuerdo con los
+términos y compromisos de la
+\href{http://creativecommons.org/licenses/by-sa/4.0}{licencia Creative Commons Atribución-Compartir Igual 4.0}.
+
+\normalsize
+
+\includegraphics[width=0.4\textwidth]{style/cc-by-sa.eps}
+\end{center}
+
+\newpage

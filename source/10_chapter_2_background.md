@@ -190,19 +190,20 @@ extraemocionales.
 
 Quizás la manera más efectiva de comunicar semejante discurrencia sea
 con el siguiente contraste entre dos citas a los resúmenes de los dos
-metanálisis más recientes:
+metanálisis más recientes, traducidos al español:
 
-> "Each of the emotions examined [...] was characterized by consistent
-> neural correlates across studies, as defined by reliable
-> correlations with regional brain activations. In addition, the
-> activation patterns associated with each emotion were discrete
-> (discriminable from the other emotions [...])".
-> @vytal-and-hamann-2010.
+> "Cada una de las emociones examinadas [...] estuvo caracterizada por
+> correlatos neurales consistentes a través de los estudios, definido
+> como correlaciones robustas con activaciones cerebrales
+> regionales. Adicionalmente, los patrones de activación asociados a
+> cada emoción fueron discretos (distinguibles respecto de las otras
+> emociones [...])" @vytal-and-hamann-2010.
 
-> [W]e found little evidence that discrete emotion categories can be
-> consistently and specifically localized to distinct brain
-> regions. Instead, we found evidence that is consistent with a
-> psychological constructionist approach". @lindquist-et-al-2012.
+> "[E]ncontramos poca evidencia de que categorías discretas de
+> emociones pueden ser consistentemente y específicamente localizadas
+> a regiones cerebrales distintas. En lugar, encontramos evidencia que
+> es consistente con un enfoque psicológico
+> construccionista". @lindquist-et-al-2012.
 
 No pueden ambos estar en lo correcto.
 
@@ -338,7 +339,7 @@ una fracción del oxígeno hematogénico del capilar. __B__: efecto del
 fenómeno fisiológico sobre el campo magnético, y cómo es aprovechado
 para medir una señal dependiente de la actividad
 sanguínea. Créditos.[^bold]
-\label{bold}](source/figures/bold-effect.svg){width=65%}
+\label{bold}](source/figures/bold-effect.svg){width=60%}
 
 Como propiedad intrínseca a cada partícula fundamental o campo
 cuántico, el espín expresa la magnitud de algo abstracto, aunque
@@ -369,7 +370,7 @@ momento magnético son $+\frac{1}{2}$ y $-\frac{1}{2}$. Obtener $S$ a
 partir de $s$ simplemente conlleva multiplicar por $\hbar$: la
 constante reducida de Planck [@brown-et-al-2014].
 
-Como en cualquier esquema de mecánica cuántica, el estado del sistema
+Como en cualquier esquema de mecánica cuántica, el estado del espín
 existe en un espacio de Hilbert con tantas dimensiones como estados
 observables, de manera que el $S$ del $^{1}H$ — antes de ser medido —
 puede estar en una superposición de ambas posibilidades. Esto se
@@ -483,23 +484,24 @@ Brown. \label{nmr-energy}](source/figures/NMR_splitting.gif){height=15%}
 
 Si ese fuera el fin de la historia no habría resonancia ni
 aplicaciones interesantes. Sin embargo resulta que, narrado de manera
-un tanto informal, $\bm{m}$ no sólo gira incesantemente sobre su
-propio eje debido al espín; y no sólo rota momentáneamente un poco más
-con tal de volverse paralelo a $\bm{b_0}$. $\bm{m}$ además sufre
+un tanto informal, $\bm{m}$ no sólo rota momentáneamente con tal de
+volverse paralelo o antiparalelo a $\bm{b_0}$. $\bm{m}$ además sufre
 precesión: una reorientación cíclica alrededor del eje de $\bm{b_0}$,
 similar a los tambaleos de un trompo desalineado en su giro. El
 movimiento de $\bm{m}$ llevará por nombre y apellido "_precesión de
 Larmor_".[^rabi] La frecuencia de la precesión de Larmor sólo depende
-de la razón giromagnética y la magnitud de $\bm{b_0}$ [@brown-et-al-2014]:
+de la razón giromagnética y la magnitud de $\bm{b_0}$
+[@brown-et-al-2014]:
 
-$$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E}{h} = \frac{-\gamma |\bm{b}_0|}{2\pi} $$ {#eq:}
+$$ \nu = \frac{\omega}{2\pi} = \frac{\Delta E}{h} = \frac{-\gamma |\bm{b}_0|}{2\pi} $$ {#eq:larmor}
 
 [^rabi]: En una verdadera explicación cuántica se hablaría de
     oscilaciones de Rabi.
 
-Mera sustitución de valores permite conocer cuál sería el límite de
-intensidad del campo magnético antes de tener que exponer la muestra a
-ondas ionizantes para lograr la precesión.
+Mera sustitución de valores en la ecuación (@eq:larmor) permite
+conocer cuál sería el límite de intensidad del campo magnético antes
+de tener que exponer la muestra a ondas ionizantes para lograr la
+precesión.
 
 La resonancia propiamente es una característica matemática de toda
 ecuación diferencial con soluciones ondulatorias a la cual se ha
@@ -528,9 +530,10 @@ entonces el ángulo obtenido se aproxima a [@brown-et-al-2014]:
 
 $$ \angle (\bm{b}_{0_z}, \bm{m}) \approx \gamma A t_p $$ {#eq:}
 
-Una vez que dicho pulso resonante haya cesado, el conjunto de espines
-irá perdiendo la energía absorbida debido a la sarta de interacciones
-que siguen ocurriendo entre ellos mismos y con el medio. El vector
+Una vez que dicho pulso resonante haya cesado, el conjunto de sistemas
+de momento magnético de espín irá perdiendo la energía absorbida
+debido a la sarta de interacciones que siguen ocurriendo entre ellos
+mismos y con el medio; quizás otros átomos no de hidrógeno. El vector
 $\bm{m}$ precesa en espiral de regreso al estado base. Imagine que el
 sistema acaba de ser excitado con un pulso de resonancia de
 90°. Mientras que $\bm{m}$ va perdiendo su componente en el plano
@@ -551,7 +554,7 @@ varios momentos magnéticos de espines individuales. La precesión
 inicial no tiene por qué ser coherente como en el diagrama, pero una
 vez "tumbados" al plano $xy$, todos los espines entran en fase. La
 velocidad de desfasamiento es crucial para el efecto
-BOLD. \label{nmr}](source/figures/NMR.png){width=85%}
+BOLD. \label{nmr}](source/figures/NMR.png){width=80%}
 
 Se espera que el lector ahora tenga elementos suficientes para lograr
 una lectura autocontenida del trabajo, sobre todo durante la
@@ -572,15 +575,15 @@ inversa de Fourier. Al mismo tenor puede consultarse el libro de
 Es necesario visualizar en conjunto todas las señales de actividad
 cerebral para entender en qué difiere el análisis clásico respecto del
 análisis de patrones multivariados. El argumento es una abstracción
-matemática y por lo tanto no se limita a considerar exclusivamente
-los voxeles en una secuencia de fMRI y su señal BOLD. Los mismos
-métodos de análisis son aplicables a registros con electrodos,
-imágenes de microscopía de doble fotón de calcio o cualquier otra
+matemática y por lo tanto no se limita a considerar exclusivamente los
+voxeles en una secuencia de fMRI y su señal BOLD. Los mismos métodos
+de análisis son aplicables a registros con electrodos, imágenes de
+microscopía de marcadores de actividad de calcio o cualquier otra
 forma de dinámica cerebral, fisiológica o de cualquier otro campo de
 estudio.
 
-Una característica de la señal de fMRI es su pobre razón con el ruido
-y cambios netos de apenas entre el 1% y 3% sobre la línea base, que
+Una característica de la señal de fMRI es su pobre razón con el ruido;
+cambios netos de apenas entre el 1% y 3% sobre la línea base, que
 además es arbitraria para cada voxel. Naturalmente, es imprescindible
 un análisis estadístico riguroso para extraer información de
 ellas. @friston-et-al-1994 introdujeron al mundo de la neuroimagen
@@ -591,33 +594,31 @@ tipo de datos [por ejemplo, @friston-et-al-1991; @worsley-et-al-1992],
 y que pretendían otorgar rigor y madurez a las (a veces) abyectas
 interpretaciones y conclusiones de los estudios.
 
-El análisis clásico busca ajustar un modelo de regresión lineal entre
-las muestras de datos provenientes de dos o más series de tiempo: la
-actividad fisiológica y cómo se presentaron los estímulos o cómo
-aconteció la tarea. El afán es encontrar voxeles o pequeñas regiones
-cuyas señales fisiológicas por sí solas se correlacionan altamente con
-las variables manipuladas experimentalmente. Aunque el modelo de
-regresión suele incorporar varias covariables predictoras[^regresores]
-con información del movimiento del sujeto y otras formas de ruido
-(para reducir la inflación del verdadero efecto experimental), no se
-acostumbra incluir múltiples señales de actividad cerebral. De hecho,
-no se incluye _ninguna_. En lugar de fungir como predictor del
-experimento, la serie de tiempo de una región cerebral es la variable
-a ser explicada mediante una combinación lineal o suma ponderada de la
-variable experimental y covariables. Luego el algoritmo se repite por
-separado para modelar la señal cerebral en otra zona. Por esta razón,
-y un tanto erradamente, el análisis de regresión clásico también se
-denomina "univariado masivo".
+El análisis clásico esencialmente busca ajustar un modelo de regresión
+lineal entre muestras provenientes de dos series de tiempo: la
+actividad fisiológica por un lado y cómo se presentaron los estímulos
+por el otro. El afán es encontrar voxeles o pequeñas regiones cuyas
+señales fisiológicas por sí solas se correlacionan altamente con las
+variables manipuladas experimentalmente. Aunque el modelo suele
+complicarse hacia la regresión lineal múltiple, incorporando
+covariables predictoras[^regresores] con información del movimiento
+del sujeto y otras formas de ruido para reducir la inflación del
+verdadero efecto experimental, no se acostumbra incluir múltiples
+señales de actividad cerebral. De hecho, no se incluye _ninguna_. En
+lugar de fungir como predictor del experimento, la serie de tiempo de
+una región cerebral es la variable a ser explicada mediante una
+combinación lineal o suma ponderada de la variable experimental y
+covariables. Luego el algoritmo se repite por separado para modelar la
+señal cerebral en otra zona. Por esta razón, y un tanto erradamente,
+el análisis de regresión clásico también se denomina "univariado
+masivo".
 
 [^regresores]: También llamados "regresores" o simplemente "variables
             independientes".
 
-La forma más general de análisis por regresión lineal
-es el modelo lineal generalizado de efectos mixtos (GLMM), que en
-notación matricial[^linop] reza:
-
-[^linop]: O más generalmente, para operadores lineales de espacios
-    vectoriales arbitrarios, discretos como matrices o continuos.
+La forma más general de análisis por regresión lineal es el modelo
+lineal generalizado de efectos mixtos (GLMM), que en notación
+matricial reza:
 
 $$ \bm{Y} = g( \bm{X \Theta} + \bm{Z U} ) + \bm{\mathcal{E}} $$ {#eq:glme}
 
@@ -740,14 +741,14 @@ _homocedasticidad_, que permite repetir exactamente la misma
 distribución de probabilidad en cada factor. Así se otorga forma
 concreta a la función de verosimilitud [@devore-2011]:
 
-$$ P(\bm{y}|\theta) = \mathcal{L}(\bm{y}, \theta) = \prod_{i=1}^{n} \mathcal{N}(\mu=x_i\theta,\;\sigma^2) $$ {#eq:}
+$$ P(\bm{y}|\theta) = \prod_{i=1}^{n} \mathcal{N}(\mu=x_i\theta,\;\sigma^2) = \mathcal{L}(\bm{y}, \theta) $$ {#eq:}
 
 Por conveniencia analítica y numérica,[^loglik] se acostumbra trabajar
 con el logaritmo natural de $\mathcal{L}$. Ya que los logaritmos son
 funciones monotónicas, se garantiza que ambas optimizaciones produzcan
-resultados idénticos:[^prueba1]
-
-[^prueba1]: Ver el _Apéndice 1: prueba 1_ para una demostración más completa.
+resultados idénticos. La ecuación (@eq:simple-linear-reg-loglik)
+muestra el resultado. Ver el _Apéndice 1: prueba 1_ para una
+demostración más completa con pasos intermedios.
 
 [^loglik]: Retrospectivamente al uso de MLE, los fundamentos de la
     teoría de la información ofrecen fuertes argumentos para trabajar
@@ -765,21 +766,23 @@ $$ = -\frac{n}{2}\;ln(2\pi\sigma^2) -\frac{1}{2\sigma^2} \sum_{i=1}^{n} \left( y
 
 Encontrar el parámetro que maximiza la log-verosimilitud equivale a
 encontrar dónde la derivada de la log-verosimilitud respecto al
-parámetro es cero. $ln(\mathcal{L})$ como función de $\theta$
-claramente es una función parabólica cóncava; por lo que el máximo es
+parámetro es cero. Como se aprecia en el resultado
+(@eq:simple-linear-reg-loglik), $ln(\mathcal{L})$ como función de
+$\theta$ es una función parabólica cóncava; por lo que el máximo es
 único, ergo también hay un solo modelo lineal óptimo. Aunque no se
 demostrará aquí, de hecho el máximo se obtiene sin percances para
 cualquier distribución de la familia exponencial
-[@nelder-wedderburn-1972]; aunque no siempre esté disponible en forma
-de expresión analítica, teniendo que echar mano de optimización
-numérica. Esta propiedad de todos los modelos lineales generalizados
-es atractiva computacionalmente. Nótese también que desde el punto de
-vista de la derivada, que eliminará el primer término por ser
-constante, se ha obtenido la misma función de costo que si se hubiera
-elegido arbitrariamente el error cuadrático medio (MSE) de los
-residuos, como se hace con estimación ordinaria por mínimos cuadrados
-(OLS). A saber, se está hablando de la función objetivo $\frac{1}{n}
-\sum_{i=1}^{n} \left( y_i - x_i\theta \right)^2$.
+[@nelder-wedderburn-1972], no sólo ruido gaussiano; aunque no siempre
+esté disponible en forma de expresión analítica, teniendo que echar
+mano de optimización numérica. Esta propiedad de todos los modelos
+lineales generalizados es atractiva computacionalmente. Nótese también
+que desde el punto de vista de la derivada, que eliminará el primer
+término por ser constante, se ha obtenido la misma función de costo
+que si se hubiera elegido arbitrariamente el error cuadrático medio
+(MSE) de los residuos, como se hace con estimación ordinaria por
+mínimos cuadrados (OLS). A saber, se está hablando de la función
+objetivo $\frac{1}{n} \sum_{i=1}^{n} \left( y_i - x_i\theta
+\right)^2$.
 
 De vuelta con la derivada y sustituyendo $ln(\mathcal{L})$ por el
 resultado de la ecuación (@eq:simple-linear-reg-loglik):[^prueba2]
@@ -788,7 +791,7 @@ resultado de la ecuación (@eq:simple-linear-reg-loglik):[^prueba2]
 
 $$ \hat{\theta} = arg_\theta max \;\; ln(\mathcal{L}) = \left\{ \theta : 0 = \frac{\partial ln(\mathcal{L})}{\partial\theta} \right\} $$
 
-$$ = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2} = \frac{ \bm{x} \cdot \bm{y} }{ \bm{x} \cdot \bm{x} } = \frac{Cov(x,y)}{Var(x)}$$ {#eq:normal-eq-simple}
+$$ = \frac{\sum_{i=1}^n x_i y_i}{\sum_{i=1}^n x_i^2} = \frac{ \bm{x} \cdot \bm{y} }{ \bm{x} \cdot \bm{x} } \simeq \frac{Cov(x,y)}{Var(x)}$$ {#eq:normal-eq-simple}
 
 La expresión anterior es conocida como _ecuación normal_, y permite
 ajustar óptimamente la pendiente del modelo en un solo paso
@@ -816,9 +819,9 @@ simple [@christensen-2002]. Para ser precisos:
 
 $$ \hat{\bm{\theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{y} $$ {#eq:}
 
-O más generalmente, para ajustar todos los modelos simultáneamente en
-una operación matricial (por ejemplo, cuando se quiere ajustar el GLM
-de cada serie de tiempo):
+O más generalmente, para expresar el ajuste de todos los modelos en
+una operación matricial (por ejemplo, cuando se desea ajustar el
+modelo de regresión lineal múltiple de cada serie de tiempo cerebral):
 
 $$ \hat{\bm{\Theta}} = (\bm{X}^T \bm{X})^{-1}\bm{X}^T\bm{Y} $$ {#eq:}
 
@@ -837,7 +840,10 @@ se sigue hablando de métodos de regresión multivariada (de hecho GLM
 podría llegar a usarse de esta manera poco canónica para neuroimagen
 funcional. El estudio de @stringer-et-al-2019 es muestra de ello). Si
 la variable a predecir toma valores discretos entonces no se habla de
-regresión, sino de clasificación. Más al respecto en breve.
+regresión, sino de clasificación.[^reg-vs-class] Más al respecto en breve.
+
+[^reg-vs-class]: A menos que se trate de regresión como la logística,
+    que hace las veces de clasificar.
 
 Esta representación geométrica del sistema dinámico es conocida como
 "espacio de estados", o "espacio fase" en física. El espacio fase
@@ -953,26 +959,30 @@ Los beneficios son claros, pero no se adquieren sin desventajas. En
 primer lugar el cómputo se vuelve más complejo. Ya no se analizan
 voxeles, sino combinaciones de voxeles, algunas útiles para embargar
 buen desempeño del modelo predictivo. Muchas otras sólo serán
-detrimentales. Bastan unos cuantos cientos de señales para que el
-número de combinaciones rápidamente exceda el número de átomos en el
-universo observable. Las toscas imágenes de fMRI suelen contener
-decenas de miles de series de tiempo.
+detrimentales. Bastan unos cuantos cientos de series de tiempo para
+que el número de combinaciones rápidamente exceda el número de átomos
+en el universo observable; y las toscas imágenes de fMRI suelen
+contener no cientos, sino decenas de miles de series de tiempo. En el
+argot este problema se conoce como "la maldición de la
+dimensionalidad".
 
 ## MVPA en neuroimagen funcional afectiva
 
-Dada esta limitante en los métodos clásicos de análisis de patrones
-diferenciales de activación en fMRI y PET, el campo de neuroimagen
-funcional orientada a tareas comienza a recurrir a análisis
-verdaderamente multivariados para dilucidar las preguntas de
-interés. Al considerarlas holísticamente, MVPA es capaz de extraer
-igual o mayor información de las burdas imágenes funcionales en la
-mayoría de los casos [ver @jimura-poldrack-2012 para contraejemplos],
-a expensas de complicar potencialmente el modelo y su cómputo. La
-adopción de este enfoque en estudios con fMRI ha llevado a
+Dada la limitante del método clásico de análisis de patrones
+diferenciales de activación, el campo de neuroimagen funcional
+orientada a tareas ha comenzado a recurrir a análisis verdaderamente
+multivariados para dilucidar las preguntas de interés. Al
+considerarlas holísticamente, MVPA es capaz de extraer igual o mayor
+información de las burdas imágenes funcionales en la mayoría de los
+casos,[^contraejemplos] a expensas de complicar potencialmente el modelo y su
+cómputo. La adopción de este enfoque en estudios con fMRI ha llevado a
 descubrimientos novedosos en casi todas las ramales de la neurociencia
 cognitiva [por ejemplo @haynes-rees-2005; @polyn-et-al-2005;
 @soon-et-al-2008; @rissman-wagner-2012; véanse @huettel-et-al-2009;
 @tong-pratte-2012 para más].
+
+[^contraejemplos]: Pero ver también @jimura-poldrack-2012 para
+    contraejemplos.
 
 Según @lewis-peacock-norman-2013, el término MVPA es usado para
 referirse a dos estrategias distintas de análisis de patrones

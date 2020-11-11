@@ -41,16 +41,19 @@ $$ \hat{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} (y-\mu)^2 = Var(y) $$
 
 ## Métodos de análisis {.unnumbered}
 
-Pipeline reproducible y reutilizable disponible en
-[https://github.com/isacdaavid/np-mvpa](https://github.com/isacdaavid/np-mvpa).
+[https://github.com/isacdaavid/np-mvpa](https://github.com/isacdaavid/np-mvpa)
+
+## Tarea y resultados conductuales {.unnumbered}
+
+[https://github.com/isacdaavid/emotional-faces-psychopy-task](https://github.com/isacdaavid/emotional-faces-psychopy-task)
 
 ## Este documento {.unnumbered}
 
-El código fuente y las figuras para generar este documento se
-encuentran disponibles bajo una licencia libre en
+El código fuente y las figuras para generar esta tesis se
+encuentra bajo una licencia libre en
 [https://github.com/isacdaavid/phd_thesis_markdown](https://github.com/isacdaavid/phd_thesis_markdown). Plantilla
 provista por @pollard-et-al-2016.
 
 ## Otras figuras {.unnumbered}
 
-\lstinputlisting[style=RCodeStyle,caption=Modelos predictivos de un solo voxel vs multivoxel. El siguiente programa en R fue utilizado para generar las figuras \ref{lm-vs-multivariate-1} y \ref{lm-vs-multivariate-2}. Además se incluye una breve demostración del clasificador SVM.]{source/figures/lm-vs-multivariate.R}
+\lstinputlisting[style=RCodeStyle,caption=Modelos predictivos de un solo voxel vs multivoxel. El siguiente programa en R fue utilizado para generar la figura \ref{lm-vs-multivariate}. Además se incluye una breve demostración del clasificador SVM.]{source/figures/lm-vs-multivariate.R}
